@@ -88,7 +88,7 @@ try {
     if (($manifestKeys -join '|') -cne ($expectedManifestKeys -join '|')) {
         Stop-Bundle 'manifest must contain exactly schema_version, original_filename, total_size, total_sha256, parts'
     }
-    if ($manifest.schema_version -isnot [int] -or $manifest.schema_version -ne 1) {
+    if (($manifest.schema_version -isnot [int] -and $manifest.schema_version -isnot [long]) -or $manifest.schema_version -ne 1) {
         Stop-Bundle 'unsupported manifest schema_version'
     }
     Assert-SafeBasename $manifest.original_filename 'original_filename'

@@ -37,6 +37,10 @@ jobs:
           cache-dependency-path: implementation/pyproject.toml
       - name: Verify architecture handoff and frozen source
         run: python ../scripts/verify_repository.py
+      - name: Record Windows PowerShell restore runtime
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: powershell.exe -NoProfile -Command '$PSVersionTable.PSVersion.ToString()'
       - name: Test multipart archive restoration
         working-directory: .
         run: python -m unittest discover -s scripts -p "test_bundle_parts.py" -v

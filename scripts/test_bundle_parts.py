@@ -206,6 +206,7 @@ class PowerShellRestoreTests(unittest.TestCase):
         output = self.root / "bad.zip"
         result = self.restore(output)
         self.assertNotEqual(result.returncode, 0)
+        self.assertIn("size mismatch", result.stderr)
         self.assertFalse(output.exists())
         self.assertEqual(list(self.root.glob(".*.partial")), [])
 
@@ -214,12 +215,14 @@ class PowerShellRestoreTests(unittest.TestCase):
         (self.parts_dir / manifest["parts"][-1]["name"]).unlink()
         result = self.restore(self.root / "missing.zip")
         self.assertNotEqual(result.returncode, 0)
+        self.assertIn("does not exist", result.stderr)
 
     def test_powershell_refuses_existing_output(self) -> None:
         output = self.root / "existing.zip"
         output.write_bytes(b"keep")
         result = self.restore(output)
         self.assertNotEqual(result.returncode, 0)
+        self.assertIn("refusing to overwrite", result.stderr)
         self.assertEqual(output.read_bytes(), b"keep")
 
 
