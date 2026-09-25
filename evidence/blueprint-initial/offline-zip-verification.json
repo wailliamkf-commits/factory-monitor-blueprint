@@ -1,0 +1,11 @@
+{
+  "gate": "PASS",
+  "zip_bytes": 6637814564,
+  "zip_sha256": "4652f9677df0e97f48be8b3da82d7a9db7b07a3b1bdcdeb70e1497a2fa92a4a1",
+  "payload_files": 107,
+  "archive_files": 108,
+  "model_files": 6,
+  "qwen_references_verified": 5,
+  "field_gate": "NOT_TESTED",
+  "installation_executed": false
+}

@@ -1,0 +1,21 @@
+{
+  "url": "https://github.com/wailliamkf-commits/factory-monitor/actions/runs/36091225947",
+  "commit": "260862912d7386642aa538ac49d72442b9d673bb",
+  "conclusion": "success",
+  "windows": {
+    "passed": 272,
+    "skipped": 3
+  },
+  "macos": {
+    "passed": 274,
+    "skipped": 1
+  },
+  "synthetic_active_experiment": "PASS on both",
+  "synthetic_ten_camera_capacity": "PASS on both",
+  "build": "PASS on both",
+  "field_gate": "NOT_TESTED",
+  "logs": {
+    "ci-windows.log": "997d1b992a2d42d70e94ad0433153c13cc93ff3efb7b5eb86b64baa68e790ec9",
+    "ci-macos.log": "21e7880f4fe9342dc9e9d1b0ac64836b75857003318a835d4d67fe24b62a0251"
+  }
+}

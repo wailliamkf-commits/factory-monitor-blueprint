@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "release_tag": "v0.1.0-preview",
+  "bundle": {
+    "original_filename": "FactoryMonitor-Windows-20260925.zip",
+    "size": 6637814564,
+    "sha256": "4652f9677df0e97f48be8b3da82d7a9db7b07a3b1bdcdeb70e1497a2fa92a4a1",
+    "archive_prefix": "FactoryMonitor-Windows-20260925/",
+    "content_manifest_sha256": "3ddd30915296ef298083e0427029ef998938e981add2c638a75c5d580d3f4cc6",
+    "candidate_commit": "1f6f2420306533d86f5c87cc52d2168a1c6946a9",
+    "source_role": "older Windows candidate plus complete pinned resources; current architecture source is implementation/2608629"
+  },
+  "models": {
+    "qwen": {
+      "tag": "qwen3-vl:2b-instruct",
+      "quantization": "Q4_K_M",
+      "adaptation_status": "NOT_TRAINED_FOR_SITE",
+      "accuracy_gate": "FAIL_ON_EXISTING_PUBLIC_NEGATIVE",
+      "deadline_gate": "FAIL_ON_EXISTING_TEN_BURST",
+      "license_file": "resources/models/ollama/blobs/sha256-7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+      "official_source": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct"
+    },
+    "detector": {
+      "name": "yolo11n.pt",
+      "adaptation_status": "NOT_TRAINED_FOR_SITE",
+      "official_source": "https://github.com/ultralytics/ultralytics",
+      "license": "AGPL-3.0 / separate commercial licensing"
+    }
+  },
+  "model_files": [
+    {
+      "path": "resources/models/ollama/blobs/sha256-7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+      "size": 11355,
+      "sha256": "7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2"
+    },
+    {
+      "path": "resources/models/ollama/blobs/sha256-aafed9e48b157ae913cee994e0d9ac927af51e256feafbd923bf2852e8856d00",
+      "size": 1889496480,
+      "sha256": "aafed9e48b157ae913cee994e0d9ac927af51e256feafbd923bf2852e8856d00"
+    },
+    {
+      "path": "resources/models/ollama/blobs/sha256-b5c3447a7c00b0444e79efe194d97b8070fc830cd8ff4f938f36959a1f5413c8",
+      "size": 551,
+      "sha256": "b5c3447a7c00b0444e79efe194d97b8070fc830cd8ff4f938f36959a1f5413c8"
+    },
+    {
+      "path": "resources/models/ollama/blobs/sha256-f6417cb1e26962991f8e875a93f3cb0f92bc9b4955e004881251ccbf934a19d2",
+      "size": 42,
+      "sha256": "f6417cb1e26962991f8e875a93f3cb0f92bc9b4955e004881251ccbf934a19d2"
+    },
+    {
+      "path": "resources/models/ollama/manifests/registry.ollama.ai/library/qwen3-vl/2b-instruct",
+      "size": 893,
+      "sha256": "ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300"
+    },
+    {
+      "path": "resources/models/yolo11n.pt",
+      "size": 5613764,
+      "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+    }
+  ],
+  "contains": {
+    "python_wheels": 55,
+    "payload_files": 107,
+    "manifest_files": 1
+  },
+  "does_not_contain": [
+    "NVIDIA display driver",
+    "monitoring-client installer and accounts",
+    "site images and calibration",
+    "macOS-specific binary runtimes"
+  ],
+  "field_acceptance": "NOT_TESTED"
+}

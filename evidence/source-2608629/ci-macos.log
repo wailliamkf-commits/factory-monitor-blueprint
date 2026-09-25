@@ -1,0 +1,771 @@
+macos-latest / Python 3.12	UNKNOWN STEP	﻿2026-09-25T03:39:22.9882210Z Current runner version: '2.337.0'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9899660Z ##[group]Runner Image Provisioner
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9900250Z Hosted Compute Agent
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9900720Z Version: 20260828.587
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9901250Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9901900Z Build Date: 2026-08-28T16:44:25Z
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9902390Z Worker ID: {ed83761f-f334-40d0-8a8e-83a93e6571d3}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9904770Z Azure Region: westus
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9906050Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9909950Z ##[group]Operating System
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9911240Z macOS
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9912470Z 26.6.2
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9913360Z 25G83
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9914440Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9915360Z ##[group]Runner Image
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9916330Z Image: macos-26-arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9916810Z Version: 20260907.0351.1
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9917810Z Included Software: https://github.com/actions/runner-images/blob/macos-26-arm64/20260907.0351/images/macos/macos-26-arm64-Readme.md
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9918920Z Image Release: https://github.com/actions/runner-images/releases/tag/macos-26-arm64%2F20260907.0351
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9919610Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9920400Z ##[group]GITHUB_TOKEN Permissions
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9921770Z Contents: read
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9922150Z Metadata: read
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9922620Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9924260Z Secret source: Actions
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9924920Z Cache mode: write
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:22.9925480Z Prepare workflow directory
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0280740Z Prepare all required actions
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0321890Z Getting action download info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.4212590Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.7464530Z Download action repository 'actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0270210Z Complete job name: macos-latest / Python 3.12
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0818290Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0819130Z with:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0819520Z   repository: wailliamkf-commits/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0823620Z   token: ***
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0823940Z   ssh-strict: true
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0824270Z   ssh-user: git
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0824600Z   persist-credentials: true
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0824960Z   clean: true
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0825280Z   sparse-checkout-cone-mode: true
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0825740Z   fetch-depth: 1
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0826090Z   fetch-tags: false
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0826430Z   show-progress: true
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0826750Z   lfs: false
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0828130Z   submodules: false
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0828920Z   set-safe-directory: true
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0829320Z   allow-unsafe-pr-checkout: false
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0830150Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0830460Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.0830900Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7235590Z Syncing repository: wailliamkf-commits/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7237700Z ##[group]Getting Git version info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7238490Z Working directory is '/Users/runner/work/factory-monitor/factory-monitor'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7239670Z [command]/opt/homebrew/bin/git version
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7705940Z git version 2.55.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7825640Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7832330Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/5042288e-3741-43f6-ad6e-1b7308d74d00/.gitconfig'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7833750Z Temporarily overriding HOME='/Users/runner/work/_temp/5042288e-3741-43f6-ad6e-1b7308d74d00' before making global git config changes
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7835300Z Adding repository directory to the temporary git global config as a safe directory
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7836330Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/factory-monitor/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7864540Z Deleting the contents of '/Users/runner/work/factory-monitor/factory-monitor'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7867870Z ##[group]Initializing the repository
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.7871740Z [command]/opt/homebrew/bin/git init /Users/runner/work/factory-monitor/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8166930Z hint: Using 'master' as the name for the initial branch. This default branch name
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8168090Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8169090Z hint: to use in all of your new repositories, which will suppress this warning,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8169830Z hint: call:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8170220Z hint:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8171260Z hint: 	git config --global init.defaultBranch <name>
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8171820Z hint:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8172350Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8173170Z hint: 'development'. The just-created branch can be renamed via this command:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8173870Z hint:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8174470Z hint: 	git branch -m <name>
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8174920Z hint:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8175570Z hint: Disable this message with "git config set advice.defaultBranchName false"
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8176560Z Initialized empty Git repository in /Users/runner/work/factory-monitor/factory-monitor/.git/
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8178630Z [command]/opt/homebrew/bin/git remote add origin https://github.com/wailliamkf-commits/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8292950Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8294000Z ##[group]Disabling automatic garbage collection
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8294780Z [command]/opt/homebrew/bin/git config --local gc.auto 0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8408740Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8410840Z ##[group]Setting up auth
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8416470Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:24.8530660Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.0010300Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.0085650Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.1096090Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.1178000Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.3087810Z [command]/opt/homebrew/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.3124930Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.3125750Z ##[group]Fetching the repository
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.3127090Z [command]/opt/homebrew/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +43285f076c74d66de143a8ee67c809d5bf0e4889:refs/remotes/pull/2/merge
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8255170Z From https://github.com/wailliamkf-commits/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8262970Z  * [new ref]         43285f076c74d66de143a8ee67c809d5bf0e4889 -> pull/2/merge
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8267720Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8269890Z ##[group]Determining the checkout info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8272170Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8273810Z [command]/opt/homebrew/bin/git sparse-checkout disable
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8404760Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8514500Z ##[group]Checking out the ref
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8515280Z [command]/opt/homebrew/bin/git checkout --progress --force refs/remotes/pull/2/merge
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8947690Z HEAD is now at 43285f0 Merge 260862912d7386642aa538ac49d72442b9d673bb into 0de7f2ee75622773c99a951ee968b671f51298e5
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.8986610Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9074400Z [command]/opt/homebrew/bin/git log -1 --format=%H
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9152220Z 43285f076c74d66de143a8ee67c809d5bf0e4889
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9590330Z ##[group]Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9591540Z with:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9592140Z   python-version: 3.12
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9592820Z   cache: pip
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9593520Z   cache-dependency-path: pyproject.toml
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9594370Z   check-latest: false
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9601060Z   token: ***
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9601720Z   update-environment: true
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9602480Z   allow-prereleases: false
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9603200Z   freethreaded: false
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9603860Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9604450Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:25.9605180Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:26.1112910Z ##[group]Installed versions
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:26.1207790Z (node:2535) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:26.1210550Z (Use `node --trace-deprecation ...` to show where the warning was created)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:26.1212050Z Successfully set up CPython (3.12.10)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:26.1214740Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:26.1377210Z [command]/Users/runner/hostedtoolcache/Python/3.12.10/arm64/bin/pip cache dir
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:26.8128410Z /Users/runner/Library/Caches/pip
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:27.1411550Z (node:2535) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:27.1415910Z Cache hit for: setup-python-macOS-arm64-python-3.12.10-pip-af83a209bf9490ae47f071370f6a8fd34cfb59a46244a8f2e876798e6acdbf97
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:28.4383220Z Received 0 of 732507745 (0.0%), 0.0 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:29.4372590Z Received 67108864 of 732507745 (9.2%), 31.9 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:30.4395060Z Received 134217728 of 732507745 (18.3%), 42.5 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:31.4414290Z Received 213909504 of 732507745 (29.2%), 50.8 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:32.5125990Z Received 268435456 of 732507745 (36.6%), 50.4 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:33.5139950Z Received 343932928 of 732507745 (47.0%), 53.9 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:34.6941140Z Received 402653184 of 732507745 (55.0%), 52.9 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.6934010Z Received 452984832 of 732507745 (61.8%), 52.3 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.7081320Z Received 520093696 of 732507745 (71.0%), 53.4 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:37.7088190Z Received 536870912 of 732507745 (73.3%), 49.8 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:38.7104450Z Received 608174080 of 732507745 (83.0%), 51.4 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:39.7805040Z Received 671088640 of 732507745 (91.6%), 51.8 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:40.7793580Z Received 721420288 of 732507745 (98.5%), 51.5 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:41.0519500Z Received 732507745 of 732507745 (100.0%), 51.3 MBs/sec
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:41.0570050Z Cache Size: ~699 MB (732507745 B)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:41.0668970Z [command]/opt/homebrew/bin/gtar -xf /Users/runner/work/_temp/73a68e9b-cce1-48c8-846d-a70609b9be42/cache.tzst -P -C /Users/runner/work/factory-monitor/factory-monitor --delay-directory-restore --use-compress-program unzstd
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:43.9955380Z Cache restored successfully
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.0417340Z Cache restored from key: setup-python-macOS-arm64-python-3.12.10-pip-af83a209bf9490ae47f071370f6a8fd34cfb59a46244a8f2e876798e6acdbf97
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1169140Z ##[group]Run python -m pip install --upgrade pip
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1169820Z ^[[36;1mpython -m pip install --upgrade pip^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1170230Z ^[[36;1mpython -m pip install ".[desktop,vision,dev]"^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1316050Z shell: /bin/bash -e {0}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1316450Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1316770Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1317180Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1317760Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.12.10/arm64/lib/pkgconfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1341400Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1342090Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1342610Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:44.1342970Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:46.3957780Z Requirement already satisfied: pip in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (26.2.1)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:47.4147140Z Processing ./.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:47.4184840Z   Installing build dependencies: started
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:48.5994510Z   Installing build dependencies: finished with status 'done'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:48.6003620Z   Getting requirements to build wheel: started
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:49.2262520Z   Getting requirements to build wheel: finished with status 'done'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:49.2282460Z   Preparing metadata (pyproject.toml): started
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:49.5540440Z   Preparing metadata (pyproject.toml): finished with status 'done'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:49.9015870Z Collecting numpy<3,>=1.26 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:49.9063050Z   Using cached numpy-2.5.3-cp312-cp312-macosx_14_0_arm64.whl.metadata (6.6 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:49.9728470Z Collecting opencv-python<5,>=4.10 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:49.9760360Z   Using cached opencv_python-4.14.0.94-cp37-abi3-macosx_13_0_arm64.whl.metadata (19 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.0070950Z Collecting httpx<1,>=0.27 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.0098390Z   Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.0700790Z Collecting psutil<8,>=6 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.0724850Z   Using cached psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl.metadata (22 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.1073500Z Collecting PySide6<7,>=6.8 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.1098980Z   Using cached pyside6-6.11.2-cp310-abi3-macosx_13_0_universal2.whl.metadata (5.2 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.2472870Z Collecting ultralytics<9,>=8.3 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.3389180Z   Downloading ultralytics-8.4.162-py3-none-any.whl.metadata (46 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.4082460Z Collecting lap<1,>=0.5 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.4105370Z   Using cached lap-0.5.13-cp312-cp312-macosx_11_0_arm64.whl.metadata (6.6 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.5222960Z Collecting scipy<2,>=1.13 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.5246880Z   Using cached scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl.metadata (62 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.5759480Z Collecting pytest<10,>=8 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:50.5772920Z   Using cached pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.2067400Z Collecting ruff<1,>=0.11 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.2249860Z   Downloading ruff-0.16.9-py3-none-macosx_11_0_arm64.whl.metadata (20 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.2600790Z Collecting build<2,>=1.2 (from factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.2621550Z   Using cached build-1.6.1-py3-none-any.whl.metadata (5.6 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.2899340Z Collecting packaging>=24.0 (from build<2,>=1.2->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.2911940Z   Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.3165550Z Collecting pyproject_hooks (from build<2,>=1.2->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.3182280Z   Using cached pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.3488310Z Collecting anyio (from httpx<1,>=0.27->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.3516080Z   Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.3552260Z Requirement already satisfied: certifi in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from httpx<1,>=0.27->factory-monitor==0.1.0) (2026.7.22)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.3821800Z Collecting httpcore==1.* (from httpx<1,>=0.27->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.3841680Z   Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.4146210Z Collecting idna (from httpx<1,>=0.27->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.4164230Z   Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.4420340Z Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.27->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.4445220Z   Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.4828880Z Collecting shiboken6==6.11.2 (from PySide6<7,>=6.8->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.4847220Z   Using cached shiboken6-6.11.2-cp310-abi3-macosx_13_0_universal2.whl.metadata (2.4 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.5190660Z Collecting PySide6_Essentials==6.11.2 (from PySide6<7,>=6.8->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.5205620Z   Using cached pyside6_essentials-6.11.2-cp310-abi3-macosx_13_0_universal2.whl.metadata (3.6 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.5529910Z Collecting PySide6_Addons==6.11.2 (from PySide6<7,>=6.8->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.5548300Z   Using cached pyside6_addons-6.11.2-cp310-abi3-macosx_13_0_universal2.whl.metadata (4.0 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.5843110Z Collecting iniconfig>=1.0.1 (from pytest<10,>=8->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.5873230Z   Using cached iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.6134000Z Collecting pluggy<2,>=1.5 (from pytest<10,>=8->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.6158570Z   Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.6487680Z Collecting pygments>=2.7.2 (from pytest<10,>=8->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.6504640Z   Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.6833740Z Collecting cloudpickle>=3.1.1 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.6852350Z   Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.7249240Z Collecting filelock>=3.16.1 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.7401680Z   Downloading filelock-4.0.3-py3-none-any.whl.metadata (2.0 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.8559410Z Collecting matplotlib>=3.3.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.8575700Z   Using cached matplotlib-3.11.2-cp312-cp312-macosx_11_0_arm64.whl.metadata (80 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0074110Z Collecting pillow>=7.1.2 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0176770Z   Using cached pillow-12.3.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (9.1 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0531090Z Collecting pyyaml>=5.3.1 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0565540Z   Using cached pyyaml-6.0.3-cp312-cp312-macosx_11_0_arm64.whl.metadata (2.4 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0850750Z Collecting requests>=2.23.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0874170Z   Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.1456500Z Collecting torch>=1.8.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.1472500Z   Using cached torch-2.14.0-cp312-cp312-macosx_14_0_arm64.whl.metadata (38 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.2474740Z Collecting torchvision>=0.9.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.2515690Z   Using cached torchvision-0.29.0-cp312-cp312-macosx_14_0_arm64.whl.metadata (5.7 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.3887940Z Collecting polars>=0.20.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.3903630Z   Using cached polars-1.44.2-py3-none-any.whl.metadata (11 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.4206670Z Collecting nvidia-ml-py>=12.0.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.4225450Z   Using cached nvidia_ml_py-13.610.43-py3-none-any.whl.metadata (9.7 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.4569910Z Collecting ultralytics-thop>=2.1.6 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.4602610Z   Using cached ultralytics_thop-2.1.6-py3-none-any.whl.metadata (13 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.4953090Z Collecting ultralytics-platform>=0.1.45 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.5113150Z   Downloading ultralytics_platform-0.1.65-py3-none-any.whl.metadata (16 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.5831400Z Collecting contourpy>=1.0.1 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.5852300Z   Using cached contourpy-1.4.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (3.8 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.6134350Z Collecting cycler>=0.10 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.6177160Z   Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.7425950Z Collecting fonttools>=4.28.2 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.7626390Z   Downloading fonttools-4.66.0-cp312-cp312-macosx_10_13_universal2.whl.metadata (129 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.8487490Z Collecting kiwisolver>=1.3.1 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.8510290Z   Using cached kiwisolver-1.5.1-cp312-cp312-macosx_11_0_arm64.whl.metadata (5.2 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.8923800Z Collecting pyparsing>=3 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.9073320Z   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.9360170Z Collecting python-dateutil>=2.7 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.9376880Z   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.9790870Z Collecting polars-runtime-32==1.44.2 (from polars>=0.20.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.9812730Z   Using cached polars_runtime_32-1.44.2-cp310-abi3-macosx_11_0_arm64.whl.metadata (1.5 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.0086830Z Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.0106570Z   Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.1030500Z Collecting charset_normalizer<4,>=2 (from requests>=2.23.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.1049670Z   Using cached charset_normalizer-3.5.1-cp312-cp312-macosx_10_13_universal2.whl.metadata (45 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.1400690Z Collecting urllib3<3,>=1.26 (from requests>=2.23.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.1419140Z   Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.1719770Z Collecting typing-extensions>=4.10.0 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.1735680Z   Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.2553970Z Collecting setuptools>=77.0.3 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.2568280Z   Using cached setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.3021810Z Collecting sympy>=1.13.3 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.3033110Z   Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.3472570Z Collecting networkx>=2.5.1 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.3678330Z   Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.4041360Z Collecting jinja2 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.4054970Z   Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.4363420Z Collecting fsspec>=0.8.5 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.4381240Z   Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.4848400Z Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.4868210Z   Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5513700Z Collecting MarkupSafe>=2.0 (from jinja2->torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5530240Z   Using cached markupsafe-3.0.3-cp312-cp312-macosx_11_0_arm64.whl.metadata (2.7 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5578050Z Using cached build-1.6.1-py3-none-any.whl (31 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5601680Z Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5626090Z Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5647070Z Using cached lap-0.5.13-cp312-cp312-macosx_11_0_arm64.whl (1.5 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5705490Z Using cached numpy-2.5.3-cp312-cp312-macosx_14_0_arm64.whl (5.4 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.5879890Z Using cached opencv_python-4.14.0.94-cp37-abi3-macosx_13_0_arm64.whl (46.5 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.6592540Z Using cached psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (129 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.6631070Z Using cached pyside6-6.11.2-cp310-abi3-macosx_13_0_universal2.whl (571 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.6690440Z Using cached pyside6_addons-6.11.2-cp310-abi3-macosx_13_0_universal2.whl (332.0 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.0734120Z Using cached pyside6_essentials-6.11.2-cp310-abi3-macosx_13_0_universal2.whl (110.8 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.2159620Z Using cached shiboken6-6.11.2-cp310-abi3-macosx_13_0_universal2.whl (476 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.2247280Z Using cached pytest-9.1.1-py3-none-any.whl (386 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.2305400Z Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.2492990Z Downloading ruff-0.16.9-py3-none-macosx_11_0_arm64.whl (9.9 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.4002530Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 71.6 MB/s  0:00:00
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.4100830Z Using cached scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl (20.5 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.4739740Z Downloading ultralytics-8.4.162-py3-none-any.whl (1.5 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.4913910Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 77.1 MB/s  0:00:00
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.4933990Z Using cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.5110660Z Downloading filelock-4.0.3-py3-none-any.whl (108 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.5242190Z Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.5265350Z Using cached iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.5283540Z Using cached matplotlib-3.11.2-cp312-cp312-macosx_11_0_arm64.whl (9.3 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.5803950Z Using cached contourpy-1.4.0-cp312-cp312-macosx_11_0_arm64.whl (284 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.5856280Z Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6077790Z Downloading fonttools-4.66.0-cp312-cp312-macosx_10_13_universal2.whl (3.1 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6444760Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 82.3 MB/s  0:00:00
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6466990Z Using cached kiwisolver-1.5.1-cp312-cp312-macosx_11_0_arm64.whl (64 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6509580Z Using cached nvidia_ml_py-13.610.43-py3-none-any.whl (53 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6513750Z Using cached packaging-26.3-py3-none-any.whl (129 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6542960Z Using cached pillow-12.3.0-cp312-cp312-macosx_11_0_arm64.whl (4.8 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6687010Z Using cached polars-1.44.2-py3-none-any.whl (865 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.6747960Z Using cached polars_runtime_32-1.44.2-cp310-abi3-macosx_11_0_arm64.whl (43.3 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7366040Z Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7552580Z Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7631780Z Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7662710Z Using cached pyyaml-6.0.3-cp312-cp312-macosx_11_0_arm64.whl (173 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7691310Z Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7717320Z Using cached charset_normalizer-3.5.1-cp312-cp312-macosx_10_13_universal2.whl (344 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7750620Z Using cached idna-3.20-py3-none-any.whl (69 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7771160Z Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7799430Z Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.7845530Z Using cached torch-2.14.0-cp312-cp312-macosx_14_0_arm64.whl (127.3 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.9797950Z Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.9979860Z Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0162540Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 140.8 MB/s  0:00:00
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0182670Z Using cached setuptools-84.0.0-py3-none-any.whl (818 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0212710Z Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0391050Z Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0428800Z Using cached torchvision-0.29.0-cp312-cp312-macosx_14_0_arm64.whl (1.8 MB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0485490Z Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0637800Z Downloading ultralytics_platform-0.1.65-py3-none-any.whl (91 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.0928710Z Using cached ultralytics_thop-2.1.6-py3-none-any.whl (30 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.1008440Z Using cached anyio-4.15.1-py3-none-any.whl (132 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.1028710Z Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.1058210Z Using cached markupsafe-3.0.3-cp312-cp312-macosx_11_0_arm64.whl (12 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:55.1076740Z Using cached pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:56.3781020Z Building wheels for collected packages: factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:56.3881930Z   Building wheel for factory-monitor (pyproject.toml): started
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:56.6959140Z   Building wheel for factory-monitor (pyproject.toml): finished with status 'done'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:56.6970970Z   Created wheel for factory-monitor: filename=factory_monitor-0.1.0-py3-none-any.whl size=75091 sha256=1b69ec7d60312dbc8f8fa87e037b5f9233f75b429f745387688421f25b2392b2
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:56.6973210Z   Stored in directory: /private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/pip-ephem-wheel-cache-_1k0tyqv/wheels/16/bb/8d/54cf0349d8c1f4dbf41ef82a190c2c8d990cd6195cda0c1794
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:56.6994310Z Successfully built factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:56.9945230Z Installing collected packages: nvidia-ml-py, mpmath, urllib3, typing-extensions, sympy, six, shiboken6, setuptools, ruff, pyyaml, pyproject_hooks, pyparsing, pygments, psutil, polars-runtime-32, pluggy, pillow, packaging, numpy, networkx, MarkupSafe, kiwisolver, iniconfig, idna, h11, fsspec, fonttools, filelock, cycler, cloudpickle, charset_normalizer, scipy, requests, python-dateutil, pytest, PySide6_Essentials, polars, opencv-python, lap, jinja2, httpcore, contourpy, build, anyio, torch, PySide6_Addons, matplotlib, httpx, ultralytics-thop, ultralytics-platform, torchvision, PySide6, factory-monitor, ultralytics
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.0608670Z 
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.0653510Z Successfully installed MarkupSafe-3.0.3 PySide6-6.11.2 PySide6_Addons-6.11.2 PySide6_Essentials-6.11.2 anyio-4.15.1 build-1.6.1 charset_normalizer-3.5.1 cloudpickle-3.1.2 contourpy-1.4.0 cycler-0.12.1 factory-monitor-0.1.0 filelock-4.0.3 fonttools-4.66.0 fsspec-2026.9.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 iniconfig-2.3.0 jinja2-3.1.6 kiwisolver-1.5.1 lap-0.5.13 matplotlib-3.11.2 mpmath-1.3.0 networkx-3.7 numpy-2.5.3 nvidia-ml-py-13.610.43 opencv-python-4.14.0.94 packaging-26.3 pillow-12.3.0 pluggy-1.6.0 polars-1.44.2 polars-runtime-32-1.44.2 psutil-7.2.2 pygments-2.21.0 pyparsing-3.3.3 pyproject_hooks-1.3.3 pytest-9.1.1 python-dateutil-2.9.0.post0 pyyaml-6.0.3 requests-2.34.2 ruff-0.16.9 scipy-1.18.1 setuptools-84.0.0 shiboken6-6.11.2 six-1.17.0 sympy-1.14.0 torch-2.14.0 torchvision-0.29.0 typing-extensions-4.16.0 ultralytics-8.4.162 ultralytics-platform-0.1.65 ultralytics-thop-2.1.6 urllib3-2.8.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4220490Z ##[group]Run python -m pip check
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4220940Z ^[[36;1mpython -m pip check^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4520470Z shell: /bin/bash -e {0}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4520820Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4521180Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4521610Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4532530Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.12.10/arm64/lib/pkgconfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4533100Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4533690Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4534210Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.4534660Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9478300Z No broken requirements found.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9854730Z ##[group]Run python -m ruff check .
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9855170Z ^[[36;1mpython -m ruff check .^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9894750Z shell: /bin/bash -e {0}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9895120Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9895430Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9895790Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9896360Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.12.10/arm64/lib/pkgconfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9896940Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9897430Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9898060Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:37.9898570Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2594090Z All checks passed!
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2642640Z ##[group]Run python -m pytest
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2642930Z ^[[36;1mpython -m pytest^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2684700Z shell: /bin/bash -e {0}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2684940Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2685150Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2685550Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2686000Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.12.10/arm64/lib/pkgconfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2686470Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2686990Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2687440Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:38.2687770Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7627490Z ============================= test session starts ==============================
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7628210Z platform darwin -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7628860Z rootdir: /Users/runner/work/factory-monitor/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7629250Z configfile: pyproject.toml
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7629520Z testpaths: tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7629710Z plugins: anyio-4.15.1
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7629880Z collected 275 items
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:41.7630010Z 
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.0972370Z tests/test_active_experiment_report.py .                                 [  0%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.1132600Z tests/test_active_inspection.py ...................                      [  7%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.1689760Z tests/test_benchmark_detector.py ..                                      [  8%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.1707040Z tests/test_benchmark_local_review.py ...                                 [  9%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.2405470Z tests/test_capture.py ...                                                [ 10%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.2962930Z tests/test_cli.py ...                                                    [ 11%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.3727710Z tests/test_core.py .....................                                 [ 18%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:42.5749890Z tests/test_evidence.py .......                                           [ 21%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:44.2128750Z tests/test_gui_offscreen.py .....................                        [ 29%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:23.0080090Z tests/test_inference.py ............                                     [ 33%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:23.0389350Z tests/test_inspection_profile.py ....................................... [ 47%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:23.0899500Z .................................................................        [ 71%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:39.9481820Z tests/test_native_capture.py ......                                      [ 73%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:41.4095350Z tests/test_offline_bundle.py ..............                              [ 78%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.2097340Z tests/test_runtime.py .........s....                                     [ 83%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.2281800Z tests/test_scene_watch.py .......................                        [ 92%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.4512730Z tests/test_shared_detection.py ..                                        [ 92%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.6137020Z tests/test_upgrade.py ....                                               [ 94%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.6241360Z tests/test_view_control.py ....                                          [ 95%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.8609570Z tests/test_view_feasibility.py ............                              [100%]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.8610440Z 
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.8610940Z =========================== short test summary info ============================
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.8612380Z SKIPPED [1] tests/test_runtime.py:211: local public YOLO smoke assets are not installed
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:48.8613740Z ================== 274 passed, 1 skipped in 69.91s (0:01:09) ===================
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6039220Z ##[group]Run python scripts/qa_ten_camera_smoke.py --root artifacts/qa-ten-camera
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6039830Z ^[[36;1mpython scripts/qa_ten_camera_smoke.py --root artifacts/qa-ten-camera^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6280600Z shell: /bin/bash -e {0}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6280970Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6281270Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6281720Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6282330Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.12.10/arm64/lib/pkgconfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6282840Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6283280Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6284200Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:49.6284830Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5589330Z {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5591510Z   "ok": true,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5593520Z   "generated_at": 1790307809.3706691,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5595110Z   "base_repository_revision": "43285f076c74d66de143a8ee67c809d5bf0e4889",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5596360Z   "revision_provenance": "exact clean base commit",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5597860Z   "data_dir": "artifacts/qa-ten-camera/20260925T034149Z",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5598890Z   "source": "demo",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5599580Z   "synthetic": true,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5600510Z   "review_enabled": false,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5601340Z   "fixture_absence_seconds": 31,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5602270Z   "evidence_window_seconds": {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5603230Z     "pre": 30,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5603880Z     "post": 60,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5604630Z     "preview": 30
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5605210Z   },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5605890Z   "inflight_limit": 10,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5607360Z   "candidate_count": 10,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5608020Z   "candidate_spread_seconds": 0.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5610380Z   "event_counts": {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5611300Z     "candidate": 10,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5611960Z     "event_updated": 30,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5612850Z     "frame": 1980,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5613660Z     "health": 1980,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5614260Z     "status": 8
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5615030Z   },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5617100Z   "peak_runtime_tree_rss_bytes": 563412992,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5617430Z   "sqlite_event_count": 10,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5617750Z   "media": [
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5618480Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5618700Z       "camera_id": "CAM01",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5619350Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/4b31dae4-cc8b-4f5b-acdd-c645b9308587/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5619910Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5620350Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5620710Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5630930Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5632360Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5633160Z       "camera_id": "CAM02",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5634450Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/4922d4a2-804a-4b7a-a5ec-432216abbd64/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5635980Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5636320Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5636620Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5636960Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5637150Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5637500Z       "camera_id": "CAM03",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5638050Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/b12fc7bd-743f-4323-b53d-f9224a127415/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5638600Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5638950Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5639230Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5639710Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5640010Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5640210Z       "camera_id": "CAM04",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5640730Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/d2b2bcee-3ddf-4de4-96eb-a219887e3c79/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5641490Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5641740Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5643150Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5643470Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5643780Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5644130Z       "camera_id": "CAM05",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5644640Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/5626f7a2-605a-4865-b197-7287c4cdcd53/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5645410Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5645760Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5646000Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5646400Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5646630Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5646910Z       "camera_id": "CAM06",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5647850Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/ec57725c-a574-4b52-a913-875b7f08ef56/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5648750Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5649110Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5649460Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5649700Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5649950Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5650200Z       "camera_id": "CAM07",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5650870Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/d10f6385-4ec4-4273-96c3-1c17ae0b7841/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5651510Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5651780Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5652100Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5652450Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5652640Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5653310Z       "camera_id": "CAM08",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5653860Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/16e9541d-4ee0-4996-af71-b6d358c967bc/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5654930Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5655260Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5655520Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5655970Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5656250Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5656470Z       "camera_id": "CAM09",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5657060Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/a6dda708-9323-4120-a4b5-e8931a547aac/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5657630Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5657960Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5658280Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5658520Z     },
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5658770Z     {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5658970Z       "camera_id": "CAM10",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5659500Z       "path": "artifacts/qa-ten-camera/20260925T034149Z/evidence/e8948e38-6de4-4c97-8a6b-9c53072943e9/evidence.mp4",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5660100Z       "frame_count": 180,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5660370Z       "fps": 2.0,
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5660720Z       "duration_seconds": 90.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5661090Z     }
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5661290Z   ],
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5661600Z   "errors": [],
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5661890Z   "field_gate": {
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5662920Z     "status": "FAIL",
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5663350Z     "reasons": [
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5663810Z       "synthetic capacity smoke is not detection, review-latency, or field-acceptance evidence"
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5664410Z     ]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5664750Z   }
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.5665010Z }
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6508490Z ##[group]Run python scripts/experiment_active_observation.py --output artifacts/active-observation
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6509500Z ^[[36;1mpython scripts/experiment_active_observation.py --output artifacts/active-observation^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6848870Z shell: /bin/bash -e {0}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6849540Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6850290Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6851200Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6852590Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.12.10/arm64/lib/pkgconfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6853310Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6853960Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6854370Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.6854720Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.4910840Z {"experiment_gate": "PASS", "field_gate": "NOT_TESTED", "checks": {"person_free_change_once": true, "quiet_cameras_not_starved": true, "valid_synthetic_receipts": true, "wrong_identity_receipts_rejected": true, "faults_stop_planner": true, "synthetic_never_authorizes_os_control": true, "single_screen_budget_failure_visible": true}, "output": "artifacts/active-observation"}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5192540Z ##[group]Run python -m build
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5192840Z ^[[36;1mpython -m build^[[0m
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5230870Z shell: /bin/bash -e {0}
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5231140Z env:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5231320Z   QT_QPA_PLATFORM: offscreen
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5231640Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5232120Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.12.10/arm64/lib/pkgconfig
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5232610Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5233020Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5233470Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.12.10/arm64
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.5233820Z ##[endgroup]
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.8229860Z * Creating isolated environment: venv+pip...
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.8313610Z * Installing packages in isolated environment:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:30.8314060Z   - setuptools>=75
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.1683050Z * Getting build dependencies for sdist...
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5611520Z running egg_info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5621230Z writing src/factory_monitor.egg-info/PKG-INFO
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5638150Z writing dependency_links to src/factory_monitor.egg-info/dependency_links.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5640870Z writing entry points to src/factory_monitor.egg-info/entry_points.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5654370Z writing requirements to src/factory_monitor.egg-info/requires.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5655890Z writing top-level names to src/factory_monitor.egg-info/top_level.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5699190Z reading manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5714900Z writing manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5962390Z * Installed build dependency versions:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5963100Z   - setuptools==84.0.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.5963620Z * Building sdist...
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7582440Z running sdist
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7583240Z running egg_info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7598650Z writing src/factory_monitor.egg-info/PKG-INFO
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7609760Z writing dependency_links to src/factory_monitor.egg-info/dependency_links.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7611860Z writing entry points to src/factory_monitor.egg-info/entry_points.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7618580Z writing requirements to src/factory_monitor.egg-info/requires.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7626270Z writing top-level names to src/factory_monitor.egg-info/top_level.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7657800Z reading manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7667780Z writing manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7669380Z running check
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7695100Z creating factory_monitor-0.1.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7696640Z creating factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7698270Z creating factory_monitor-0.1.0/src/factory_monitor.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7699060Z creating factory_monitor-0.1.0/src/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7700150Z creating factory_monitor-0.1.0/src/factory_monitor/capture/assets
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7701060Z creating factory_monitor-0.1.0/src/factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7701940Z creating factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7702640Z copying files to factory_monitor-0.1.0...
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7703160Z copying README.md -> factory_monitor-0.1.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7706280Z copying pyproject.toml -> factory_monitor-0.1.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7711000Z copying src/factory_monitor/__init__.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7720110Z copying src/factory_monitor/__main__.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7734030Z copying src/factory_monitor/active_inspection.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7735500Z copying src/factory_monitor/cli.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7739210Z copying src/factory_monitor/config.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7842870Z copying src/factory_monitor/evaluation.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7844290Z copying src/factory_monitor/evidence.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7845620Z copying src/factory_monitor/inference.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7847740Z copying src/factory_monitor/inspection_profile.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7848430Z copying src/factory_monitor/rules.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7848940Z copying src/factory_monitor/runtime.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7849420Z copying src/factory_monitor/scene_watch.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7849910Z copying src/factory_monitor/store.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7850380Z copying src/factory_monitor/switching.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7850880Z copying src/factory_monitor/view_feasibility.py -> factory_monitor-0.1.0/src/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7851460Z copying src/factory_monitor.egg-info/PKG-INFO -> factory_monitor-0.1.0/src/factory_monitor.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7852040Z copying src/factory_monitor.egg-info/SOURCES.txt -> factory_monitor-0.1.0/src/factory_monitor.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7852650Z copying src/factory_monitor.egg-info/dependency_links.txt -> factory_monitor-0.1.0/src/factory_monitor.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7853340Z copying src/factory_monitor.egg-info/entry_points.txt -> factory_monitor-0.1.0/src/factory_monitor.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7854060Z copying src/factory_monitor.egg-info/requires.txt -> factory_monitor-0.1.0/src/factory_monitor.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7854720Z copying src/factory_monitor.egg-info/top_level.txt -> factory_monitor-0.1.0/src/factory_monitor.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7855470Z copying src/factory_monitor/capture/__init__.py -> factory_monitor-0.1.0/src/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7856090Z copying src/factory_monitor/capture/control.py -> factory_monitor-0.1.0/src/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7857030Z copying src/factory_monitor/capture/macos.py -> factory_monitor-0.1.0/src/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7857630Z copying src/factory_monitor/capture/windows.py -> factory_monitor-0.1.0/src/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7858900Z copying src/factory_monitor/capture/assets/ScreenCaptureKitHelper.swift -> factory_monitor-0.1.0/src/factory_monitor/capture/assets
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7870110Z copying src/factory_monitor/gui/__init__.py -> factory_monitor-0.1.0/src/factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7870780Z copying src/factory_monitor/gui/app.py -> factory_monitor-0.1.0/src/factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7871310Z copying tests/test_active_experiment_report.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7871730Z copying tests/test_active_inspection.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7872150Z copying tests/test_benchmark_detector.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7872570Z copying tests/test_benchmark_local_review.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7872970Z copying tests/test_capture.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7873300Z copying tests/test_cli.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7873630Z copying tests/test_core.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7874020Z copying tests/test_evidence.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7874450Z copying tests/test_gui_offscreen.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7874980Z copying tests/test_inference.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7875520Z copying tests/test_inspection_profile.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7876060Z copying tests/test_native_capture.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7876980Z copying tests/test_offline_bundle.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7877590Z copying tests/test_runtime.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7978850Z copying tests/test_scene_watch.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8081120Z copying tests/test_shared_detection.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8183410Z copying tests/test_upgrade.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8287960Z copying tests/test_view_control.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8389190Z copying tests/test_view_feasibility.py -> factory_monitor-0.1.0/tests
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8491800Z Writing factory_monitor-0.1.0/setup.cfg
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8516320Z Creating tar archive
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8517960Z removing 'factory_monitor-0.1.0' (and everything under it)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.9386420Z * Building wheel from sdist
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.9532080Z * Creating isolated environment: venv+pip...
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.9556470Z * Installing packages in isolated environment:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.9558060Z   - setuptools>=75
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.8098060Z * Getting build dependencies for wheel...
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.2967080Z running egg_info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.2975040Z writing src/factory_monitor.egg-info/PKG-INFO
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.2994770Z writing dependency_links to src/factory_monitor.egg-info/dependency_links.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.2997600Z writing entry points to src/factory_monitor.egg-info/entry_points.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.3004290Z writing requirements to src/factory_monitor.egg-info/requires.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.3005810Z writing top-level names to src/factory_monitor.egg-info/top_level.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.3104010Z reading manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.3109800Z writing manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.3494370Z * Installed build dependency versions:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.3495150Z   - setuptools==84.0.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.3495580Z * Building wheel...
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5444740Z running bdist_wheel
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5515590Z running build
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5523710Z running build_py
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5536710Z creating build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5537280Z copying src/factory_monitor/store.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5539140Z copying src/factory_monitor/config.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5544160Z copying src/factory_monitor/evaluation.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5544790Z copying src/factory_monitor/view_feasibility.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5545470Z copying src/factory_monitor/active_inspection.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5546330Z copying src/factory_monitor/switching.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5546820Z copying src/factory_monitor/__init__.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5547580Z copying src/factory_monitor/rules.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5549710Z copying src/factory_monitor/runtime.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5558450Z copying src/factory_monitor/scene_watch.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5562720Z copying src/factory_monitor/inspection_profile.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5569700Z copying src/factory_monitor/cli.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5572010Z copying src/factory_monitor/inference.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5583410Z copying src/factory_monitor/evidence.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5594650Z copying src/factory_monitor/__main__.py -> build/lib/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5604480Z creating build/lib/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5607580Z copying src/factory_monitor/capture/macos.py -> build/lib/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5617230Z copying src/factory_monitor/capture/control.py -> build/lib/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5622120Z copying src/factory_monitor/capture/__init__.py -> build/lib/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5624080Z copying src/factory_monitor/capture/windows.py -> build/lib/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5634470Z creating build/lib/factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5637660Z copying src/factory_monitor/gui/__init__.py -> build/lib/factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5641050Z copying src/factory_monitor/gui/app.py -> build/lib/factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5644540Z running egg_info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5656800Z writing src/factory_monitor.egg-info/PKG-INFO
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5668010Z writing dependency_links to src/factory_monitor.egg-info/dependency_links.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5670880Z writing entry points to src/factory_monitor.egg-info/entry_points.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5676100Z writing requirements to src/factory_monitor.egg-info/requires.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5678880Z writing top-level names to src/factory_monitor.egg-info/top_level.txt
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5704310Z reading manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5743300Z writing manifest file 'src/factory_monitor.egg-info/SOURCES.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5753490Z creating build/lib/factory_monitor/capture/assets
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5758670Z copying src/factory_monitor/capture/assets/ScreenCaptureKitHelper.swift -> build/lib/factory_monitor/capture/assets
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5765540Z installing to build/bdist.macosx-10.13-universal2/wheel
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5766040Z running install
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5820480Z running install_lib
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5837800Z creating build/bdist.macosx-10.13-universal2/wheel
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5839710Z creating build/bdist.macosx-10.13-universal2/wheel/factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5841730Z copying build/lib/factory_monitor/store.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5845160Z creating build/bdist.macosx-10.13-universal2/wheel/factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5846150Z copying build/lib/factory_monitor/capture/macos.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5849550Z copying build/lib/factory_monitor/capture/control.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5852360Z copying build/lib/factory_monitor/capture/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5859720Z copying build/lib/factory_monitor/capture/windows.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor/capture
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5862090Z creating build/bdist.macosx-10.13-universal2/wheel/factory_monitor/capture/assets
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5862950Z copying build/lib/factory_monitor/capture/assets/ScreenCaptureKitHelper.swift -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor/capture/assets
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5865280Z copying build/lib/factory_monitor/config.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5866060Z copying build/lib/factory_monitor/evaluation.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5866800Z copying build/lib/factory_monitor/view_feasibility.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5867840Z copying build/lib/factory_monitor/active_inspection.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5869410Z copying build/lib/factory_monitor/switching.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5870880Z copying build/lib/factory_monitor/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5873290Z copying build/lib/factory_monitor/rules.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5874870Z copying build/lib/factory_monitor/runtime.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5878180Z copying build/lib/factory_monitor/scene_watch.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5881470Z copying build/lib/factory_monitor/inspection_profile.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5884080Z copying build/lib/factory_monitor/cli.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5888270Z creating build/bdist.macosx-10.13-universal2/wheel/factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5895050Z copying build/lib/factory_monitor/gui/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5900540Z copying build/lib/factory_monitor/gui/app.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor/gui
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5906670Z copying build/lib/factory_monitor/inference.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5919000Z copying build/lib/factory_monitor/evidence.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5926450Z copying build/lib/factory_monitor/__main__.py -> build/bdist.macosx-10.13-universal2/wheel/./factory_monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5931730Z running install_egg_info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5945830Z Copying src/factory_monitor.egg-info to build/bdist.macosx-10.13-universal2/wheel/./factory_monitor-0.1.0-py3.12.egg-info
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.5983130Z running install_scripts
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6015390Z creating build/bdist.macosx-10.13-universal2/wheel/factory_monitor-0.1.0.dist-info/WHEEL
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6018990Z creating '/Users/runner/work/factory-monitor/factory-monitor/dist/.tmp-iwn5fwnm/factory_monitor-0.1.0-py3-none-any.whl' and adding 'build/bdist.macosx-10.13-universal2/wheel' to it
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6024250Z adding 'factory_monitor/__init__.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6025860Z adding 'factory_monitor/__main__.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6028790Z adding 'factory_monitor/active_inspection.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6032910Z adding 'factory_monitor/cli.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6035820Z adding 'factory_monitor/config.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6038290Z adding 'factory_monitor/evaluation.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6041540Z adding 'factory_monitor/evidence.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6046570Z adding 'factory_monitor/inference.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6048670Z adding 'factory_monitor/inspection_profile.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6051330Z adding 'factory_monitor/rules.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6062760Z adding 'factory_monitor/runtime.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6066100Z adding 'factory_monitor/scene_watch.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6068320Z adding 'factory_monitor/store.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6070690Z adding 'factory_monitor/switching.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6072510Z adding 'factory_monitor/view_feasibility.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6075250Z adding 'factory_monitor/capture/__init__.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6087550Z adding 'factory_monitor/capture/control.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6094590Z adding 'factory_monitor/capture/macos.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6098980Z adding 'factory_monitor/capture/windows.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6102180Z adding 'factory_monitor/capture/assets/ScreenCaptureKitHelper.swift'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6113230Z adding 'factory_monitor/gui/__init__.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6113630Z adding 'factory_monitor/gui/app.py'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6113980Z adding 'factory_monitor-0.1.0.dist-info/METADATA'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6114340Z adding 'factory_monitor-0.1.0.dist-info/WHEEL'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6116420Z adding 'factory_monitor-0.1.0.dist-info/entry_points.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6117510Z adding 'factory_monitor-0.1.0.dist-info/top_level.txt'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6119100Z adding 'factory_monitor-0.1.0.dist-info/RECORD'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.6120160Z removing build/bdist.macosx-10.13-universal2/wheel
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.7072310Z Successfully built factory_monitor-0.1.0.tar.gz and factory_monitor-0.1.0-py3-none-any.whl
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.7453990Z Post job cleanup.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.2092420Z Cache hit occurred on the primary key setup-python-macOS-arm64-python-3.12.10-pip-af83a209bf9490ae47f071370f6a8fd34cfb59a46244a8f2e876798e6acdbf97, not saving cache.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.2099830Z (node:7738) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.2101630Z (Use `node --trace-deprecation ...` to show where the warning was created)
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.2249030Z Post job cleanup.
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3529150Z [command]/opt/homebrew/bin/git version
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3636920Z git version 2.55.0
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3662450Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/5e7cb212-913d-4088-ac30-cbe926e779c4/.gitconfig'
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3674250Z Temporarily overriding HOME='/Users/runner/work/_temp/5e7cb212-913d-4088-ac30-cbe926e779c4' before making global git config changes
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3676240Z Adding repository directory to the temporary git global config as a safe directory
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3679390Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/factory-monitor/factory-monitor
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3779470Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.3870550Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.5174840Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.5256340Z http.https://github.com/.extraheader
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.5270830Z [command]/opt/homebrew/bin/git config --local --unset-all http.https://github.com/.extraheader
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.5403370Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.6657570Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.6737140Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.7952420Z Cleaning up orphan processes
+macos-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:36.6531070Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

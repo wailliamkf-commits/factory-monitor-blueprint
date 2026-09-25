@@ -1,0 +1,5 @@
+# Preserve frozen-source hashes identically on Windows and macOS.
+* -text
+# Preserve original evidence/source bytes; lint current root documents separately.
+implementation/** -whitespace
+evidence/**/*.log -whitespace

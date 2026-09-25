@@ -1,0 +1,101 @@
+{
+  "template_version": 1,
+  "record_type": "CLIENT_CAPABILITY",
+  "status": "template",
+  "verification_status": "not_tested",
+  "notice": "空白能力模板，不代表客户端已连接、校准或支持任何能力。现有程序不会自动读取此模板。",
+  "identity": {
+    "record_id": null,
+    "operator": null,
+    "observed_at": null,
+    "operating_system": "not_tested",
+    "os_build": null,
+    "client_name": null,
+    "client_version": null,
+    "window_identity_verified": "not_tested",
+    "capture_backend_observed": null,
+    "capture_permission_observed": "not_tested",
+    "display_resolution": null,
+    "display_scale": null,
+    "layout_fingerprint": null,
+    "profile_version": null,
+    "profile_sha256": null
+  },
+  "sources": [
+    {
+      "source_id": null,
+      "camera_id": null,
+      "camera_label_local_only": null,
+      "view_mode": "not_tested",
+      "position_or_tile": null,
+      "source_pixel_width": null,
+      "source_pixel_height": null,
+      "observed_pixel_width": null,
+      "observed_pixel_height": null,
+      "frame_rate_observed_fps": null,
+      "roi_normalized": null,
+      "roi_transform": null,
+      "heartbeat_roi_normalized": null,
+      "heartbeat_method": "not_tested",
+      "fresh_frame_timestamp_readback": "not_tested",
+      "source_identity_readback": "not_tested",
+      "occlusion_behavior": "not_tested",
+      "minimize_behavior": "not_tested",
+      "focus_loss_behavior": "not_tested",
+      "popup_behavior": "not_tested",
+      "calibration_evidence_local_path": null,
+      "gap_or_failure_notes": []
+    }
+  ],
+  "computer_use_control": {
+    "enabled": false,
+    "authorization_record_local_path": null,
+    "calibration_method": "not_tested",
+    "request_id_readback": "not_tested",
+    "view_epoch_supported": "not_tested",
+    "layout_fingerprint_checked_each_action": "not_tested",
+    "camera_id_checked_each_action": "not_tested",
+    "fresh_frame_ack_checked_each_action": "not_tested",
+    "detail_to_grid_return_readback": "not_tested",
+    "verified_cycle_count": null,
+    "id_misbindings": null,
+    "failure_freeze_behavior": "not_tested",
+    "fault_injection_evidence_local_path": null
+  },
+  "capabilities": {
+    "passive_capture": "not_tested",
+    "per_camera_heartbeat": "not_tested",
+    "recording_and_full_decode": "not_tested",
+    "simultaneous_ten_camera_capture": "not_tested",
+    "simultaneous_ten_candidate_review_within_15s": "not_tested",
+    "offline_model_startup_without_vpn": "not_tested",
+    "disk_pressure_recovery": "not_tested",
+    "process_crash_recovery": "not_tested",
+    "72h_operation": "not_tested"
+  },
+  "limits": {
+    "application_runtime_camera_limit": 10,
+    "sixteen_camera_support": "experiment_only_not_runtime_capability",
+    "single_screen_overview_blind_budget_seconds_per_hour": 180,
+    "single_screen_budget_is_physical_constraint": true,
+    "rtx_4060_8gb": "design_baseline_only_not_purchase_quote_or_performance_claim",
+    "current_field_gate": "not_tested"
+  },
+  "evidence": {
+    "source_manifest_local_path": null,
+    "frame_timestamp_manifest_local_path": null,
+    "layout_readback_local_path": null,
+    "capture_sample_local_path": null,
+    "media_decode_results_local_path": null,
+    "fault_results_local_path": null,
+    "sha256_manifest_local_path": null,
+    "independent_reviewer": null,
+    "reviewed_at": null
+  },
+  "privacy": {
+    "credentials_in_template": false,
+    "account_identifiers_in_template": false,
+    "production_media_in_repository": false,
+    "note": "template 不存真实窗口路径、账号、凭据或媒体；本机证据路径需经授权并受控保存。"
+  }
+}

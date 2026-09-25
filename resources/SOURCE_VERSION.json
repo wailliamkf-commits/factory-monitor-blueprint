@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/wailliamkf-commits/factory-monitor",
+  "branch": "feat/mainland-ten-camera-20260925",
+  "candidate_commit": "1f6f2420306533d86f5c87cc52d2168a1c6946a9",
+  "patch_base": "0de7f2ee75622773c99a951ee968b671f51298e5",
+  "patch_sha256": "d00d3de0030f1959a4031ddb9a8bedbedb1230ecfc4991fc03a263fef8032862",
+  "field_acceptance": "NOT_TESTED",
+  "qwen_public_negative": "FAIL",
+  "qwen_ten_burst_deadline": "FAIL",
+  "draft_pull_request": "https://github.com/wailliamkf-commits/factory-monitor/pull/2",
+  "ci_url": "https://github.com/wailliamkf-commits/factory-monitor/actions/runs/36039009155",
+  "ci_head_verified": true
+}

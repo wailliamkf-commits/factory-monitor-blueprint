@@ -1,0 +1,155 @@
+{
+  "template_version": 1,
+  "record_type": "FIELD_RUN",
+  "status": "template",
+  "stage": "not_tested",
+  "field_gate": "not_tested",
+  "notice": "空白模板。不得作为一次真实运行、PASS 或现场验收证据。现有程序不会自动读取此模板。",
+  "run_identity": {
+    "run_id": null,
+    "operator": null,
+    "start_instruction_at": null,
+    "started_at": null,
+    "ended_at": null,
+    "timezone": null,
+    "mode": "not_tested",
+    "source_type": "not_tested",
+    "source_reference_local_only": null,
+    "source_sha256": null,
+    "repository": null,
+    "tested_commit": null,
+    "working_tree_state": "not_tested",
+    "config_sha256": null,
+    "model_digests": {},
+    "dependency_snapshot_local_path": null
+  },
+  "environment": {
+    "operating_system": "not_tested",
+    "os_build": null,
+    "client_name_version": null,
+    "capture_backend_observed": null,
+    "capture_permission_observed": "not_tested",
+    "cpu": null,
+    "ram_bytes": null,
+    "gpu_driver": null,
+    "free_disk_bytes_start": null,
+    "free_disk_bytes_end": null,
+    "display_resolution": null,
+    "display_scale": null,
+    "camera_ids": [],
+    "camera_mapping_version": null,
+    "clock_alignment_method": "not_tested",
+    "clock_uncertainty_ms": null
+  },
+  "workload": {
+    "planned_duration_seconds": null,
+    "actual_duration_seconds": null,
+    "expected_camera_count": 10,
+    "observed_camera_count": null,
+    "simultaneous_candidate_bursts_expected": null,
+    "simultaneous_candidate_bursts_observed": null,
+    "synthetic_input": "not_tested",
+    "review_enabled": "not_tested",
+    "cloud_image_review_enabled": false,
+    "production_clicking_enabled": false,
+    "workload_definition_local_path": null
+  },
+  "observability": {
+    "scheduled_observable_seconds_by_camera_local_path": null,
+    "observed_fresh_seconds_by_camera_local_path": null,
+    "gap_intervals_by_camera_local_path": null,
+    "gap_union_seconds_by_camera": {},
+    "unavailable_or_frozen_cameras": [],
+    "heartbeat_method_and_roi_local_path": null,
+    "source_frame_timestamp_manifest_local_path": null,
+    "mapping_readback_local_path": null
+  },
+  "events_and_latency": {
+    "candidate_count": null,
+    "review_count": null,
+    "supported_count": null,
+    "dismissed_count": null,
+    "uncertain_count": null,
+    "timeout_count": null,
+    "error_count": null,
+    "unknown_or_missed_count": null,
+    "queue_counters": {
+      "attempted_new": null,
+      "accepted_new": null,
+      "rejected_new": null,
+      "evicted_old": null,
+      "consumed": null,
+      "remaining": null,
+      "shutdown_discarded": null,
+      "measurement_method": "not_tested",
+      "reconciled": null
+    },
+    "candidate_latency_including_queue": {
+      "denominator": null,
+      "p95_ms": null,
+      "raw_samples_local_path": null
+    },
+    "review_latency_including_queue": {
+      "denominator": null,
+      "p95_ms": null,
+      "raw_samples_local_path": null
+    },
+    "human_label_manifest_local_path": null,
+    "human_reviewer": null
+  },
+  "evidence_integrity": {
+    "expected_media_count": null,
+    "observed_media_count": null,
+    "full_frame_decode_status": "not_tested",
+    "actual_duration_playback_results_local_path": null,
+    "gaps_and_missing_ranges_local_path": null,
+    "sqlite_database_local_path": null,
+    "sqlite_wal_shm_present": "not_tested",
+    "evidence_manifest_local_path": null,
+    "sha256_manifest_local_path": null,
+    "complete_evidence_claim": "not_tested"
+  },
+  "resources": {
+    "cpu_ram_gpu_disk_timeseries_local_path": null,
+    "process_tree_local_path": null,
+    "disk_filesystem_snapshots_local_path": null,
+    "trend_summary": "not_tested"
+  },
+  "faults_and_recovery": {
+    "faults_exercised": [],
+    "stop_requested_at": null,
+    "stop_reason": null,
+    "drain_completed_at": null,
+    "worker_exit_records_local_path": null,
+    "process_exit_codes_local_path": null,
+    "residual_process_check": "not_tested",
+    "forced_termination": "not_tested",
+    "recovery_action": "not_tested",
+    "recovery_result": "not_tested",
+    "queue_final_accounting_local_path": null
+  },
+  "acceptance": {
+    "candidate_recall": null,
+    "final_recall": null,
+    "candidate_p95_ms_limit": 3000,
+    "review_p95_ms_limit_including_queue": 15000,
+    "final_false_alarm_limit_per_camera_per_8h": 1,
+    "held_out_positive_minimum_per_kind_and_stage": 50,
+    "held_out_negative_minimum_per_kind_and_stage": 100,
+    "actual_client_switch_cycles": null,
+    "id_misbindings": null,
+    "target_os_72h_run_completed": false,
+    "independent_reviewer": null,
+    "reviewed_at": null,
+    "field_gate": "not_tested",
+    "failure_or_unknown_reasons": [
+      "Template has no run evidence. Unknown, timeout, missing data, errors and misses remain failures or explicit gaps."
+    ]
+  },
+  "privacy": {
+    "production_media_in_repository": false,
+    "credentials_in_repository": false,
+    "account_identifiers_in_repository": false,
+    "note": "路径只填获授权的本机位置；不要把现场媒体、身份、账号或密钥写入 Git。"
+  }
+}

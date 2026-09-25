@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "original_filename": "FactoryMonitor-Windows-20260925.zip",
+  "total_size": 6637814564,
+  "total_sha256": "4652f9677df0e97f48be8b3da82d7a9db7b07a3b1bdcdeb70e1497a2fa92a4a1",
+  "parts": [
+    {
+      "name": "part-000001-of-000007.bin",
+      "size": 1073741824,
+      "sha256": "0c129688c103c16d6a6296e4ef6879d6a0d36904710c365baf7124d951087ece"
+    },
+    {
+      "name": "part-000002-of-000007.bin",
+      "size": 1073741824,
+      "sha256": "de80c36631f2a61447f6d380236f00d8caffb9b08917a0c0f1edf8510accb440"
+    },
+    {
+      "name": "part-000003-of-000007.bin",
+      "size": 1073741824,
+      "sha256": "b0853b77f79b75e5d676b820b88071eeae88ef79d9b59d16bf521534d7f3c6ea"
+    },
+    {
+      "name": "part-000004-of-000007.bin",
+      "size": 1073741824,
+      "sha256": "86a16d9ae0a4824237e3f4e8282b53d8685605d4fbfc3cf9d10ab156eaed4123"
+    },
+    {
+      "name": "part-000005-of-000007.bin",
+      "size": 1073741824,
+      "sha256": "ef08c7a5b364acef3da5d67b54f96a95c03d765141681033297cb07fc0d71826"
+    },
+    {
+      "name": "part-000006-of-000007.bin",
+      "size": 1073741824,
+      "sha256": "622e15fe5fbccb0bfe6822d84d31dee8f8c76b3c51bc796b199455a989de2659"
+    },
+    {
+      "name": "part-000007-of-000007.bin",
+      "size": 195363620,
+      "sha256": "c47340548dd8f16395dec6434c959b95b91b7d178290b1828dd4442ac90326d1"
+    }
+  ]
+}

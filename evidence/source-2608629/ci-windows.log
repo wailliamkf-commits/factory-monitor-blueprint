@@ -1,0 +1,851 @@
+windows-latest / Python 3.12	UNKNOWN STEP	﻿2026-09-25T03:39:17.4521244Z Current runner version: '2.337.0'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4549485Z ##[group]Runner Image Provisioner
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4550417Z Hosted Compute Agent
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4551071Z Version: 20260828.587
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4551803Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4552670Z Build Date: 2026-08-28T16:44:25Z
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4553494Z Worker ID: {2ebf489a-c2be-4a35-9bed-4fbaf92cbfb2}
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4554304Z Azure Region: centralus
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4554927Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4556975Z ##[group]Operating System
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4557713Z Microsoft Windows Server 2025
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4558417Z 10.0.26100
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4558978Z Datacenter
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4559524Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4560146Z ##[group]Runner Image
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4560853Z Image: windows-2025-vs2026
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4561568Z Version: 20260922.246.2
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4563313Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20260922.246/images/windows/Windows2025-VS2026-Readme.md
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4565235Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20260922.246
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4566335Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4567543Z ##[group]GITHUB_TOKEN Permissions
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4569856Z Contents: read
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4570530Z Metadata: read
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4571120Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4573412Z Secret source: Actions
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4574511Z Cache mode: write
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4575289Z Prepare workflow directory
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4898115Z Prepare all required actions
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.4944081Z Getting action download info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.6966789Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:17.8054020Z Download action repository 'actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.0193457Z Complete job name: windows-latest / Python 3.12
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1302680Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1304039Z with:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1304516Z   repository: wailliamkf-commits/factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1307743Z   token: ***
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1308137Z   ssh-strict: true
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1308550Z   ssh-user: git
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1309042Z   persist-credentials: true
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1309618Z   clean: true
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1310069Z   sparse-checkout-cone-mode: true
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1310612Z   fetch-depth: 1
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1311066Z   fetch-tags: false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1311518Z   show-progress: true
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1311966Z   lfs: false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1312432Z   submodules: false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1312905Z   set-safe-directory: true
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1313353Z   allow-unsafe-pr-checkout: false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1314041Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1314493Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.1315541Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.2596643Z Syncing repository: wailliamkf-commits/factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.2598204Z ##[group]Getting Git version info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.2598824Z Working directory is 'D:\a\factory-monitor\factory-monitor'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.3307018Z [command]"C:\Program Files\Git\bin\git.exe" version
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8078667Z git version 2.55.0.windows.5
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8123062Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8141057Z Temporarily overriding HOME='D:\a\_temp\1e929e03-12da-4715-ba0d-ae5dcec41a76' before making global git config changes
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8142273Z Adding repository directory to the temporary git global config as a safe directory
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8150760Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\factory-monitor\factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8706188Z Deleting the contents of 'D:\a\factory-monitor\factory-monitor'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8711636Z ##[group]Initializing the repository
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:18.8719222Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\factory-monitor\factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.0221423Z Initialized empty Git repository in D:/a/factory-monitor/factory-monitor/.git/
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.0260280Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/wailliamkf-commits/factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.0805922Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.0807543Z ##[group]Disabling automatic garbage collection
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.0815058Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.1157524Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.1159606Z ##[group]Setting up auth
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.1169635Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:19.1411716Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:20.8728601Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:20.8987929Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:21.3328659Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:21.3577798Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:21.7964381Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:21.8215023Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:21.8215839Z ##[group]Fetching the repository
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:21.8227319Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +43285f076c74d66de143a8ee67c809d5bf0e4889:refs/remotes/pull/2/merge
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0871706Z From https://github.com/wailliamkf-commits/factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0873028Z  * [new ref]         43285f076c74d66de143a8ee67c809d5bf0e4889 -> pull/2/merge
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0914378Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0915327Z ##[group]Determining the checkout info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0916188Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.0925048Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.1295604Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.1550245Z ##[group]Checking out the ref
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.1551261Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force refs/remotes/pull/2/merge
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2192715Z Note: switching to 'refs/remotes/pull/2/merge'.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2193159Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2193392Z You are in 'detached HEAD' state. You can look around, make experimental
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2193945Z changes and commit them, and you can discard any commits you make in this
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2194595Z state without impacting any branches by switching back to a branch.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2194952Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2195238Z If you want to create a new branch to retain commits you create, you may
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2195755Z do so (now or later) by using -c with the switch command. Example:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2196126Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2196320Z   git switch -c <new-branch-name>
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2196571Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2196680Z Or undo this operation with:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2196984Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2197106Z   git switch -
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2197341Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2197704Z Turn off this advice by setting config variable advice.detachedHead to false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2199003Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2201830Z HEAD is now at 43285f0 Merge 260862912d7386642aa538ac49d72442b9d673bb into 0de7f2ee75622773c99a951ee968b671f51298e5
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2295053Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2654707Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.2872686Z 43285f076c74d66de143a8ee67c809d5bf0e4889
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3280372Z ##[group]Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3280871Z with:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3281206Z   python-version: 3.12
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3281479Z   cache: pip
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3281735Z   cache-dependency-path: pyproject.toml
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3282076Z   check-latest: false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3284069Z   token: ***
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3284330Z   update-environment: true
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3284614Z   allow-prereleases: false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3284877Z   freethreaded: false
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3285178Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3285423Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.3285681Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.4701510Z ##[group]Installed versions
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.4885822Z (node:8916) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.4886568Z (Use `node --trace-deprecation ...` to show where the warning was created)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.4887346Z Successfully set up CPython (3.12.10)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:23.4888204Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:28.3651484Z Cache hit for: setup-python-Windows-x64-python-3.12.10-pip-f5871166de48161b69948dac5131bf0f3425502f977a01d568d5092f5ee2f863
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:28.3751947Z (node:8916) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:29.5268629Z Received 130023424 of 564436282 (23.0%), 123.4 MBs/sec
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:30.5328779Z Received 247463936 of 564436282 (43.8%), 117.3 MBs/sec
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:31.5379959Z Received 352321536 of 564436282 (62.4%), 111.6 MBs/sec
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:32.5539665Z Received 457179136 of 564436282 (81.0%), 108.2 MBs/sec
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:33.5763530Z Received 564436282 of 564436282 (100.0%), 106.6 MBs/sec
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:33.5764716Z Cache Size: ~538 MB (564436282 B)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:33.5766006Z [command]"C:\Program Files\Git\usr\bin\tar.exe" -xf D:/a/_temp/e0b8726a-f913-49c6-849f-d3b4cb3d683b/cache.tzst -P -C D:/a/factory-monitor/factory-monitor --force-local --use-compress-program "zstd -d"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.8719278Z Cache restored successfully
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9177320Z Cache restored from key: setup-python-Windows-x64-python-3.12.10-pip-f5871166de48161b69948dac5131bf0f3425502f977a01d568d5092f5ee2f863
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9632390Z ##[group]Run $parseErrors = @()
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9633085Z ^[[36;1m$parseErrors = @()^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9633624Z ^[[36;1mGet-ChildItem -Recurse -Filter *.ps1 | ForEach-Object {^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9634071Z ^[[36;1m  $tokens = $null^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9634410Z ^[[36;1m  $errors = $null^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9635070Z ^[[36;1m  [void][System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$errors)^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9635683Z ^[[36;1m  if ($errors) { $parseErrors += $errors }^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9636021Z ^[[36;1m}^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9636332Z ^[[36;1mif ($parseErrors.Count -gt 0) {^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9636748Z ^[[36;1m  $parseErrors | Format-List | Out-String | Write-Error^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9637060Z ^[[36;1m  exit 1^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:35.9637315Z ^[[36;1m}^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0239584Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0240068Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0240622Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0241009Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0241719Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0242168Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0243156Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0243729Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.0244076Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5442289Z ##[group]Run powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-windows.ps1
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5443087Z ^[[36;1mpowershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-windows.ps1^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5443613Z ^[[36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5444146Z ^[[36;1mAdd-Content -LiteralPath $env:GITHUB_PATH -Value (Join-Path $env:GITHUB_WORKSPACE '.venv\Scripts')^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5501270Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5501781Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5502068Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5502579Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5503213Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5503769Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5504397Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5504951Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:36.5505359Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:43.4517784Z Creating project-local .venv with Python 3.12.10
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:51.8026797Z Requirement already satisfied: pip in d:\a\factory-monitor\factory-monitor\.venv\lib\site-packages (25.0.1)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0178730Z Collecting pip
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0196009Z   Using cached pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0246862Z Using cached pip-26.2.1-py3-none-any.whl (1.8 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0574618Z Installing collected packages: pip
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0576094Z   Attempting uninstall: pip
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.0599733Z     Found existing installation: pip 25.0.1
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.1033185Z     Uninstalling pip-25.0.1:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:52.1246132Z       Successfully uninstalled pip-25.0.1
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:53.1629099Z Successfully installed pip-26.2.1
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.3662313Z Obtaining file:///D:/a/factory-monitor/factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:54.3686933Z   Installing build dependencies: started
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:57.0407481Z   Installing build dependencies: finished with status 'done'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:57.0425176Z   Checking if build backend supports build_editable: started
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:57.5606028Z   Checking if build backend supports build_editable: finished with status 'done'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:57.5629146Z   Getting requirements to build editable: started
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:58.0724182Z   Getting requirements to build editable: finished with status 'done'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:58.0746974Z   Preparing editable metadata (pyproject.toml): started
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:58.5007870Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.1093452Z Collecting numpy<3,>=1.26 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.1113053Z   Using cached numpy-2.5.3-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.1770342Z Collecting opencv-python<5,>=4.10 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.1788348Z   Using cached opencv_python-4.14.0.94-cp37-abi3-win_amd64.whl.metadata (20 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.5194611Z Collecting httpx<1,>=0.27 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.5213478Z   Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.8015156Z Collecting psutil<8,>=6 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.8042426Z   Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl.metadata (22 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.8492773Z Collecting PySide6<7,>=6.8 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:39:59.8547577Z   Using cached pyside6-6.11.2-cp310-abi3-win_amd64.whl.metadata (5.4 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:00.0162741Z Collecting ultralytics<9,>=8.3 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:00.2048894Z   Downloading ultralytics-8.4.162-py3-none-any.whl.metadata (46 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:00.6782471Z Collecting lap<1,>=0.5 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:00.6801615Z   Using cached lap-0.5.13-cp312-cp312-win_amd64.whl.metadata (6.8 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.1269086Z Collecting scipy<2,>=1.13 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.1287894Z   Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl.metadata (61 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.1690024Z Collecting windows-capture<3,>=1.5 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.1706102Z   Using cached windows_capture-2.0.1-cp39-abi3-win_amd64.whl.metadata (4.9 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.1996247Z Collecting mss<11,>=10 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.2011853Z   Using cached mss-10.2.0-py3-none-any.whl.metadata (7.2 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.5709195Z Collecting pyautogui>=0.9.54 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.5710346Z   Using cached pyautogui-0.9.54-py3-none-any.whl
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.7246728Z Collecting pytest<10,>=8 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:01.7264429Z   Using cached pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.1243967Z Collecting ruff<1,>=0.11 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.1386000Z   Downloading ruff-0.16.9-py3-none-win_amd64.whl.metadata (21 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.2611668Z Collecting build<2,>=1.2 (from factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.2628693Z   Using cached build-1.6.1-py3-none-any.whl.metadata (5.6 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.2941986Z Collecting packaging>=24.0 (from build<2,>=1.2->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.2958731Z   Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.5733446Z Collecting pyproject_hooks (from build<2,>=1.2->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.5758730Z   Using cached pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.6084190Z Collecting colorama (from build<2,>=1.2->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.6114525Z   Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.6778770Z Collecting anyio (from httpx<1,>=0.27->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.6803471Z   Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.7664505Z Collecting certifi (from httpx<1,>=0.27->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.7713993Z   Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.8007580Z Collecting httpcore==1.* (from httpx<1,>=0.27->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.8023994Z   Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.8382841Z Collecting idna (from httpx<1,>=0.27->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.8398802Z   Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.8680511Z Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.27->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.8696290Z   Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.9116621Z Collecting shiboken6==6.11.2 (from PySide6<7,>=6.8->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:02.9133840Z   Using cached shiboken6-6.11.2-cp310-abi3-win_amd64.whl.metadata (2.5 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.0247131Z Collecting PySide6_Essentials==6.11.2 (from PySide6<7,>=6.8->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.0264394Z   Using cached pyside6_essentials-6.11.2-cp310-abi3-win_amd64.whl.metadata (3.8 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.0598781Z Collecting PySide6_Addons==6.11.2 (from PySide6<7,>=6.8->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.0615465Z   Using cached pyside6_addons-6.11.2-cp310-abi3-win_amd64.whl.metadata (4.2 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.0978365Z Collecting iniconfig>=1.0.1 (from pytest<10,>=8->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.0995275Z   Using cached iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.1281653Z Collecting pluggy<2,>=1.5 (from pytest<10,>=8->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.1297090Z   Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.1689958Z Collecting pygments>=2.7.2 (from pytest<10,>=8->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.1706814Z   Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.2072741Z Collecting cloudpickle>=3.1.1 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.2090288Z   Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.2494791Z Collecting filelock>=3.16.1 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.2628699Z   Downloading filelock-4.0.3-py3-none-any.whl.metadata (2.0 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.4006107Z Collecting matplotlib>=3.3.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.4023870Z   Using cached matplotlib-3.11.2-cp312-cp312-win_amd64.whl.metadata (80 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.5866714Z Collecting pillow>=7.1.2 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.5890309Z   Using cached pillow-12.3.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.6469614Z Collecting pyyaml>=5.3.1 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.6489764Z   Using cached pyyaml-6.0.3-cp312-cp312-win_amd64.whl.metadata (2.4 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.6884464Z Collecting requests>=2.23.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.6902001Z   Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.7571468Z Collecting torch>=1.8.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.7587622Z   Using cached torch-2.14.0-cp312-cp312-win_amd64.whl.metadata (38 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.8446339Z Collecting torchvision>=0.9.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.8463591Z   Using cached torchvision-0.29.0-cp312-cp312-win_amd64.whl.metadata (5.7 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.9901887Z Collecting polars>=0.20.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:03.9924277Z   Using cached polars-1.44.2-py3-none-any.whl.metadata (11 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.1487381Z Collecting nvidia-ml-py>=12.0.0 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.1504694Z   Using cached nvidia_ml_py-13.610.43-py3-none-any.whl.metadata (9.7 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.1859985Z Collecting ultralytics-thop>=2.1.6 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.1877282Z   Using cached ultralytics_thop-2.1.6-py3-none-any.whl.metadata (13 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.2281916Z Collecting ultralytics-platform>=0.1.45 (from ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.2442697Z   Downloading ultralytics_platform-0.1.65-py3-none-any.whl.metadata (16 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.3450626Z Collecting contourpy>=1.0.1 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.3468193Z   Using cached contourpy-1.4.0-cp312-cp312-win_amd64.whl.metadata (3.8 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.3800897Z Collecting cycler>=0.10 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.3818051Z   Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.5360132Z Collecting fonttools>=4.28.2 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.5515038Z   Downloading fonttools-4.66.0-cp312-cp312-win_amd64.whl.metadata (131 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.7265157Z Collecting kiwisolver>=1.3.1 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.7283462Z   Using cached kiwisolver-1.5.1-cp312-cp312-win_amd64.whl.metadata (5.2 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.7768407Z Collecting pyparsing>=3 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.7909995Z   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.8772210Z Collecting python-dateutil>=2.7 (from matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.8990397Z   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.9503604Z Collecting polars-runtime-32==1.44.2 (from polars>=0.20.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.9520503Z   Using cached polars_runtime_32-1.44.2-cp310-abi3-win_amd64.whl.metadata (1.5 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.9827901Z Collecting pymsgbox (from pyautogui>=0.9.54->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:04.9847235Z   Using cached pymsgbox-2.0.1-py3-none-any.whl.metadata (4.4 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0124244Z Collecting pytweening>=1.0.4 (from pyautogui>=0.9.54->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0125868Z   Using cached pytweening-1.2.0-py3-none-any.whl
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0406336Z Collecting pyscreeze>=0.1.21 (from pyautogui>=0.9.54->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0407944Z   Using cached pyscreeze-1.0.1-py3-none-any.whl
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0720186Z Collecting pygetwindow>=0.0.5 (from pyautogui>=0.9.54->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0721703Z   Using cached pygetwindow-0.0.9-py3-none-any.whl
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0986379Z Collecting mouseinfo (from pyautogui>=0.9.54->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.0988064Z   Using cached mouseinfo-0.1.3-py3-none-any.whl
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.1286803Z Collecting pyrect (from pygetwindow>=0.0.5->pyautogui>=0.9.54->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.1287653Z   Using cached pyrect-0.2.0-py2.py3-none-any.whl
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.1591124Z Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib>=3.3.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.1613515Z   Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.2737863Z Collecting charset_normalizer<4,>=2 (from requests>=2.23.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.2758878Z   Using cached charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl.metadata (46 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.3136150Z Collecting urllib3<3,>=1.26 (from requests>=2.23.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.3157586Z   Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.3504673Z Collecting typing-extensions>=4.10.0 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.3523910Z   Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.4232485Z Collecting setuptools>=77.0.3 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.4253181Z   Using cached setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.4592430Z Collecting sympy>=1.13.3 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.4612222Z   Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.5481473Z Collecting networkx>=2.5.1 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.5629531Z   Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.6927535Z Collecting jinja2 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.6944278Z   Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.7288881Z Collecting fsspec>=0.8.5 (from torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.7305147Z   Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.7822791Z Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.7840250Z   Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8449951Z Collecting MarkupSafe>=2.0 (from jinja2->torch>=1.8.0->ultralytics<9,>=8.3->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8466390Z   Using cached markupsafe-3.0.3-cp312-cp312-win_amd64.whl.metadata (2.8 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8793096Z Collecting pyperclip (from mouseinfo->pyautogui>=0.9.54->factory-monitor==0.1.0)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8809436Z   Using cached pyperclip-1.11.0-py3-none-any.whl.metadata (2.4 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8879475Z Using cached build-1.6.1-py3-none-any.whl (31 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8895724Z Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8922821Z Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8941139Z Using cached lap-0.5.13-cp312-cp312-win_amd64.whl (1.5 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8964970Z Using cached mss-10.2.0-py3-none-any.whl (67 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.8980593Z Using cached numpy-2.5.3-cp312-cp312-win_amd64.whl (12.6 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.9068887Z Using cached opencv_python-4.14.0.94-cp37-abi3-win_amd64.whl (41.2 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.9302653Z Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl (137 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.9319160Z Using cached pyside6-6.11.2-cp310-abi3-win_amd64.whl (578 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:05.9338612Z Using cached pyside6_addons-6.11.2-cp310-abi3-win_amd64.whl (168.2 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.0205069Z Using cached pyside6_essentials-6.11.2-cp310-abi3-win_amd64.whl (76.9 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.0638646Z Using cached shiboken6-6.11.2-cp310-abi3-win_amd64.whl (1.2 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.0662132Z Using cached pytest-9.1.1-py3-none-any.whl (386 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.0680566Z Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.0836734Z Downloading ruff-0.16.9-py3-none-win_amd64.whl (10.6 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.2305974Z    ---------------------------------------- 10.6/10.6 MB 73.3 MB/s  0:00:00
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.2322811Z Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl (36.7 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.2714070Z Downloading ultralytics-8.4.162-py3-none-any.whl (1.5 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.5993581Z    ---------------------------------------- 1.5/1.5 MB 3.8 MB/s  0:00:00
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6010816Z Using cached windows_capture-2.0.1-cp39-abi3-win_amd64.whl (229 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6028638Z Using cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6043672Z Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6183878Z Downloading filelock-4.0.3-py3-none-any.whl (108 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6374948Z Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6392877Z Using cached iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6413880Z Using cached matplotlib-3.11.2-cp312-cp312-win_amd64.whl (9.3 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6481204Z Using cached contourpy-1.4.0-cp312-cp312-win_amd64.whl (234 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6510971Z Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.6669137Z Downloading fonttools-4.66.0-cp312-cp312-win_amd64.whl (2.5 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.7631200Z    ---------------------------------------- 2.5/2.5 MB 23.7 MB/s  0:00:00
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.7647875Z Using cached kiwisolver-1.5.1-cp312-cp312-win_amd64.whl (70 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.7664393Z Using cached nvidia_ml_py-13.610.43-py3-none-any.whl (53 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.7688537Z Using cached packaging-26.3-py3-none-any.whl (129 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.7704332Z Using cached pillow-12.3.0-cp312-cp312-win_amd64.whl (7.2 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.7758360Z Using cached polars-1.44.2-py3-none-any.whl (865 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.7780125Z Using cached polars_runtime_32-1.44.2-cp310-abi3-win_amd64.whl (51.3 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8069117Z Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8214765Z Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8445923Z Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8464098Z Using cached pyyaml-6.0.3-cp312-cp312-win_amd64.whl (154 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8479869Z Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8495950Z Using cached charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl (200 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8512035Z Using cached idna-3.20-py3-none-any.whl (69 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8531239Z Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8546691Z Using cached certifi-2026.7.22-py3-none-any.whl (136 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8562197Z Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.8577501Z Using cached torch-2.14.0-cp312-cp312-win_amd64.whl (124.1 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9281201Z Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9418731Z Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9711603Z    ---------------------------------------- 2.1/2.1 MB 117.5 MB/s  0:00:00
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9727789Z Using cached setuptools-84.0.0-py3-none-any.whl (818 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9750984Z Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9801249Z Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9871250Z Using cached torchvision-0.29.0-cp312-cp312-win_amd64.whl (1.4 MB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:06.9898551Z Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0040624Z Downloading ultralytics_platform-0.1.65-py3-none-any.whl (91 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0235723Z Using cached ultralytics_thop-2.1.6-py3-none-any.whl (30 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0250429Z Using cached anyio-4.15.1-py3-none-any.whl (132 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0266400Z Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0295625Z Using cached markupsafe-3.0.3-cp312-cp312-win_amd64.whl (15 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0312417Z Using cached pymsgbox-2.0.1-py3-none-any.whl (10.0 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0327395Z Using cached pyperclip-1.11.0-py3-none-any.whl (11 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:07.0342986Z Using cached pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:08.0641773Z Building wheels for collected packages: factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:08.0671325Z   Building editable for factory-monitor (pyproject.toml): started
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:08.3926671Z   Building editable for factory-monitor (pyproject.toml): finished with status 'done'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:08.3960563Z   Created wheel for factory-monitor: filename=factory_monitor-0.1.0-0.editable-py3-none-any.whl size=1860 sha256=088d63ecd44730aa733f1d330a12b48d35360bbe3877c977bdd44def8846f7ee
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:08.3962815Z   Stored in directory: C:\Users\runneradmin\AppData\Local\Temp\pip-ephem-wheel-cache-iz43_uws\wheels\89\55\99\a37087e71431394a8cba4d1093cd0ded9aadadb97411af44ce
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:08.3983661Z Successfully built factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:08.6562246Z Installing collected packages: pytweening, pyscreeze, pyrect, pyperclip, nvidia-ml-py, mpmath, urllib3, typing-extensions, sympy, six, shiboken6, setuptools, ruff, pyyaml, pyproject_hooks, pyparsing, pymsgbox, pygments, pygetwindow, psutil, polars-runtime-32, pluggy, pillow, packaging, numpy, networkx, mss, mouseinfo, MarkupSafe, kiwisolver, iniconfig, idna, h11, fsspec, fonttools, filelock, cycler, colorama, cloudpickle, charset_normalizer, certifi, scipy, requests, python-dateutil, pytest, PySide6_Essentials, pyautogui, polars, opencv-python, lap, jinja2, httpcore, contourpy, build, anyio, windows-capture, torch, PySide6_Addons, matplotlib, httpx, ultralytics-thop, ultralytics-platform, torchvision, PySide6, factory-monitor, ultralytics
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:57.8023832Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:57.8063958Z Successfully installed MarkupSafe-3.0.3 PySide6-6.11.2 PySide6_Addons-6.11.2 PySide6_Essentials-6.11.2 anyio-4.15.1 build-1.6.1 certifi-2026.7.22 charset_normalizer-3.5.1 cloudpickle-3.1.2 colorama-0.4.6 contourpy-1.4.0 cycler-0.12.1 factory-monitor-0.1.0 filelock-4.0.3 fonttools-4.66.0 fsspec-2026.9.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 iniconfig-2.3.0 jinja2-3.1.6 kiwisolver-1.5.1 lap-0.5.13 matplotlib-3.11.2 mouseinfo-0.1.3 mpmath-1.3.0 mss-10.2.0 networkx-3.7 numpy-2.5.3 nvidia-ml-py-13.610.43 opencv-python-4.14.0.94 packaging-26.3 pillow-12.3.0 pluggy-1.6.0 polars-1.44.2 polars-runtime-32-1.44.2 psutil-7.2.2 pyautogui-0.9.54 pygetwindow-0.0.9 pygments-2.21.0 pymsgbox-2.0.1 pyparsing-3.3.3 pyperclip-1.11.0 pyproject_hooks-1.3.3 pyrect-0.2.0 pyscreeze-1.0.1 pytest-9.1.1 python-dateutil-2.9.0.post0 pytweening-1.2.0 pyyaml-6.0.3 requests-2.34.2 ruff-0.16.9 scipy-1.18.1 setuptools-84.0.0 shiboken6-6.11.2 six-1.17.0 sympy-1.14.0 torch-2.14.0 torchvision-0.29.0 typing-extensions-4.16.0 ultralytics-8.4.162 ultralytics-platform-0.1.65 ultralytics-thop-2.1.6 urllib3-2.8.0 windows-capture-2.0.1
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:40:58.4255746Z No broken requirements found.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:04.0396740Z Creating new Ultralytics Settings v0.0.8 file  
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:04.0397646Z View Ultralytics Settings with 'yolo settings' or at 'C:\Users\runneradmin\AppData\Roaming\Ultralytics\settings.json'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:04.0398612Z Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:04.0496246Z Python desktop/vision/Windows imports OK
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3780670Z WARNING: ffmpeg is not on PATH. The environment is installed, but install ffmpeg before media inspection or evidence 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3784312Z troubleshooting.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3815247Z WARNING: models\yolo11n.pt is absent. This script never downloads model weights. Follow docs\WINDOWS_HANDOFF_zh.md to 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3816827Z manually obtain and verify the approved weight before a live test.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3836316Z WARNING: Project-local Ollama executable and/or models are absent. Local model review remains unavailable until they 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3837660Z are manually prepared.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3847801Z Windows environment ready. No config was created, no capture was started, and no model was downloaded.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.3856767Z Next: .\\.venv\\Scripts\\python.exe -m factory_monitor init --config config.json
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6800613Z ##[group]Run python -c "from windows_capture import Frame; assert hasattr(Frame, 'convert_to_bgr'), 'windows-capture Frame lacks convert_to_bgr required by the adapter'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6801719Z ^[[36;1mpython -c "from windows_capture import Frame; assert hasattr(Frame, 'convert_to_bgr'), 'windows-capture Frame lacks convert_to_bgr required by the adapter'"^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6860075Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6860836Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6861186Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6861603Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6862164Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6862690Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6863240Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6863860Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:07.6864269Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1560107Z ##[group]Run python -m pip check
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1560631Z ^[[36;1mpython -m pip check^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1618731Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1619187Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1619503Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1619948Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1620440Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1620917Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1621401Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1621924Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.1622336Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.7199603Z No broken requirements found.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8485590Z ##[group]Run python -m ruff check .
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8486084Z ^[[36;1mpython -m ruff check .^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8543453Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8544144Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8544446Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8544894Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8545434Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8546001Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8546499Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8546967Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:08.8547420Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.1622026Z All checks passed!
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2630607Z ##[group]Run python -m pytest
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2631145Z ^[[36;1mpython -m pytest^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2687582Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2688054Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2688412Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2688858Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2689392Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2690001Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2690479Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2690977Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:09.2691377Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8900118Z ============================= test session starts =============================
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8900957Z platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8901420Z rootdir: D:\a\factory-monitor\factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8901828Z configfile: pyproject.toml
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8902343Z testpaths: tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8902709Z plugins: anyio-4.15.1
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8902958Z collected 275 items
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:12.8903154Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:13.1364843Z tests\test_active_experiment_report.py .                                 [  0%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:13.1535416Z tests\test_active_inspection.py ...................                      [  7%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:13.1778722Z tests\test_benchmark_detector.py ..                                      [  8%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:13.1803334Z tests\test_benchmark_local_review.py ...                                 [  9%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:14.0134770Z tests\test_capture.py ...                                                [ 10%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:16.3772638Z tests\test_cli.py ...                                                    [ 11%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:17.5664246Z tests\test_core.py .....................                                 [ 18%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:17.6469269Z tests\test_evidence.py .......                                           [ 21%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:20.5285727Z tests\test_gui_offscreen.py .....................                        [ 29%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:24.9067994Z tests\test_inference.py ............                                     [ 33%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:24.9468794Z tests\test_inspection_profile.py ....................................... [ 47%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:25.0098687Z .................................................................        [ 71%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:25.0157191Z tests\test_native_capture.py s.s...                                      [ 73%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:26.6954747Z tests\test_offline_bundle.py ..............                              [ 78%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:41.7086740Z tests\test_runtime.py .........s....                                     [ 83%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:41.7345071Z tests\test_scene_watch.py .......................                        [ 92%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:41.9744949Z tests\test_shared_detection.py ..                                        [ 92%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.1702833Z tests\test_upgrade.py ....                                               [ 94%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.1818713Z tests\test_view_control.py ....                                          [ 95%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.3176021Z tests\test_view_feasibility.py ............                              [100%]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.3176475Z 
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.3176729Z =========================== short test summary info ===========================
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.3177392Z SKIPPED [1] tests\test_native_capture.py:17: ScreenCaptureKit helper is macOS-only
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.3178004Z SKIPPED [1] tests\test_native_capture.py:38: validates unsupported-host failure
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.3178631Z SKIPPED [1] tests\test_runtime.py:211: local public YOLO smoke assets are not installed
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.3181124Z ======================= 272 passed, 3 skipped in 31.63s =======================
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8177414Z ##[group]Run python scripts/qa_ten_camera_smoke.py --root artifacts/qa-ten-camera
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8178463Z ^[[36;1mpython scripts/qa_ten_camera_smoke.py --root artifacts/qa-ten-camera^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8238023Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8238459Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8238759Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8239166Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8239691Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8240146Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8240621Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8241075Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:41:42.8241479Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8353571Z {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8354031Z   "ok": true,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8354899Z   "generated_at": 1790307802.6584837,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8355536Z   "base_repository_revision": "43285f076c74d66de143a8ee67c809d5bf0e4889",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8356391Z   "revision_provenance": "exact clean base commit",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8356992Z   "data_dir": "artifacts\\qa-ten-camera\\20260925T034143Z",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8357392Z   "source": "demo",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8357718Z   "synthetic": true,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8357969Z   "review_enabled": false,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8358262Z   "fixture_absence_seconds": 31,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8358558Z   "evidence_window_seconds": {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8358872Z     "pre": 30,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8359114Z     "post": 60,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8359427Z     "preview": 30
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8359750Z   },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8360163Z   "inflight_limit": 10,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8360458Z   "candidate_count": 10,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8360782Z   "candidate_spread_seconds": 0.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8361058Z   "event_counts": {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8361370Z     "candidate": 10,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8361607Z     "event_updated": 30,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8361883Z     "frame": 1980,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8362122Z     "health": 1980,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8362405Z     "status": 8
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8362649Z   },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8362890Z   "peak_runtime_tree_rss_bytes": 471633920,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8363212Z   "sqlite_event_count": 10,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8363517Z   "media": [
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8363753Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8363985Z       "camera_id": "CAM01",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8364835Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\548e2060-c2f6-43f1-9f03-472b40ddd431\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8366366Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8366902Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8367929Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8369105Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8369465Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8369838Z       "camera_id": "CAM02",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8370728Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\3bf1d839-986e-4d49-8060-51fa1c405f70\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8371601Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8372019Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8372395Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8373182Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8373539Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8373902Z       "camera_id": "CAM03",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8374640Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\08a5512d-7cfe-40dd-8d05-44fbb63ea425\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8375467Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8375866Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8376232Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8376669Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8376963Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8377321Z       "camera_id": "CAM04",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8377997Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\949a7367-93c4-4588-833e-349c52fa9b7a\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8380741Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8381216Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8381562Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8381935Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8382234Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8382535Z       "camera_id": "CAM05",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8383265Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\a70f277b-3622-492e-b3a3-f9963ac27f0e\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8383971Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8384346Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8384725Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8385068Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8385377Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8385673Z       "camera_id": "CAM06",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8386384Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\0601f8d3-0564-4466-8371-6b6854a18db0\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8387091Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8387430Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8387788Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8388175Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8388494Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8388804Z       "camera_id": "CAM07",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8389462Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\a78e2d0f-4358-4fc6-bc46-e7e90d18b516\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8390263Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8390591Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8390952Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8391306Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8391649Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8391952Z       "camera_id": "CAM08",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8392596Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\601cf7ff-9102-45b3-8870-9869a23427d6\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8393326Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8393713Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8394055Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8394409Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8394681Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8395012Z       "camera_id": "CAM09",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8395723Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\2398e0ba-72ab-442f-b613-b82c35a25755\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8396439Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8396792Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8397155Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8398462Z     },
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8398771Z     {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8399096Z       "camera_id": "CAM10",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8399827Z       "path": "artifacts\\qa-ten-camera\\20260925T034143Z\\evidence\\66bf50ca-8dc2-45e2-aaf4-f75774893e5c\\evidence.mp4",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8400516Z       "frame_count": 180,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8400875Z       "fps": 2.0,
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8401204Z       "duration_seconds": 90.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8401652Z     }
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8401944Z   ],
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8402236Z   "errors": [],
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8402615Z   "field_gate": {
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8402929Z     "status": "FAIL",
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8403310Z     "reasons": [
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8403855Z       "synthetic capacity smoke is not detection, review-latency, or field-acceptance evidence"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8404504Z     ]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8404795Z   }
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.8405300Z }
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9770311Z ##[group]Run python scripts/experiment_active_observation.py --output artifacts/active-observation
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9771060Z ^[[36;1mpython scripts/experiment_active_observation.py --output artifacts/active-observation^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9833520Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9833990Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9834282Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9834747Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9835312Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9835859Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9836352Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9836806Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:22.9837255Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.0341694Z {"experiment_gate": "PASS", "field_gate": "NOT_TESTED", "checks": {"person_free_change_once": true, "quiet_cameras_not_starved": true, "valid_synthetic_receipts": true, "wrong_identity_receipts_rejected": true, "faults_stop_planner": true, "synthetic_never_authorizes_os_control": true, "single_screen_budget_failure_visible": true}, "output": "artifacts\\active-observation"}
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1743203Z ##[group]Run python -m build
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1743666Z ^[[36;1mpython -m build^[[0m
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1800661Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1801516Z env:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1801846Z   QT_QPA_PLATFORM: offscreen
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1802290Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1802892Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1803426Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1803920Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1804451Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.1804878Z ##[endgroup]
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.5795123Z * Creating isolated environment: venv+pip...
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.6519852Z * Installing packages in isolated environment:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:24.6521211Z   - setuptools>=75
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:26.5955046Z * Getting build dependencies for sdist...
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3453695Z running egg_info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3472866Z writing src\factory_monitor.egg-info\PKG-INFO
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3489616Z writing dependency_links to src\factory_monitor.egg-info\dependency_links.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3493754Z writing entry points to src\factory_monitor.egg-info\entry_points.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3504581Z writing requirements to src\factory_monitor.egg-info\requires.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3507568Z writing top-level names to src\factory_monitor.egg-info\top_level.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3565907Z reading manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3587478Z writing manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3905479Z * Installed build dependency versions:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3906209Z   - setuptools==84.0.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.3906701Z * Building sdist...
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6442611Z running sdist
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6445187Z running egg_info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6479147Z writing src\factory_monitor.egg-info\PKG-INFO
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6498352Z writing dependency_links to src\factory_monitor.egg-info\dependency_links.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6502624Z writing entry points to src\factory_monitor.egg-info\entry_points.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6514799Z writing requirements to src\factory_monitor.egg-info\requires.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6517606Z writing top-level names to src\factory_monitor.egg-info\top_level.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6582096Z reading manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6607333Z writing manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6610693Z running check
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6661409Z creating factory_monitor-0.1.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6665442Z creating factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6668550Z creating factory_monitor-0.1.0\src\factory_monitor.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6670476Z creating factory_monitor-0.1.0\src\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6672171Z creating factory_monitor-0.1.0\src\factory_monitor\capture\assets
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6673825Z creating factory_monitor-0.1.0\src\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6675414Z creating factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6676972Z copying files to factory_monitor-0.1.0...
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6677790Z copying README.md -> factory_monitor-0.1.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6682179Z copying pyproject.toml -> factory_monitor-0.1.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6686652Z copying src\factory_monitor\__init__.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6690399Z copying src\factory_monitor\__main__.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6693916Z copying src\factory_monitor\active_inspection.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6697479Z copying src\factory_monitor\cli.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6702860Z copying src\factory_monitor\config.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6706991Z copying src\factory_monitor\evaluation.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6710817Z copying src\factory_monitor\evidence.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6715207Z copying src\factory_monitor\inference.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6718758Z copying src\factory_monitor\inspection_profile.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6722324Z copying src\factory_monitor\rules.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6726181Z copying src\factory_monitor\runtime.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6730839Z copying src\factory_monitor\scene_watch.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6734517Z copying src\factory_monitor\store.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6738093Z copying src\factory_monitor\switching.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6741882Z copying src\factory_monitor\view_feasibility.py -> factory_monitor-0.1.0\src\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6750691Z copying src\factory_monitor.egg-info\PKG-INFO -> factory_monitor-0.1.0\src\factory_monitor.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6758036Z copying src\factory_monitor.egg-info\SOURCES.txt -> factory_monitor-0.1.0\src\factory_monitor.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6763343Z copying src\factory_monitor.egg-info\dependency_links.txt -> factory_monitor-0.1.0\src\factory_monitor.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6767684Z copying src\factory_monitor.egg-info\entry_points.txt -> factory_monitor-0.1.0\src\factory_monitor.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6771822Z copying src\factory_monitor.egg-info\requires.txt -> factory_monitor-0.1.0\src\factory_monitor.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6775351Z copying src\factory_monitor.egg-info\top_level.txt -> factory_monitor-0.1.0\src\factory_monitor.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6781564Z copying src\factory_monitor\capture\__init__.py -> factory_monitor-0.1.0\src\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6785686Z copying src\factory_monitor\capture\control.py -> factory_monitor-0.1.0\src\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6789800Z copying src\factory_monitor\capture\macos.py -> factory_monitor-0.1.0\src\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6793677Z copying src\factory_monitor\capture\windows.py -> factory_monitor-0.1.0\src\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6797599Z copying src\factory_monitor\capture\assets\ScreenCaptureKitHelper.swift -> factory_monitor-0.1.0\src\factory_monitor\capture\assets
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6801245Z copying src\factory_monitor\gui\__init__.py -> factory_monitor-0.1.0\src\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6805042Z copying src\factory_monitor\gui\app.py -> factory_monitor-0.1.0\src\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6809688Z copying tests\test_active_experiment_report.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6813256Z copying tests\test_active_inspection.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6817080Z copying tests\test_benchmark_detector.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6820624Z copying tests\test_benchmark_local_review.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6824703Z copying tests\test_capture.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6828199Z copying tests\test_cli.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6833020Z copying tests\test_core.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6837322Z copying tests\test_evidence.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6841129Z copying tests\test_gui_offscreen.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6845612Z copying tests\test_inference.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6849756Z copying tests\test_inspection_profile.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6854358Z copying tests\test_native_capture.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6857679Z copying tests\test_offline_bundle.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6863589Z copying tests\test_runtime.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6867701Z copying tests\test_scene_watch.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6871667Z copying tests\test_shared_detection.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6875575Z copying tests\test_upgrade.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6879654Z copying tests\test_view_control.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6883571Z copying tests\test_view_feasibility.py -> factory_monitor-0.1.0\tests
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6904777Z Writing factory_monitor-0.1.0\setup.cfg
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.6908339Z Creating tar archive
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:28.7292127Z removing 'factory_monitor-0.1.0' (and everything under it)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.1179827Z * Building wheel from sdist
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.1378206Z * Creating isolated environment: venv+pip...
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.1457115Z * Installing packages in isolated environment:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:29.1458085Z   - setuptools>=75
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:31.1872079Z * Getting build dependencies for wheel...
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7575697Z running egg_info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7597407Z writing src\factory_monitor.egg-info\PKG-INFO
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7618196Z writing dependency_links to src\factory_monitor.egg-info\dependency_links.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7624713Z writing entry points to src\factory_monitor.egg-info\entry_points.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7638537Z writing requirements to src\factory_monitor.egg-info\requires.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7643320Z writing top-level names to src\factory_monitor.egg-info\top_level.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7710041Z reading manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.7734074Z writing manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8139482Z * Installed build dependency versions:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8140076Z   - setuptools==84.0.0
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:32.8140531Z * Building wheel...
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0630795Z running bdist_wheel
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0699224Z running build
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0699826Z running build_py
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0718807Z creating build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0731320Z copying src\factory_monitor\active_inspection.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0741736Z copying src\factory_monitor\cli.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0750323Z copying src\factory_monitor\config.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0849634Z copying src\factory_monitor\evaluation.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0869800Z copying src\factory_monitor\evidence.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0876662Z copying src\factory_monitor\inference.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0891314Z copying src\factory_monitor\inspection_profile.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0905288Z copying src\factory_monitor\rules.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0924647Z copying src\factory_monitor\runtime.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0941354Z copying src\factory_monitor\scene_watch.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0960738Z copying src\factory_monitor\store.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0975938Z copying src\factory_monitor\switching.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0985613Z copying src\factory_monitor\view_feasibility.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.0998896Z copying src\factory_monitor\__init__.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1007711Z copying src\factory_monitor\__main__.py -> build\lib\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1058859Z creating build\lib\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1063971Z copying src\factory_monitor\capture\control.py -> build\lib\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1105763Z copying src\factory_monitor\capture\macos.py -> build\lib\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1114549Z copying src\factory_monitor\capture\windows.py -> build\lib\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1124999Z copying src\factory_monitor\capture\__init__.py -> build\lib\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1134879Z creating build\lib\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1142704Z copying src\factory_monitor\gui\app.py -> build\lib\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1155188Z copying src\factory_monitor\gui\__init__.py -> build\lib\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1165867Z running egg_info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1190509Z writing src\factory_monitor.egg-info\PKG-INFO
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1213097Z writing dependency_links to src\factory_monitor.egg-info\dependency_links.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1218716Z writing entry points to src\factory_monitor.egg-info\entry_points.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1231074Z writing requirements to src\factory_monitor.egg-info\requires.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1235587Z writing top-level names to src\factory_monitor.egg-info\top_level.txt
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1280587Z reading manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1307760Z writing manifest file 'src\factory_monitor.egg-info\SOURCES.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1328040Z creating build\lib\factory_monitor\capture\assets
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1333724Z copying src\factory_monitor\capture\assets\ScreenCaptureKitHelper.swift -> build\lib\factory_monitor\capture\assets
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1371377Z installing to build\bdist.win-amd64\wheel
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1372007Z running install
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1381485Z running install_lib
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1395632Z creating build\bdist.win-amd64\wheel
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1416457Z creating build\bdist.win-amd64\wheel\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1420445Z copying build\lib\factory_monitor\active_inspection.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1428554Z creating build\bdist.win-amd64\wheel\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1433073Z creating build\bdist.win-amd64\wheel\factory_monitor\capture\assets
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1439606Z copying build\lib\factory_monitor\capture\assets\ScreenCaptureKitHelper.swift -> build\bdist.win-amd64\wheel\.\factory_monitor\capture\assets
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1658395Z copying build\lib\factory_monitor\capture\control.py -> build\bdist.win-amd64\wheel\.\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1659277Z copying build\lib\factory_monitor\capture\macos.py -> build\bdist.win-amd64\wheel\.\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1660063Z copying build\lib\factory_monitor\capture\windows.py -> build\bdist.win-amd64\wheel\.\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1662363Z copying build\lib\factory_monitor\capture\__init__.py -> build\bdist.win-amd64\wheel\.\factory_monitor\capture
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1663234Z copying build\lib\factory_monitor\cli.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1664093Z copying build\lib\factory_monitor\config.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1664968Z copying build\lib\factory_monitor\evaluation.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1665832Z copying build\lib\factory_monitor\evidence.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1666556Z creating build\bdist.win-amd64\wheel\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1667309Z copying build\lib\factory_monitor\gui\app.py -> build\bdist.win-amd64\wheel\.\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1668161Z copying build\lib\factory_monitor\gui\__init__.py -> build\bdist.win-amd64\wheel\.\factory_monitor\gui
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1669025Z copying build\lib\factory_monitor\inference.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.1669857Z copying build\lib\factory_monitor\inspection_profile.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.2511291Z copying build\lib\factory_monitor\rules.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.2520077Z copying build\lib\factory_monitor\runtime.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3797707Z copying build\lib\factory_monitor\scene_watch.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3804578Z copying build\lib\factory_monitor\store.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3812549Z copying build\lib\factory_monitor\switching.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3822494Z copying build\lib\factory_monitor\view_feasibility.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3829423Z copying build\lib\factory_monitor\__init__.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3838745Z copying build\lib\factory_monitor\__main__.py -> build\bdist.win-amd64\wheel\.\factory_monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3844377Z running install_egg_info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3861409Z Copying src\factory_monitor.egg-info to build\bdist.win-amd64\wheel\.\factory_monitor-0.1.0-py3.12.egg-info
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.3964234Z running install_scripts
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4037309Z creating build\bdist.win-amd64\wheel\factory_monitor-0.1.0.dist-info\WHEEL
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4048031Z creating 'D:\\a\\factory-monitor\\factory-monitor\\dist\\.tmp-kbs1igq8\\factory_monitor-0.1.0-py3-none-any.whl' and adding 'build\\bdist.win-amd64\\wheel' to it
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4053660Z adding 'factory_monitor/__init__.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4057733Z adding 'factory_monitor/__main__.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4065028Z adding 'factory_monitor/active_inspection.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4071231Z adding 'factory_monitor/cli.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4077910Z adding 'factory_monitor/config.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4082806Z adding 'factory_monitor/evaluation.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4088713Z adding 'factory_monitor/evidence.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4095042Z adding 'factory_monitor/inference.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4099730Z adding 'factory_monitor/inspection_profile.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4105997Z adding 'factory_monitor/rules.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4122912Z adding 'factory_monitor/runtime.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4129195Z adding 'factory_monitor/scene_watch.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4134282Z adding 'factory_monitor/store.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4140213Z adding 'factory_monitor/switching.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4144912Z adding 'factory_monitor/view_feasibility.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4153094Z adding 'factory_monitor/capture/__init__.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4160768Z adding 'factory_monitor/capture/control.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4165373Z adding 'factory_monitor/capture/macos.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4169814Z adding 'factory_monitor/capture/windows.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4175147Z adding 'factory_monitor/capture/assets/ScreenCaptureKitHelper.swift'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4179438Z adding 'factory_monitor/gui/__init__.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4198247Z adding 'factory_monitor/gui/app.py'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4205267Z adding 'factory_monitor-0.1.0.dist-info/METADATA'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4207673Z adding 'factory_monitor-0.1.0.dist-info/WHEEL'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4210240Z adding 'factory_monitor-0.1.0.dist-info/entry_points.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4212897Z adding 'factory_monitor-0.1.0.dist-info/top_level.txt'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4217250Z adding 'factory_monitor-0.1.0.dist-info/RECORD'
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.4220180Z removing build\bdist.win-amd64\wheel
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.5278456Z Successfully built factory_monitor-0.1.0.tar.gz and factory_monitor-0.1.0-py3-none-any.whl
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.6509020Z Post job cleanup.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.7916314Z Cache hit occurred on the primary key setup-python-Windows-x64-python-3.12.10-pip-f5871166de48161b69948dac5131bf0f3425502f977a01d568d5092f5ee2f863, not saving cache.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.7918191Z (node:8848) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.7919675Z (Use `node --trace-deprecation ...` to show where the warning was created)
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.8196615Z Post job cleanup.
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:33.9980955Z [command]"C:\Program Files\Git\bin\git.exe" version
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.0228996Z git version 2.55.0.windows.5
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.0290859Z Temporarily overriding HOME='D:\a\_temp\9fed6c62-4749-41cb-b58b-e9d6c3c54db6' before making global git config changes
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.0291765Z Adding repository directory to the temporary git global config as a safe directory
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.0300248Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\factory-monitor\factory-monitor
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.0562752Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.0810822Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.8222586Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.8448085Z http.https://github.com/.extraheader
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.8498391Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:34.8755485Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.4055107Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:35.4311364Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:36.0285976Z Cleaning up orphan processes
+windows-latest / Python 3.12	UNKNOWN STEP	2026-09-25T03:43:36.1053029Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

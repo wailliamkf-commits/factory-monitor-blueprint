@@ -1,0 +1,55 @@
+{
+  "retrieved_local_date": "2026-09-25",
+  "package_purpose": "internal offline validation",
+  "resources": {
+    "ollama": {
+      "version": "0.34.2",
+      "source": "https://github.com/ollama/ollama/releases/download/v0.34.2/ollama-windows-amd64.zip",
+      "publisher_checksum_file": "resources/ollama/sha256sum.txt",
+      "publisher_checksum_verified": true
+    },
+    "python": {
+      "version": "3.12.10 x64",
+      "source": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe",
+      "authenticode_on_windows": "not verified on this Mac"
+    },
+    "vcredist": {
+      "source": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+      "authenticode_on_windows": "not verified on this Mac"
+    },
+    "git": {
+      "version": "2.55.0.windows.5",
+      "source": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/MinGit-2.55.0.5-64-bit.zip"
+    },
+    "pytorch": {
+      "version": "2.11.0+cu128",
+      "source": "https://download.pytorch.org/whl/cu128",
+      "hashes": "requirements-windows.lock"
+    },
+    "python_wheels": {
+      "source": "https://pypi.org/simple/",
+      "count": 55,
+      "hashes": "requirements-windows.lock",
+      "licenses": "Original wheel archives retain their .dist-info license files and metadata."
+    },
+    "qwen": {
+      "model": "qwen3-vl:2b-instruct",
+      "quantization": "Q4_K_M",
+      "source": "Existing project-local Ollama cache; manifest and complete content-addressed blobs copied",
+      "official_model": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
+      "blobs_verified": true,
+      "limitations": "False supported material detection on public bus fixture; 8/10 requests timed out."
+    },
+    "yolo": {
+      "model": "yolo11n.pt",
+      "source": "Existing project-local public model",
+      "official_project": "https://github.com/ultralytics/ultralytics",
+      "license": "AGPL-3.0 / commercial licensing; internal validation, not license-cleared closed-source distribution"
+    },
+    "public_fixture": {
+      "file": "fixtures/public-bus.jpg",
+      "source": "https://ultralytics.com/images/bus.jpg",
+      "scope": "Public still negative fixture; no production camera imagery"
+    }
+  }
+}

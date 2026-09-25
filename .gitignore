@@ -1,0 +1,25 @@
+# Local execution and deliverables
+.venv/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+runs/
+results/
+artifacts/
+field-data/
+local-config/
+models/
+.tools/
+.downloads/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.zip
+*.mp4
+*.pt
+*.safetensors
