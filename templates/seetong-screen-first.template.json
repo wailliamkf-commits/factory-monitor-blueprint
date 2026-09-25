@@ -1,0 +1,116 @@
+{
+  "record_schema_version": 1,
+  "status": "not_tested",
+  "profile_id": "seetong-screen-first-pending",
+  "fingerprint_sha256": "",
+  "created_utc": "",
+  "operator": "",
+  "authorization_reference": "",
+  "environment": {
+    "os_name": "Windows",
+    "os_version": "",
+    "architecture": "",
+    "python_version": "3.12.x",
+    "capture_backend": "",
+    "screen_size_px": [
+      0,
+      0
+    ],
+    "dpi_scale_percent": 0,
+    "client_area_size_px": [
+      0,
+      0
+    ],
+    "window_origin_px": [
+      0,
+      0
+    ],
+    "window_title_exact": "",
+    "foreground_process_product_version": ""
+  },
+  "client": {
+    "name": "Seetong",
+    "version": "",
+    "build": "",
+    "installer_source_and_signature_check": "not_tested",
+    "language": "",
+    "theme": "",
+    "layout_name": "",
+    "layout_fingerprint_sha256": "",
+    "channel_order": [],
+    "stream_mode_grid": "unknown",
+    "stream_mode_detail": "unknown"
+  },
+  "window_fingerprint": {
+    "stable_ui_anchors": [],
+    "client_area_size_px": [
+      0,
+      0
+    ],
+    "layout_fingerprint_sha256": "",
+    "private_or_personal_fields_excluded": true
+  },
+  "camera_evidence": [],
+  "human_demonstration": {
+    "status": "not_tested",
+    "cycles": [],
+    "actual_resolution_gain_proven": "unknown",
+    "proof_source": "",
+    "grid_blind_time_seconds": null
+  },
+  "heartbeat_evidence": {
+    "status": "not_tested",
+    "per_camera_sources": [],
+    "first_frame_is_unknown": true,
+    "independent_per_camera_readback": "not_tested"
+  },
+  "change_detection_evidence": {
+    "status": "not_tested",
+    "triggers_without_people_in_view": "not_tested",
+    "negative_conditions": [],
+    "positive_conditions": []
+  },
+  "state_machine_candidate": {
+    "status": "not_tested",
+    "states": [],
+    "guards": [],
+    "timeouts_seconds": {},
+    "fault_states": [
+      "unknown",
+      "fault"
+    ],
+    "manual_recovery_steps": []
+  },
+  "dataset_and_metrics": {
+    "task_definition": "",
+    "training_set_manifest_sha256": "",
+    "validation_set_manifest_sha256": "",
+    "locked_test_set_manifest_sha256": "",
+    "split_grouping_rule": "",
+    "positive_count": null,
+    "negative_count": null,
+    "tp": null,
+    "fp": null,
+    "fn": null,
+    "unknown": null,
+    "false_alerts_per_hour": null,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "thresholds_frozen": false,
+    "prompt_or_model_change_summary": "",
+    "field_evidence_status": "not_tested"
+  },
+  "rollback": {
+    "previous_profile_id": "",
+    "previous_config_copy_reference": "",
+    "separate_run_directory": "",
+    "failure_artifacts_preserved": false,
+    "recovery_verified": "not_tested"
+  },
+  "evidence_manifest": [],
+  "notes": [
+    "User-selected first client: Seetong; exact version not yet observed.",
+    "Primary input is screen/window pixels; no SDK or RTSP prerequisite.",
+    "This is a manual record template, not a runtime adapter, trained model, or field acceptance."
+  ]
+}

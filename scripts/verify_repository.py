@@ -57,7 +57,7 @@ def main():
             if not target_path.is_relative_to(ROOT) or not target_path.exists():
                 errors.append(f'broken local link: {doc.relative_to(ROOT)} -> {target}')
 
-    for name in ('field-run.template.json', 'client-capability.template.json', 'software-adaptation.template.json'):
+    for name in ('field-run.template.json', 'client-capability.template.json', 'software-adaptation.template.json', 'seetong-screen-first.template.json'):
         path = ROOT / 'templates' / name
         if not path.is_file():
             errors.append(f'missing template: {name}')

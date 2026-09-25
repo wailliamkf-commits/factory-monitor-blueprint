@@ -23,3 +23,6 @@ models/
 *.mp4
 *.pt
 *.safetensors
+
+# Local publication readback and Trash receipts
+evidence/local/
