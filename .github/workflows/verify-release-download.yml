@@ -51,11 +51,11 @@ jobs:
                                      text=True, capture_output=True)
           assert completed.returncode == 0, completed.stdout + completed.stderr
           payload_check = json.loads(completed.stdout)
-          for line in (downloads / 'SHA256SUMS.txt').read_text().splitlines():
+          for line in (downloads / 'SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
               digest, name = line.split(None, 1)
               assert pathlib.Path(name).name == name
               assert hashlib.sha256((downloads / name).read_bytes()).hexdigest() == digest
-          package = json.loads((downloads / 'PACKAGE_MANIFEST.json').read_text())
+          package = json.loads((downloads / 'PACKAGE_MANIFEST.json').read_text(encoding='utf-8'))
           assert package['repository_commit'] == os.environ['GITHUB_SHA']
           tracked = set(subprocess.check_output(['git', 'ls-files', '-z']).decode('utf-8').rstrip('\0').split('\0'))
           assert set(package['files']) == tracked, 'Release manifest must include every tracked file exactly once'
