@@ -1,0 +1,38 @@
+name: Rebuild fixed offline resources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-fixed-offline-resources
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Check reconstruction utility and available disk
+        run: |
+          python -m unittest discover -s scripts -p test_rebuild_release_resources.py -v
+          python -c "import shutil; assert shutil.disk_usage('.').free > 11 * 1024**3, 'Need more than 11 GiB free for pinned resources'"
+      - name: Download and verify the small original-payload seed
+        run: |
+          gh release download v0.1.0-preview --pattern resource-seed.zip --dir "$RUNNER_TEMP/seed"
+          python -c "import os,json,hashlib,pathlib; m=json.loads(pathlib.Path('resources/rebuild-seed.json').read_text()); p=pathlib.Path(os.environ['RUNNER_TEMP'])/'seed'/m['name']; assert p.stat().st_size==m['size'] and hashlib.sha256(p.read_bytes()).hexdigest()==m['sha256']"
+      - name: Fetch pinned sources and reconstruct exact original bytes
+        run: |
+          python scripts/rebuild_release_resources.py --recipe resources/rebuild-recipe.json --seed "$RUNNER_TEMP/seed/resource-seed.zip" --parts-manifest resources/windows-release-parts.json --output-dir "$RUNNER_TEMP/offline-parts"
+          python scripts/bundle_parts.py verify --manifest "$RUNNER_TEMP/offline-parts/FactoryMonitor-Windows-20260925.zip.parts.json"
+      - name: Upload only the fully verified original parts
+        run: |
+          gh release upload v0.1.0-preview "$RUNNER_TEMP"/offline-parts/*.bin --clobber

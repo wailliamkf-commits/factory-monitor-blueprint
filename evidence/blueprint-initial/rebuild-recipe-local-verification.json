@@ -1,0 +1,9 @@
+{
+  "gate": "PASS",
+  "method": "local raw ZIP recipe reconstruction hash without writing ZIP",
+  "entries": 108,
+  "parts_verified": 7,
+  "whole_sha256": "4652f9677df0e97f48be8b3da82d7a9db7b07a3b1bdcdeb70e1497a2fa92a4a1",
+  "bytes": 6637814564,
+  "remote_fetch_executed": false
+}

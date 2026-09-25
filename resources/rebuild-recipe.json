@@ -1,0 +1,1088 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "path": "FactoryMonitor-Windows-20260925/1-prepare.cmd",
+      "header_base64": "UEsDBBQAAAAAAA4OOV3+itsBzAAAAMwAAAAtAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS8xLXByZXBhcmUuY21k",
+      "size": 204,
+      "sha256": "b18aca9d0f06046683eed77ae32a8a9458062f1cc1e761941a036a47e064bfd5",
+      "source": {
+        "kind": "seed",
+        "name": "1-prepare.cmd"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/2-model.cmd",
+      "header_base64": "UEsDBBQAAAAAAA4OOV3rn6gFywAAAMsAAAArAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS8yLW1vZGVsLmNtZA==",
+      "size": 203,
+      "sha256": "f314babd2105d08fd20aa8e6d0e5cb6b3dd5884c5119d883a4a3e8d4f7da38c4",
+      "source": {
+        "kind": "seed",
+        "name": "2-model.cmd"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/3-preflight.cmd",
+      "header_base64": "UEsDBBQAAAAAAA4OOV0hB5Dc1wAAANcAAAAvAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS8zLXByZWZsaWdodC5jbWQ=",
+      "size": 215,
+      "sha256": "abd9d09956fc556800bde3e8b975f84362be5342791cf8458a6b99a3da06450d",
+      "source": {
+        "kind": "seed",
+        "name": "3-preflight.cmd"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/4-capacity.cmd",
+      "header_base64": "UEsDBBQAAAAAAA4OOV3kfSdM1gAAANYAAAAuAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS80LWNhcGFjaXR5LmNtZA==",
+      "size": 214,
+      "sha256": "c926b11e89e6f0e9af2678b59ab752d4ac39f531e9ab5e9451e342fe4be13364",
+      "source": {
+        "kind": "seed",
+        "name": "4-capacity.cmd"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/5-monitor.cmd",
+      "header_base64": "UEsDBBQAAAAAAA4OOV1oVQDK0QAAANEAAAAtAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS81LW1vbml0b3IuY21k",
+      "size": 209,
+      "sha256": "11fc6186fdc6255a9ec1cdb728b20d529216a200908d6fd6dd4450aa50d5a563",
+      "source": {
+        "kind": "seed",
+        "name": "5-monitor.cmd"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/6-collect.cmd",
+      "header_base64": "UEsDBBQAAAAAAA4OOV2+CE//1QAAANUAAAAtAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS82LWNvbGxlY3QuY21k",
+      "size": 213,
+      "sha256": "5532b1f63c7dbf34e69c7133d4408e4cfacf2fbe25472a8ed3433e737efd3006",
+      "source": {
+        "kind": "seed",
+        "name": "6-collect.cmd"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/Prepare-Candidate.ps1",
+      "header_base64": "UEsDBBQAAAAAAJoROV1TUBaFtycAALcnAAA1AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9QcmVwYXJlLUNhbmRpZGF0ZS5wczE=",
+      "size": 10167,
+      "sha256": "79aa1526d1f5e35fd98de41841addfa8e1975f524d51a2a9c3abee9f764aeb8d",
+      "source": {
+        "kind": "seed",
+        "name": "Prepare-Candidate.ps1"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/RESOURCE_PROVENANCE.json",
+      "header_base64": "UEsDBBQAAAAAAFMPOV2h2Gz9qAgAAKgIAAA4AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9SRVNPVVJDRV9QUk9WRU5BTkNFLmpzb24=",
+      "size": 2216,
+      "sha256": "19df9fbd148094be6c773e64760b6a1e2a5a915c31617f75d643c48b8c901740",
+      "source": {
+        "kind": "seed",
+        "name": "RESOURCE_PROVENANCE.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/Run-Candidate.ps1",
+      "header_base64": "UEsDBBQAAAAAAJoROV0+UIFICQ8AAAkPAAAxAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9SdW4tQ2FuZGlkYXRlLnBzMQ==",
+      "size": 3849,
+      "sha256": "4e4e8553c8148f2d75a54bf183e969ddbfc7bcf5bb9d60db704ee7faf7a0e253",
+      "source": {
+        "kind": "seed",
+        "name": "Run-Candidate.ps1"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/SOURCE_VERSION.json",
+      "header_base64": "UEsDBBQAAAAAAJoROV3XV6AKjQIAAI0CAAAzAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9TT1VSQ0VfVkVSU0lPTi5qc29u",
+      "size": 653,
+      "sha256": "c2a36712983a36917f788c2e50551c75ad70670d2cae904a935dce5514bd2030",
+      "source": {
+        "kind": "seed",
+        "name": "SOURCE_VERSION.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/Start-Local-Qwen.ps1",
+      "header_base64": "UEsDBBQAAAAAAJoROV0YJ2k3LxQAAC8UAAA0AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9TdGFydC1Mb2NhbC1Rd2VuLnBzMQ==",
+      "size": 5167,
+      "sha256": "2bf6be4c7910a24f5f2eddb9f9e19fe32b94905bd4eccbf57e782e2c9d971bfe",
+      "source": {
+        "kind": "seed",
+        "name": "Start-Local-Qwen.ps1"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/candidate-source.zip",
+      "header_base64": "UEsDBBQAAAAAAJoROV0BDRWHCjIEAAoyBAA0AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9jYW5kaWRhdGUtc291cmNlLnppcA==",
+      "size": 274954,
+      "sha256": "f78b3db78c1d0d431b9a67125e7fe2b4232d0cf65b0fcd039821a9437e8ee47a",
+      "source": {
+        "kind": "seed",
+        "name": "candidate-source.zip"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/candidate_ops.py",
+      "header_base64": "UEsDBBQAAAAAAJoROV0bKBnqnwYAAJ8GAAAwAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9jYW5kaWRhdGVfb3BzLnB5",
+      "size": 1695,
+      "sha256": "d93e9703704608cb5644be5b9b74f04927bf332cc8fec7a0ba55f1370aa9f0b9",
+      "source": {
+        "kind": "seed",
+        "name": "candidate_ops.py"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/changes.patch",
+      "header_base64": "UEsDBBQAAAAAAJoROV1dfkbhr5cBAK+XAQAtAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9jaGFuZ2VzLnBhdGNo",
+      "size": 104367,
+      "sha256": "d00d3de0030f1959a4031ddb9a8bedbedb1230ecfc4991fc03a263fef8032862",
+      "source": {
+        "kind": "seed",
+        "name": "changes.patch"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/HISTORY_REVIEW_LOCAL.md",
+      "header_base64": "UEsDBBQAAAAAAA4OOV3w5yCV/jQAAP40AAA8AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL0hJU1RPUllfUkVWSUVXX0xPQ0FMLm1k",
+      "size": 13566,
+      "sha256": "f9a2ebf1e4078702998225ea8935a3fbc61cca4fb9cae9e137a44fe9503407f6",
+      "source": {
+        "kind": "seed",
+        "name": "docs/HISTORY_REVIEW_LOCAL.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/MAINLAND_EXECUTION_20260925_zh.md",
+      "header_base64": "UEsDBBQAAAAAAJoROV2a04L04x0AAOMdAABGAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL01BSU5MQU5EX0VYRUNVVElPTl8yMDI2MDkyNV96aC5tZA==",
+      "size": 7651,
+      "sha256": "7e8f8f13a69224b5b78f643fcaf7b172ac87d3d5f6b06bf41e8b2f86a0828257",
+      "source": {
+        "kind": "seed",
+        "name": "docs/MAINLAND_EXECUTION_20260925_zh.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/MAINLAND_RESEARCH_20260925_zh.md",
+      "header_base64": "UEsDBBQAAAAAAJoROV2ytjuHqR0AAKkdAABFAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL01BSU5MQU5EX1JFU0VBUkNIXzIwMjYwOTI1X3poLm1k",
+      "size": 7593,
+      "sha256": "32356bef3d2bd0047ff8eb28bc9ebec5767d7df4326c70015811d56455ae9404",
+      "source": {
+        "kind": "seed",
+        "name": "docs/MAINLAND_RESEARCH_20260925_zh.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/THIRD_PARTY_NOTICES.md",
+      "header_base64": "UEsDBBQAAAAAAFMPOV0rYGyRhQIAAIUCAAA7AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL1RISVJEX1BBUlRZX05PVElDRVMubWQ=",
+      "size": 645,
+      "sha256": "a9c7f664e4c28f08d207afdd68f2addcac87608eb983f78050ab5e937310da5c",
+      "source": {
+        "kind": "seed",
+        "name": "docs/THIRD_PARTY_NOTICES.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/WINDOWS_DEPENDENCIES.md",
+      "header_base64": "UEsDBBQAAAAAAOcOOV31gDMZhwkAAIcJAAA8AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL1dJTkRPV1NfREVQRU5ERU5DSUVTLm1k",
+      "size": 2439,
+      "sha256": "fa84e7655619c4a902f27dd31e527d255f5fb622468cb69af5d1d17ec4366f8e",
+      "source": {
+        "kind": "seed",
+        "name": "docs/WINDOWS_DEPENDENCIES.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/dependency-dry-run.txt",
+      "header_base64": "UEsDBBQAAAAAANMOOV1+uQAE2zcAANs3AAA7AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2RlcGVuZGVuY3ktZHJ5LXJ1bi50eHQ=",
+      "size": 14299,
+      "sha256": "d38a0a16fe9892ae1833adb35e12282362b1f9c87a9f7aee45004c21cea0d041",
+      "source": {
+        "kind": "seed",
+        "name": "docs/dependency-dry-run.txt"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/ci-final.json",
+      "header_base64": "UEsDBBQAAAAAAIkROV3bWwRrpRcAAKUXAAA7AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL2NpLWZpbmFsLmpzb24=",
+      "size": 6053,
+      "sha256": "a4a77e9bae3540d6f21607d9452f4de778a55e6234370a93032312a36128186b",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/ci-final.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/detector-benchmark.json",
+      "header_base64": "UEsDBBQAAAAAANcOOV1lRYOLoy0AAKMtAABFAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL2RldGVjdG9yLWJlbmNobWFyay5qc29u",
+      "size": 11683,
+      "sha256": "b234c6bd021410a34de5884003777313391bffa396a8e7d22264d00ece8fd478",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/detector-benchmark.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/detector-offline-probe.json",
+      "header_base64": "UEsDBBQAAAAAAOAQOV0/g/N3LgEAAC4BAABJAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL2RldGVjdG9yLW9mZmxpbmUtcHJvYmUuanNvbg==",
+      "size": 302,
+      "sha256": "750fd085fd2fd6aa801dc396420c526cea094a3791261a343dc2f289179cc384",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/detector-offline-probe.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/final-full-tests.log",
+      "header_base64": "UEsDBBQAAAAAAJoROV2RRHWTtQAAALUAAABCAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL2ZpbmFsLWZ1bGwtdGVzdHMubG9n",
+      "size": 181,
+      "sha256": "7c936dbbe6d92608e9767e6138eb46de1ed4e5cc3afcb1cdad5584a0b5fc8470",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/final-full-tests.log"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/first-windows-ci-failure.txt",
+      "header_base64": "UEsDBBQAAAAAAHoPOV0ZCeNilncBAJZ3AQBKAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL2ZpcnN0LXdpbmRvd3MtY2ktZmFpbHVyZS50eHQ=",
+      "size": 96150,
+      "sha256": "4c79f26aa443f6e47b9ec4238a34322b6bfcf78a412df0ca5f9218ed27a58d7c",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/first-windows-ci-failure.txt"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/full-patch-rehearsal.json",
+      "header_base64": "UEsDBBQAAAAAAJoROV28QnzX4gEAAOIBAABHAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL2Z1bGwtcGF0Y2gtcmVoZWFyc2FsLmpzb24=",
+      "size": 482,
+      "sha256": "c105ad99bf5628a95590d0c3e9c01b515fa0f5e4b2416c4e3c47de7bd65e1243",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/full-patch-rehearsal.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/macos-ci-final.log",
+      "header_base64": "UEsDBBQAAAAAAIsROV16/p2cF24BABduAQBAAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL21hY29zLWNpLWZpbmFsLmxvZw==",
+      "size": 93719,
+      "sha256": "1384b1ebba0cf89510a69ebc9f5d217c9a283f5c4714d9c3c050b7afad04c6bd",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/macos-ci-final.log"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/qt-diagnosis.md",
+      "header_base64": "UEsDBBQAAAAAANcOOV06SBpTLAwAACwMAAA9AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3F0LWRpYWdub3Npcy5tZA==",
+      "size": 3116,
+      "sha256": "554349a8c0dbbc91c78ec9b7a8b89c8c22603f120b773488184903976fdca3d8",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/qt-diagnosis.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/qwen-single-raw.json",
+      "header_base64": "UEsDBBQAAAAAANcOOV23ly7fyAUAAMgFAABCAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3F3ZW4tc2luZ2xlLXJhdy5qc29u",
+      "size": 1480,
+      "sha256": "76aa179a4cff4c770c57c4f596ef8f80f297eb6aaece2e6a2266e3010962ea00",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/qwen-single-raw.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/qwen-structured-single.json",
+      "header_base64": "UEsDBBQAAAAAANcOOV0RuMsClgUAAJYFAABJAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3F3ZW4tc3RydWN0dXJlZC1zaW5nbGUuanNvbg==",
+      "size": 1430,
+      "sha256": "26d5133a1d2d9cfecc998be3b5b1caea748aa2bc981f747158676a74be4d6e32",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/qwen-structured-single.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/qwen-ten-burst.json",
+      "header_base64": "UEsDBBQAAAAAANcOOV1DP5DfOhIAADoSAABBAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3F3ZW4tdGVuLWJ1cnN0Lmpzb24=",
+      "size": 4666,
+      "sha256": "30b3ad64eba7a26ac60a532b1ab5c321e98bbb88ab58ca1bc8082b317d330cd6",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/qwen-ten-burst.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/evidence/windows-ci-final.log",
+      "header_base64": "UEsDBBQAAAAAAIsROV2jzgT+u58BALufAQBCAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3dpbmRvd3MtY2ktZmluYWwubG9n",
+      "size": 106427,
+      "sha256": "ea018966e48c3871938db6650184b8e07c588c1716597dcf24b609e11eb45f93",
+      "source": {
+        "kind": "seed",
+        "name": "docs/evidence/windows-ci-final.log"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/docs/验收状态.md",
+      "header_base64": "UEsDBBQAAAgAAJoROV3kVe6wMgcAADIHAAA0AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL+mqjOaUtueKtuaAgS5tZA==",
+      "size": 1842,
+      "sha256": "05d40b66612a55a56ec952305439b437d46ba922e91c73c55075f9eff51506d8",
+      "source": {
+        "kind": "seed",
+        "name": "docs/验收状态.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/fixtures/baseline_inference.py",
+      "header_base64": "UEsDBBQAAAAAAA4OOV3Z9gWAmikAAJopAAA+AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9maXh0dXJlcy9iYXNlbGluZV9pbmZlcmVuY2UucHk=",
+      "size": 10650,
+      "sha256": "a9868c154d5d45f6a1d5a6c8fc88fe3acdb931acc1f4e5676165b47020682e36",
+      "source": {
+        "kind": "seed",
+        "name": "fixtures/baseline_inference.py"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/fixtures/public-bus.jpg",
+      "header_base64": "UEsDBBQAAAAAAAMMOV2kvGimyxgCAMsYAgA3AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9maXh0dXJlcy9wdWJsaWMtYnVzLmpwZw==",
+      "size": 137419,
+      "sha256": "c02019c4979c191eb739ddd944445ef408dad5679acab6fd520ef9d434bfbc63",
+      "source": {
+        "kind": "seed",
+        "name": "fixtures/public-bus.jpg"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/offline_bundle.py",
+      "header_base64": "UEsDBBQAAAAAAJoROV104TApPi4AAD4uAAAxAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9vZmZsaW5lX2J1bmRsZS5weQ==",
+      "size": 11838,
+      "sha256": "f29d1b2db6ec102acc1c65b56ff6a8cc9f80f56e4c9c73077d2962ca29a927e1",
+      "source": {
+        "kind": "seed",
+        "name": "offline_bundle.py"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/offline_bundle_manifest.json",
+      "header_base64": "UEsDBBQAAAAAAJsROV3ZPFxM6ksAAOpLAAA8AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9vZmZsaW5lX2J1bmRsZV9tYW5pZmVzdC5qc29u",
+      "size": 19434,
+      "sha256": "3ddd30915296ef298083e0427029ef998938e981add2c638a75c5d580d3f4cc6",
+      "source": {
+        "kind": "seed",
+        "name": "offline_bundle_manifest.json"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/requirements-windows.lock",
+      "header_base64": "UEsDBBQAAAAAANcOOV12/xn9+hUAAPoVAAA5AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXF1aXJlbWVudHMtd2luZG93cy5sb2Nr",
+      "size": 5626,
+      "sha256": "27fb931e39a5b6b28bf088002001faa45592d491ac2583ff6d239b223b350e84",
+      "source": {
+        "kind": "seed",
+        "name": "requirements-windows.lock"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/git/mingit.zip",
+      "header_base64": "UEsDBBQAAAAAAEgMOV2d0WfweO9SAnjvUgI4AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvZ2l0L21pbmdpdC56aXA=",
+      "size": 38989688,
+      "sha256": "56d7b226b7693196cfc71fef26568f536c4a021ab6c37ff2db4287bed908e96e",
+      "source": {
+        "kind": "url",
+        "url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/MinGit-2.55.0.5-64-bit.zip"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/models/ollama/blobs/sha256-7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+      "header_base64": "UEsDBBQAAAAAAAMMOV21ycDwWywAAFssAACFAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL29sbGFtYS9ibG9icy9zaGEyNTYtNzMzOWZhNDE4YzlhZDNlOGUxMmU3NGFkMGZkMjZhOWNjNGJlODcwM2Y5YzExMDcyOGE5OTJiMTkzYmU4NWNiMg==",
+      "size": 11355,
+      "sha256": "7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+      "source": {
+        "kind": "seed",
+        "name": "resources/models/ollama/blobs/sha256-7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/models/ollama/blobs/sha256-aafed9e48b157ae913cee994e0d9ac927af51e256feafbd923bf2852e8856d00",
+      "header_base64": "UEsDBBQAAAAAAAMMOV1aG5oloG2fcKBtn3CFAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL29sbGFtYS9ibG9icy9zaGEyNTYtYWFmZWQ5ZTQ4YjE1N2FlOTEzY2VlOTk0ZTBkOWFjOTI3YWY1MWUyNTZmZWFmYmQ5MjNiZjI4NTJlODg1NmQwMA==",
+      "size": 1889496480,
+      "sha256": "aafed9e48b157ae913cee994e0d9ac927af51e256feafbd923bf2852e8856d00",
+      "source": {
+        "kind": "url",
+        "url": "https://registry.ollama.ai/v2/library/qwen3-vl/blobs/sha256:aafed9e48b157ae913cee994e0d9ac927af51e256feafbd923bf2852e8856d00"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/models/ollama/blobs/sha256-b5c3447a7c00b0444e79efe194d97b8070fc830cd8ff4f938f36959a1f5413c8",
+      "header_base64": "UEsDBBQAAAAAAAIMOV2ebGM8JwIAACcCAACFAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL29sbGFtYS9ibG9icy9zaGEyNTYtYjVjMzQ0N2E3YzAwYjA0NDRlNzllZmUxOTRkOTdiODA3MGZjODMwY2Q4ZmY0ZjkzOGYzNjk1OWExZjU0MTNjOA==",
+      "size": 551,
+      "sha256": "b5c3447a7c00b0444e79efe194d97b8070fc830cd8ff4f938f36959a1f5413c8",
+      "source": {
+        "kind": "seed",
+        "name": "resources/models/ollama/blobs/sha256-b5c3447a7c00b0444e79efe194d97b8070fc830cd8ff4f938f36959a1f5413c8"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/models/ollama/blobs/sha256-f6417cb1e26962991f8e875a93f3cb0f92bc9b4955e004881251ccbf934a19d2",
+      "header_base64": "UEsDBBQAAAAAAAIMOV0oG0o1KgAAACoAAACFAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL29sbGFtYS9ibG9icy9zaGEyNTYtZjY0MTdjYjFlMjY5NjI5OTFmOGU4NzVhOTNmM2NiMGY5MmJjOWI0OTU1ZTAwNDg4MTI1MWNjYmY5MzRhMTlkMg==",
+      "size": 42,
+      "sha256": "f6417cb1e26962991f8e875a93f3cb0f92bc9b4955e004881251ccbf934a19d2",
+      "source": {
+        "kind": "seed",
+        "name": "resources/models/ollama/blobs/sha256-f6417cb1e26962991f8e875a93f3cb0f92bc9b4955e004881251ccbf934a19d2"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/models/ollama/manifests/registry.ollama.ai/library/qwen3-vl/2b-instruct",
+      "header_base64": "UEsDBBQAAAAAAAMMOV2QUtSefQMAAH0DAABxAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL29sbGFtYS9tYW5pZmVzdHMvcmVnaXN0cnkub2xsYW1hLmFpL2xpYnJhcnkvcXdlbjMtdmwvMmItaW5zdHJ1Y3Q=",
+      "size": 893,
+      "sha256": "ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+      "source": {
+        "kind": "seed",
+        "name": "resources/models/ollama/manifests/registry.ollama.ai/library/qwen3-vl/2b-instruct"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/models/yolo11n.pt",
+      "header_base64": "UEsDBBQAAAAAAAMMOV00dPIOxKhVAMSoVQA7AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL3lvbG8xMW4ucHQ=",
+      "size": 5613764,
+      "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "source": {
+        "kind": "url",
+        "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n.pt"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/ollama/ollama-windows-amd64.zip",
+      "header_base64": "UEsDBBQAAAAAAEQMOV09PmtLDv4TVw7+E1dJAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvb2xsYW1hL29sbGFtYS13aW5kb3dzLWFtZDY0LnppcA==",
+      "size": 1460928014,
+      "sha256": "8f3fd071a2a2f9497b562f43502c77c2b701a99d1ee5dfda28da8c786373063b",
+      "source": {
+        "kind": "url",
+        "url": "https://github.com/ollama/ollama/releases/download/v0.34.2/ollama-windows-amd64.zip"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/ollama/sha256sum.txt",
+      "header_base64": "UEsDBBQAAAAAAEQMOV01UtK/wAUAAMAFAAA+AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvb2xsYW1hL3NoYTI1NnN1bS50eHQ=",
+      "size": 1472,
+      "sha256": "8067b9126966bdc6a69edb2525907d5b0d6dcefd6c9a60e3656234cf7f76d3e7",
+      "source": {
+        "kind": "seed",
+        "name": "resources/ollama/sha256sum.txt"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/python-3.12.10-amd64.exe",
+      "header_base64": "UEsDBBQAAAAAAAgMOV1koSzsAHGbAQBxmwFCAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvcHl0aG9uLTMuMTIuMTAtYW1kNjQuZXhl",
+      "size": 26964224,
+      "sha256": "67b5635e80ea51072b87941312d00ec8927c4db9ba18938f7ad2d27b328b95fb",
+      "source": {
+        "kind": "url",
+        "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/requirements-windows.lock",
+      "header_base64": "UEsDBBQAAAAAAPYNOV12/xn9+hUAAPoVAABDAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvcmVxdWlyZW1lbnRzLXdpbmRvd3MubG9jaw==",
+      "size": 5626,
+      "sha256": "27fb931e39a5b6b28bf088002001faa45592d491ac2583ff6d239b223b350e84",
+      "source": {
+        "kind": "seed",
+        "name": "resources/requirements-windows.lock"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/vc_redist.x64.exe",
+      "header_base64": "UEsDBBQAAAAAABAOOV2xRHphuCuHAbgrhwE7AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvdmNfcmVkaXN0Lng2NC5leGU=",
+      "size": 25635768,
+      "sha256": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b",
+      "source": {
+        "kind": "url",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/bd1c8d9d-ba95-4eee-bc6e-df1fcc876373/CC0FF0EB1DC3F5188AE6300FAEF32BF5BEEBA4BDD6E8E445A9184072096B713B/VC_redist.x64.exe"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/anyio-4.15.1-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV30N7Jr7wMCAO8DAgBSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9hbnlpby00LjE1LjEtcHkzLW5vbmUtYW55LndobA==",
+      "size": 132079,
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/certifi-2026.7.22-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2RcTYHFxcCABcXAgBXAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jZXJ0aWZpLTIwMjYuNy4yMi1weTMtbm9uZS1hbnkud2hs",
+      "size": 136983,
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV15+HujZw8DAGcPAwBnAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jaGFyc2V0X25vcm1hbGl6ZXItMy41LjEtY3AzMTItY3AzMTItd2luX2FtZDY0LndobA==",
+      "size": 200551,
+      "sha256": "3617ac3cfd8b9888f145ad89dd6e692285834b0201c6074a5eeaad3fd4d668c2",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/9d/7a/4c6c298171e6b3e745633180ff59350fc0ca0db1ffd28df1e369e0579f71/charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/cloudpickle-3.1.2-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0YSiIs1FYAANRWAABXAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jbG91ZHBpY2tsZS0zLjEuMi1weTMtbm9uZS1hbnkud2hs",
+      "size": 22228,
+      "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/colorama-0.4.6-py2.py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV0u7mAS92IAAPdiAABYAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jb2xvcmFtYS0wLjQuNi1weTIucHkzLW5vbmUtYW55LndobA==",
+      "size": 25335,
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/contourpy-1.4.0-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV3Xrbf0Y5IDAGOSAwBeAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jb250b3VycHktMS40LjAtY3AzMTItY3AzMTItd2luX2FtZDY0LndobA==",
+      "size": 234083,
+      "sha256": "6e697d94e69f499ff6bebb899cae97a58d5d14f0e1fe9568b43a0248d2f9af8c",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/50/a9/dab08786bb4d77ef9a046b3c1be923be4e73c5d07d91f5a54e8ea9b09e41/contourpy-1.4.0-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/cycler-0.12.1-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2gNz+fgSAAAIEgAABTAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jeWNsZXItMC4xMi4xLXB5My1ub25lLWFueS53aGw=",
+      "size": 8321,
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/filelock-4.0.3-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0HxcTQnKcBAJynAQBUAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9maWxlbG9jay00LjAuMy1weTMtbm9uZS1hbnkud2hs",
+      "size": 108444,
+      "sha256": "30cd166e2aee2c7534ce2c33c6367c4cd051b8368e20e2c4eb0c34f699bacfab",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/7a/6d/db8b86e168fef0cf904737e275bccb683558088ef971e92d3b41ce980699/filelock-4.0.3-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/fonttools-4.66.0-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0K874vP/AlAD/wJQBfAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9mb250dG9vbHMtNC42Ni4wLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGw=",
+      "size": 2486335,
+      "sha256": "1d120ea0f5260b04e9b5ac0d9239efde4c23d990347d5d5889cdd37221726fec",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/b5/f2/fd490f1ddf2e430289c13059982771e6b02a2bf37504401d2a5c53307892/fonttools-4.66.0-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/fsspec-2026.9.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2UJfD0KmIDACpiAwBVAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9mc3NwZWMtMjAyNi45LjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 221738,
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/h11-0.16.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV3KOtd+i5IAAIuSAABQAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9oMTEtMC4xNi4wLXB5My1ub25lLWFueS53aGw=",
+      "size": 37515,
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/httpcore-1.0.9-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV3gucGQwDMBAMAzAQBUAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9odHRwY29yZS0xLjAuOS1weTMtbm9uZS1hbnkud2hs",
+      "size": 78784,
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/httpx-0.28.1-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV3P251zLR8BAC0fAQBSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9odHRweC0wLjI4LjEtcHkzLW5vbmUtYW55LndobA==",
+      "size": 73517,
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/idna-3.20-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0SixJ+zw8BAM8PAQBPAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9pZG5hLTMuMjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/iniconfig-2.3.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2jOqL9PB0AADwdAABVAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9pbmljb25maWctMi4zLjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 7484,
+      "sha256": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/cb/b1/3846dd7f199d53cb17f49cba7e651e9ce294d8497c8c150530ed11865bb8/iniconfig-2.3.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/jinja2-3.1.6-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV3xjDuR8w4CAPMOAgBSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9qaW5qYTItMy4xLjYtcHkzLW5vbmUtYW55LndobA==",
+      "size": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/kiwisolver-1.5.1-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0VFcpLXBQBAFwUAQBfAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9raXdpc29sdmVyLTEuNS4xLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGw=",
+      "size": 70748,
+      "sha256": "06a6917674de9e0fe3f66f5430787f59a9f2ddb64af9b714eaec547e29ef5c19",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/6e/7c/7b210498f9f92e1cd7855f260fa69ef056881087b199ee20c208f0e4189a/kiwisolver-1.5.1-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/lap-0.5.13-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV3/xPLxLIkWACyJFgBZAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9sYXAtMC41LjEzLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGw=",
+      "size": 1476908,
+      "sha256": "eb9fc5d7977cb73cc6e69ee704b5329d18d0b1e1da27f4a6c848259b8148f39a",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/b8/c7/cfd1b2274c00aba8513c0fa385c7e71790a9f44d7d23f5cdbcd94a895c06/lap-0.5.13-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/markupsafe-3.0.3-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV0GsO1xATsAAAE7AABfAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9tYXJrdXBzYWZlLTMuMC4zLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGw=",
+      "size": 15105,
+      "sha256": "26a5784ded40c9e318cfc2bdb30fe164bdb8665ded9cd64d500a34fb42067b1c",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/aa/5b/bec5aa9bbbb2c946ca2733ef9c4ca91c91b6a24580193e891b5f7dbe8e1e/markupsafe-3.0.3-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/matplotlib-3.11.2-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV3jfuIoIamOACGpjgBgAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9tYXRwbG90bGliLTMuMTEuMi1jcDMxMi1jcDMxMi13aW5fYW1kNjQud2hs",
+      "size": 9349409,
+      "sha256": "c5c1c68ee401fc98271263410f0e5ce88285abacf7627132914e8adf3d70ff43",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/04/93/0d239bde12b308262265c2d98909b2f0ecad2b5deeae96241642e822e9c7/matplotlib-3.11.2-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/mpmath-1.3.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV24QdPqhi4IAIYuCABSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9tcG1hdGgtMS4zLjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 536198,
+      "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/mss-10.1.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV0A8f3NzV8AAM1fAABQAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9tc3MtMTAuMS4wLXB5My1ub25lLWFueS53aGw=",
+      "size": 24525,
+      "sha256": "9179c110cadfef5dc6dc4a041a0cd161c74c379218648e6640b48c6b5cfe8918",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/23/28/1e3e5cd1d677cca68b26166f704f72e35b1e8b6d5076d8ebeebc4e40a649/mss-10.1.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/networkx-3.7-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV1yJz6g/a8gAP2vIABSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9uZXR3b3JreC0zLjctcHkzLW5vbmUtYW55LndobA==",
+      "size": 2142205,
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/7e/cd/fe58041e9011f307c490e3e17dd48cc516448f7c698a3f2d9d9d65d7e6a8/networkx-3.7-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/numpy-2.5.3-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV35CAJWFMW/ABTFvwBaAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9udW1weS0yLjUuMy1jcDMxMi1jcDMxMi13aW5fYW1kNjQud2hs",
+      "size": 12567828,
+      "sha256": "0a59a421a32580a009e8a1751345bf829631b990dc1794b80514ab722b435def",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/3c/a1/accf6d4f0c80c5d9ba9735d6b1550e444180599f34dec69ca01360f717ad/numpy-2.5.3-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/nvidia_ml_py-13.610.43-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV3VXzniq88AAKvPAABcAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9udmlkaWFfbWxfcHktMTMuNjEwLjQzLXB5My1ub25lLWFueS53aGw=",
+      "size": 53163,
+      "sha256": "f13c72698edef492f985cc225f14faafe68ae065a2e407f45bdf6f4b9b43fde8",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/23/45/caa600acfab94560807a20a64b5830d2cd3c3202b7f1328644d70b7d6bd8/nvidia_ml_py-13.610.43-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/opencv_python-4.14.0.94-cp37-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV2TDisrVSV0AlUldAJkAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9vcGVuY3ZfcHl0aG9uLTQuMTQuMC45NC1jcDM3LWFiaTMtd2luX2FtZDY0LndobA==",
+      "size": 41166165,
+      "sha256": "ace53616cdffc9643e17e075397b493e607c427d388c7508798ef7ad2ed577cc",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/08/f0/ebf59732b54b4dd8a9e23f3b453ad73e11ec2230faf25ff4b1befa191ce0/opencv_python-4.14.0.94-cp37-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/packaging-26.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV08Tmq2fiIBAH4iAQBUAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9wYWNrYWdpbmctMjYuMC1weTMtbm9uZS1hbnkud2hs",
+      "size": 74366,
+      "sha256": "b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pillow-12.3.0-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV2Tp/AfAUduAAFHbgBcAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9waWxsb3ctMTIuMy4wLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGw=",
+      "size": 7227137,
+      "sha256": "a2b55dd6b2a4c4b7d87ffa56bdb33fdc5fdb9a462173861a7bc097f17d91cb09",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/45/89/da2f7971a317f83d807fdd4065c0af40208e59e692cc43d315a71a0e96d1/pillow-12.3.0-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pluggy-1.6.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2qi5j5OlAAADpQAABSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9wbHVnZ3ktMS42LjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 20538,
+      "sha256": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/polars-1.44.2-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0Ak1m26DUNAOg1DQBTAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9wb2xhcnMtMS40NC4yLXB5My1ub25lLWFueS53aGw=",
+      "size": 865768,
+      "sha256": "1bb331f17a40d9d931101533dcd33637b66edc61eb377b07020dac16a0f0377b",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/51/6d/3014112c7f717d1253223faa13b6db3ac3a64ed00ab2a3bc1b942bc9cdd4/polars-1.44.2-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/polars_runtime_32-1.44.2-cp310-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2XgPkVr74OA6++DgNmAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9wb2xhcnNfcnVudGltZV8zMi0xLjQ0LjItY3AzMTAtYWJpMy13aW5fYW1kNjQud2hs",
+      "size": 51297967,
+      "sha256": "8598e7a20efba70bb74978c7df7af7c606ff4d79b9b48fdd808250b189bc9a13",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/ba/e7/c61c1c7eea37705920fe7c1302d1dd80d1165db2b928f0da3eae6d1ebb75/polars_runtime_32-1.44.2-cp310-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV1Npcr8CRoCAAkaAgBZAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9wc3V0aWwtNy4yLjItY3AzNy1hYmkzLXdpbl9hbWQ2NC53aGw=",
+      "size": 137737,
+      "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/b4/90/e2159492b5426be0c1fef7acba807a03511f97c5f86b3caeda6ad92351a7/psutil-7.2.2-cp37-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pygments-2.21.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV1ivy1/YxMTAGMTEwBVAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weWdtZW50cy0yLjIxLjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 1250147,
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pyparsing-3.3.3-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0SiNSn1O0BANTtAQBVAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXBhcnNpbmctMy4zLjMtcHkzLW5vbmUtYW55LndobA==",
+      "size": 126420,
+      "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pyside6-6.11.2-cp310-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV0pzob1TtMIAE7TCABcAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXNpZGU2LTYuMTEuMi1jcDMxMC1hYmkzLXdpbl9hbWQ2NC53aGw=",
+      "size": 578382,
+      "sha256": "3201d67e3c10be2eaedd3910ff0f02351eca7e88c95a291cde5e7f2f55ef207f",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/94/fe/4aea9d30300fff4cda9bb729c1363b9e1095a8544e0d6b57065465e16599/pyside6-6.11.2-cp310-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pyside6_addons-6.11.2-cp310-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2JDmD8xKkGCsSpBgpjAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXNpZGU2X2FkZG9ucy02LjExLjItY3AzMTAtYWJpMy13aW5fYW1kNjQud2hs",
+      "size": 168208836,
+      "sha256": "f449ea4431da20e7b86752cca8d166f93434516fe417f981c27e5f8e1b554407",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/fb/c1/08bf6594101b42fc88834009f1dac59a983c5b6805c62c5081f077d09b4a/pyside6_addons-6.11.2-cp310-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pyside6_essentials-6.11.2-cp310-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV1gMJy6k5mVBJOZlQRnAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXNpZGU2X2Vzc2VudGlhbHMtNi4xMS4yLWNwMzEwLWFiaTMtd2luX2FtZDY0LndobA==",
+      "size": 76913043,
+      "sha256": "c8a29def77032773a30879f7f24415b5395ad08592d147c170824ef4c735dfc1",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/dc/09/d2662684aee4d3f027ff9b1e965f22301bc28ffc5b7f167658508e4475dc/pyside6_essentials-6.11.2-cp310-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pytest-9.1.1-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV19vzBy6OUFAOjlBQBSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXRlc3QtOS4xLjEtcHkzLW5vbmUtYW55LndobA==",
+      "size": 386536,
+      "sha256": "37a86b45efb9a47a61a36449063e8e18d0cab3161329fc099eb21783169c4f0c",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/24/25/1de2678b631f5a49215c6c96fff41ba892b0a34df68d6d80292b1b48aa7f/pytest-9.1.1-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV32LaHzBIIDAASCAwBlAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXRob25fZGF0ZXV0aWwtMi45LjAucG9zdDAtcHkyLnB5My1ub25lLWFueS53aGw=",
+      "size": 229892,
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV36sZUVk1kCAJNZAgBbAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXlhbWwtNi4wLjMtY3AzMTItY3AzMTItd2luX2FtZDY0LndobA==",
+      "size": 154003,
+      "sha256": "5fcd34e47f6e0b794d17de1b4ff496c00986e1c83f7ab2fb8fcfe9616ff7477b",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/86/bf/899e81e4cce32febab4fb42bb97dcdf66bc135272882d1987881a4b519e9/pyyaml-6.0.3-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/requests-2.34.2-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0lo1nncx0BAHMdAQBVAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9yZXF1ZXN0cy0yLjM0LjItcHkzLW5vbmUtYW55LndobA==",
+      "size": 73075,
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/scipy-1.18.1-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV08B/j0ZlwvAmZcLwJbAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zY2lweS0xLjE4LjEtY3AzMTItY3AzMTItd2luX2FtZDY0LndobA==",
+      "size": 36658278,
+      "sha256": "5e4d44984abc0020154ea81b247adeddcc3ac5527b975ff798bd1ba0adc513c2",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/39/e7/979fd14e75008623df31ba70d6bb144700f68feadcea042021c06a05bf82/scipy-1.18.1-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/setuptools-78.1.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV2s7nkxrCoTAKwqEwBXAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zZXR1cHRvb2xzLTc4LjEuMC1weTMtbm9uZS1hbnkud2hs",
+      "size": 1256108,
+      "sha256": "3e386e96793c8702ae83d17b853fb93d3e09ef82ec62722e61da5cd22376dcd8",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/shiboken6-6.11.2-cp310-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0/P++RUrcSAFK3EgBeAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zaGlib2tlbjYtNi4xMS4yLWNwMzEwLWFiaTMtd2luX2FtZDY0LndobA==",
+      "size": 1226578,
+      "sha256": "6ab0eba1c904455df621f9a6df3ca2bb896bab8670572d2bc4e37804ae91f19a",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/ce/6b/fee1b4814317e4664e318644c9c007676c65a71e5b2b9d3ac4121a94dc0a/shiboken6-6.11.2-cp310-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/six-1.17.0-py2.py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV10+wgKKisAACorAABUAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zaXgtMS4xNy4wLXB5Mi5weTMtbm9uZS1hbnkud2hs",
+      "size": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/sympy-1.14.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV0ZN2YR2R5gANkeYABSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zeW1weS0xLjE0LjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 6299353,
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/torch-2.11.0+cu128-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBC0AAAAAAAsNOV1mEJDX//////////9hABQARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS90b3JjaC0yLjExLjArY3UxMjgtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEAEABgVRqkAAAAAGBVGqQAAAAA",
+      "size": 2753189216,
+      "sha256": "7c78215c3af4f62e63f2b2e360f1722fc719b0853c7ac22666483d9810613a4c",
+      "source": {
+        "kind": "url",
+        "url": "https://download.pytorch.org/whl/cu128/torch-2.11.0%2Bcu128-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/torchvision-0.26.0+cu128-cp312-cp312-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV2+kuHIdUGSAHVBkgBnAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS90b3JjaHZpc2lvbi0wLjI2LjArY3UxMjgtY3AzMTItY3AzMTItd2luX2FtZDY0LndobA==",
+      "size": 9585013,
+      "sha256": "8c0d1c4fbb2c9a4d5d41d0aaa87da20e525bcb2a154ce405725b0be59456804b",
+      "source": {
+        "kind": "url",
+        "url": "https://download.pytorch.org/whl/cu128/torchvision-0.26.0%2Bcu128-cp312-cp312-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAAsNOV1XCvvDA7IAAAOyAABeAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS90eXBpbmdfZXh0ZW5zaW9ucy00LjE2LjAtcHkzLW5vbmUtYW55LndobA==",
+      "size": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/ultralytics-8.4.155-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV2TwGm8ixYWAIsWFgBZAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS91bHRyYWx5dGljcy04LjQuMTU1LXB5My1ub25lLWFueS53aGw=",
+      "size": 1447563,
+      "sha256": "0f872e119fb4ebb166857a88632dab876e9daccacee79f27cd416bccdec36510",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/9a/49/4e250de54d420d0451ad33f64bb787f9ad56941a109f28b90bd0e0a79645/ultralytics-8.4.155-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/ultralytics_platform-0.1.62-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV3UKHgLsF8BALBfAQBhAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS91bHRyYWx5dGljc19wbGF0Zm9ybS0wLjEuNjItcHkzLW5vbmUtYW55LndobA==",
+      "size": 90032,
+      "sha256": "233f0d6269181169dec85f6fa32b1119f75e3482634928423f9f19b450bf3287",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/55/dd/5dda831686185a450ace873a4f1fc9503a22d89f78534712fc444145258e/ultralytics_platform-0.1.62-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/ultralytics_thop-2.1.6-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV0z5x7UD3cAAA93AABcAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS91bHRyYWx5dGljc190aG9wLTIuMS42LXB5My1ub25lLWFueS53aGw=",
+      "size": 30479,
+      "sha256": "23f7b8ad124fa3432c1a7de9279102c4fdda699216032a7dff49f87ec3d1a3af",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/53/98/f1fa3d40d548c8a2a3eec33b7f856063bb6c7d51e16d5198b1f390b2c79d/ultralytics_thop-2.1.6-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/urllib3-2.8.0-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAMENOV2br3usJRICACUSAgBTAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS91cmxsaWIzLTIuOC4wLXB5My1ub25lLWFueS53aGw=",
+      "size": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/wheel-0.46.3-py3-none-any.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV2E4ZZnXXcAAF13AABSAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS93aGVlbC0wLjQ2LjMtcHkzLW5vbmUtYW55LndobA==",
+      "size": 30557,
+      "sha256": "4b399d56c9d9338230118d705d9737a2a468ccca63d5e813e2a4fc7815d8bc4d",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/87/22/b76d483683216dde3d67cba61fb2444be8d5be289bf628c13fc0fd90e5f9/wheel-0.46.3-py3-none-any.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/resources/wheelhouse/windows_capture-2.0.0-cp39-abi3-win_amd64.whl",
+      "header_base64": "UEsDBBQAAAAAAKQMOV2ZAa0PsaEDALGhAwBiAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS93aW5kb3dzX2NhcHR1cmUtMi4wLjAtY3AzOS1hYmkzLXdpbl9hbWQ2NC53aGw=",
+      "size": 238001,
+      "sha256": "62293537ddeb3a5fae76633ee87b12a8cf9cdc3dcf63fdef789184942169bd22",
+      "source": {
+        "kind": "url",
+        "url": "https://files.pythonhosted.org/packages/38/7b/3ad456df8b23e363e36e2938158eeb1e740e4143de530b307b96a3a4ea68/windows_capture-2.0.0-cp39-abi3-win_amd64.whl"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/upgrade.py",
+      "header_base64": "UEsDBBQAAAAAAJoROV2awCPLuhAAALoQAAAqAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS91cGdyYWRlLnB5",
+      "size": 4282,
+      "sha256": "ee7d04a90c09336992757e8afa34e829a60176d8f080f34067b1cb62c61b4d4c",
+      "source": {
+        "kind": "seed",
+        "name": "upgrade.py"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/先读我.md",
+      "header_base64": "UEsDBBQAAAgAAOAQOV2wUvy5yw4AAMsOAAAsAAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS/lhYjor7vmiJEubWQ=",
+      "size": 3787,
+      "sha256": "1a7060777a4354b49dc992e3142905af7c5a9af270976f114c07e77c1b5a8824",
+      "source": {
+        "kind": "seed",
+        "name": "先读我.md"
+      }
+    },
+    {
+      "path": "FactoryMonitor-Windows-20260925/给Windows执行者.md",
+      "header_base64": "UEsDBBQAAAgAAHoPOV3j26S+MwkAADMJAAA2AAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS/nu5lXaW5kb3dz5omn6KGM6ICFLm1k",
+      "size": 2355,
+      "sha256": "30349208446243fe39a5f4caafa629d56d16478f4aee44acf138baef34d574de",
+      "source": {
+        "kind": "seed",
+        "name": "给Windows执行者.md"
+      }
+    }
+  ],
+  "footer_base64": "UEsBAhQDFAAAAAAADg45Xf6K2wHMAAAAzAAAAC0AAAAAAAAAAAAAAKSBAAAAAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvMS1wcmVwYXJlLmNtZFBLAQIUAxQAAAAAAA4OOV3rn6gFywAAAMsAAAArAAAAAAAAAAAAAACkgRcBAABGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1LzItbW9kZWwuY21kUEsBAhQDFAAAAAAADg45XSEHkNzXAAAA1wAAAC8AAAAAAAAAAAAAAKSBKwIAAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvMy1wcmVmbGlnaHQuY21kUEsBAhQDFAAAAAAADg45XeR9J0zWAAAA1gAAAC4AAAAAAAAAAAAAAKSBTwMAAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvNC1jYXBhY2l0eS5jbWRQSwECFAMUAAAAAAAODjldaFUAytEAAADRAAAALQAAAAAAAAAAAAAApIFxBAAARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS81LW1vbml0b3IuY21kUEsBAhQDFAAAAAAADg45Xb4IT//VAAAA1QAAAC0AAAAAAAAAAAAAAKSBjQUAAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvNi1jb2xsZWN0LmNtZFBLAQIUAxQAAAAAAJoROV1TUBaFtycAALcnAAA1AAAAAAAAAAAAAACkga0GAABGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L1ByZXBhcmUtQ2FuZGlkYXRlLnBzMVBLAQIUAxQAAAAAAFMPOV2h2Gz9qAgAAKgIAAA4AAAAAAAAAAAAAACkgbcuAABGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L1JFU09VUkNFX1BST1ZFTkFOQ0UuanNvblBLAQIUAxQAAAAAAJoROV0+UIFICQ8AAAkPAAAxAAAAAAAAAAAAAACkgbU3AABGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L1J1bi1DYW5kaWRhdGUucHMxUEsBAhQDFAAAAAAAmhE5XddXoAqNAgAAjQIAADMAAAAAAAAAAAAAAKSBDUcAAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvU09VUkNFX1ZFUlNJT04uanNvblBLAQIUAxQAAAAAAJoROV0YJ2k3LxQAAC8UAAA0AAAAAAAAAAAAAACkgetJAABGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L1N0YXJ0LUxvY2FsLVF3ZW4ucHMxUEsBAhQDFAAAAAAAmhE5XQENFYcKMgQACjIEADQAAAAAAAAAAAAAAKSBbF4AAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvY2FuZGlkYXRlLXNvdXJjZS56aXBQSwECFAMUAAAAAACaETldGygZ6p8GAACfBgAAMAAAAAAAAAAAAAAApIHIkAQARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9jYW5kaWRhdGVfb3BzLnB5UEsBAhQDFAAAAAAAmhE5XV1+RuGvlwEAr5cBAC0AAAAAAAAAAAAAAKSBtZcEAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvY2hhbmdlcy5wYXRjaFBLAQIUAxQAAAAAAA4OOV3w5yCV/jQAAP40AAA8AAAAAAAAAAAAAACkga8vBgBGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L2RvY3MvSElTVE9SWV9SRVZJRVdfTE9DQUwubWRQSwECFAMUAAAAAACaETldmtOC9OMdAADjHQAARgAAAAAAAAAAAAAApIEHZQYARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL01BSU5MQU5EX0VYRUNVVElPTl8yMDI2MDkyNV96aC5tZFBLAQIUAxQAAAAAAJoROV2ytjuHqR0AAKkdAABFAAAAAAAAAAAAAACkgU6DBgBGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L2RvY3MvTUFJTkxBTkRfUkVTRUFSQ0hfMjAyNjA5MjVfemgubWRQSwECFAMUAAAAAABTDzldK2BskYUCAACFAgAAOwAAAAAAAAAAAAAApIFaoQYARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL1RISVJEX1BBUlRZX05PVElDRVMubWRQSwECFAMUAAAAAADnDjld9YAzGYcJAACHCQAAPAAAAAAAAAAAAAAApIE4pAYARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL1dJTkRPV1NfREVQRU5ERU5DSUVTLm1kUEsBAhQDFAAAAAAA0w45XX65AATbNwAA2zcAADsAAAAAAAAAAAAAAKSBGa4GAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvZG9jcy9kZXBlbmRlbmN5LWRyeS1ydW4udHh0UEsBAhQDFAAAAAAAiRE5XdtbBGulFwAApRcAADsAAAAAAAAAAAAAAKSBTeYGAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvZG9jcy9ldmlkZW5jZS9jaS1maW5hbC5qc29uUEsBAhQDFAAAAAAA1w45XWVFg4ujLQAAoy0AAEUAAAAAAAAAAAAAAKSBS/4GAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvZG9jcy9ldmlkZW5jZS9kZXRlY3Rvci1iZW5jaG1hcmsuanNvblBLAQIUAxQAAAAAAOAQOV0/g/N3LgEAAC4BAABJAAAAAAAAAAAAAACkgVEsBwBGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L2RvY3MvZXZpZGVuY2UvZGV0ZWN0b3Itb2ZmbGluZS1wcm9iZS5qc29uUEsBAhQDFAAAAAAAmhE5XZFEdZO1AAAAtQAAAEIAAAAAAAAAAAAAAKSB5i0HAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvZG9jcy9ldmlkZW5jZS9maW5hbC1mdWxsLXRlc3RzLmxvZ1BLAQIUAxQAAAAAAHoPOV0ZCeNilncBAJZ3AQBKAAAAAAAAAAAAAACkgfsuBwBGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L2RvY3MvZXZpZGVuY2UvZmlyc3Qtd2luZG93cy1jaS1mYWlsdXJlLnR4dFBLAQIUAxQAAAAAAJoROV28QnzX4gEAAOIBAABHAAAAAAAAAAAAAACkgfmmCABGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L2RvY3MvZXZpZGVuY2UvZnVsbC1wYXRjaC1yZWhlYXJzYWwuanNvblBLAQIUAxQAAAAAAIsROV16/p2cF24BABduAQBAAAAAAAAAAAAAAACkgUCpCABGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L2RvY3MvZXZpZGVuY2UvbWFjb3MtY2ktZmluYWwubG9nUEsBAhQDFAAAAAAA1w45XTpIGlMsDAAALAwAAD0AAAAAAAAAAAAAAKSBtRcKAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvZG9jcy9ldmlkZW5jZS9xdC1kaWFnbm9zaXMubWRQSwECFAMUAAAAAADXDjldt5cu38gFAADIBQAAQgAAAAAAAAAAAAAApIE8JAoARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3F3ZW4tc2luZ2xlLXJhdy5qc29uUEsBAhQDFAAAAAAA1w45XRG4ywKWBQAAlgUAAEkAAAAAAAAAAAAAAKSBZCoKAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvZG9jcy9ldmlkZW5jZS9xd2VuLXN0cnVjdHVyZWQtc2luZ2xlLmpzb25QSwECFAMUAAAAAADXDjldQz+Q3zoSAAA6EgAAQQAAAAAAAAAAAAAApIFhMAoARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3F3ZW4tdGVuLWJ1cnN0Lmpzb25QSwECFAMUAAAAAACLETldo84E/rufAQC7nwEAQgAAAAAAAAAAAAAApIH6QgoARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9kb2NzL2V2aWRlbmNlL3dpbmRvd3MtY2ktZmluYWwubG9nUEsBAhQDFAAACAAAmhE5XeRV7rAyBwAAMgcAADQAAAAAAAAAAAAAAKSBFeMLAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvZG9jcy/pqozmlLbnirbmgIEubWRQSwECFAMUAAAAAAAODjld2fYFgJopAACaKQAAPgAAAAAAAAAAAAAApIGZ6gsARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9maXh0dXJlcy9iYXNlbGluZV9pbmZlcmVuY2UucHlQSwECFAMUAAAAAAADDDldpLxopssYAgDLGAIANwAAAAAAAAAAAAAApIGPFAwARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9maXh0dXJlcy9wdWJsaWMtYnVzLmpwZ1BLAQIUAxQAAAAAAJoROV104TApPi4AAD4uAAAxAAAAAAAAAAAAAACkga8tDgBGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L29mZmxpbmVfYnVuZGxlLnB5UEsBAhQDFAAAAAAAmxE5Xdk8XEzqSwAA6ksAADwAAAAAAAAAAAAAAICBPFwOAEZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvb2ZmbGluZV9idW5kbGVfbWFuaWZlc3QuanNvblBLAQIUAxQAAAAAANcOOV12/xn9+hUAAPoVAAA5AAAAAAAAAAAAAACkgYCoDgBGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3JlcXVpcmVtZW50cy13aW5kb3dzLmxvY2tQSwECFAMUAAAAAABIDDldndFn8HjvUgJ471ICOAAAAAAAAAAAAAAApIHRvg4ARmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvZ2l0L21pbmdpdC56aXBQSwECFAMUAAAAAAADDDldtcnA8FssAABbLAAAhQAAAAAAAAAAAAAApIGfrmECRmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL29sbGFtYS9ibG9icy9zaGEyNTYtNzMzOWZhNDE4YzlhZDNlOGUxMmU3NGFkMGZkMjZhOWNjNGJlODcwM2Y5YzExMDcyOGE5OTJiMTkzYmU4NWNiMlBLAQIUAxQAAAAAAAMMOV1aG5oloG2fcKBtn3CFAAAAAAAAAAAAAACkgZ3bYQJGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy9tb2RlbHMvb2xsYW1hL2Jsb2JzL3NoYTI1Ni1hYWZlZDllNDhiMTU3YWU5MTNjZWU5OTRlMGQ5YWM5MjdhZjUxZTI1NmZlYWZiZDkyM2JmMjg1MmU4ODU2ZDAwUEsBAhQDFAAAAAAAAgw5XZ5sYzwnAgAAJwIAAIUAAAAAAAAAAAAAAKSB4EkBc0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL21vZGVscy9vbGxhbWEvYmxvYnMvc2hhMjU2LWI1YzM0NDdhN2MwMGIwNDQ0ZTc5ZWZlMTk0ZDk3YjgwNzBmYzgzMGNkOGZmNGY5MzhmMzY5NTlhMWY1NDEzYzhQSwECFAMUAAAAAAACDDldKBtKNSoAAAAqAAAAhQAAAAAAAAAAAAAApIGqTAFzRmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvbW9kZWxzL29sbGFtYS9ibG9icy9zaGEyNTYtZjY0MTdjYjFlMjY5NjI5OTFmOGU4NzVhOTNmM2NiMGY5MmJjOWI0OTU1ZTAwNDg4MTI1MWNjYmY5MzRhMTlkMlBLAQIUAxQAAAAAAAMMOV2QUtSefQMAAH0DAABxAAAAAAAAAAAAAACkgXdNAXNGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy9tb2RlbHMvb2xsYW1hL21hbmlmZXN0cy9yZWdpc3RyeS5vbGxhbWEuYWkvbGlicmFyeS9xd2VuMy12bC8yYi1pbnN0cnVjdFBLAQIUAxQAAAAAAAMMOV00dPIOxKhVAMSoVQA7AAAAAAAAAAAAAACkgYNRAXNGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy9tb2RlbHMveW9sbzExbi5wdFBLAQIUAxQAAAAAAEQMOV09PmtLDv4TVw7+E1dJAAAAAAAAAAAAAACkgaD6VnNGYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy9vbGxhbWEvb2xsYW1hLXdpbmRvd3MtYW1kNjQuemlwUEsBAi0DLQAAAAAARAw5XTVS0r/ABQAAwAUAAD4ADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL29sbGFtYS9zaGEyNTZzdW0udHh0AQAIABX5asoAAAAAUEsBAi0DLQAAAAAACAw5XWShLOwAcZsBAHGbAUIADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3B5dGhvbi0zLjEyLjEwLWFtZDY0LmV4ZQEACAAx/2rKAAAAAFBLAQItAy0AAAAAAPYNOV12/xn9+hUAAPoVAABDAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy9yZXF1aXJlbWVudHMtd2luZG93cy5sb2NrAQAIAJFwBswAAAAAUEsBAi0DLQAAAAAAEA45XbFEemG4K4cBuCuHATsADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3ZjX3JlZGlzdC54NjQuZXhlAQAIAOyGBswAAAAAUEsBAi0DLQAAAAAAwQ05XfQ3smvvAwIA7wMCAFIADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvYW55aW8tNC4xNS4xLXB5My1ub25lLWFueS53aGwBAAgA/bKNzQAAAABQSwECLQMtAAAAAADBDTldkXE2BxcXAgAXFwIAVwAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jZXJ0aWZpLTIwMjYuNy4yMi1weTMtbm9uZS1hbnkud2hsAQAIAFy3j80AAAAAUEsBAi0DLQAAAAAAwQ05XXn4e6NnDwMAZw8DAGcADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvY2hhcnNldF9ub3JtYWxpemVyLTMuNS4xLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGwBAAgA6M6RzQAAAABQSwECLQMtAAAAAADBDTldGEoiLNRWAADUVgAAVwAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jbG91ZHBpY2tsZS0zLjEuMi1weTMtbm9uZS1hbnkud2hsAQAIANTelM0AAAAAUEsBAi0DLQAAAAAApAw5XS7uYBL3YgAA92IAAFgADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvY29sb3JhbWEtMC40LjYtcHkyLnB5My1ub25lLWFueS53aGwBAAgAHTaVzQAAAABQSwECLQMtAAAAAADBDTld16239GOSAwBjkgMAXgAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9jb250b3VycHktMS40LjAtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEACACKmZXNAAAAAFBLAQItAy0AAAAAAMENOV2gNz+fgSAAAIEgAABTAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL2N5Y2xlci0wLjEyLjEtcHkzLW5vbmUtYW55LndobAEACABpLJnNAAAAAFBLAQItAy0AAAAAAMENOV0HxcTQnKcBAJynAQBUAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL2ZpbGVsb2NrLTQuMC4zLXB5My1ub25lLWFueS53aGwBAAgAW02ZzQAAAABQSwECLQMtAAAAAADBDTldCvO+Lz/wJQA/8CUAXwAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9mb250dG9vbHMtNC42Ni4wLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGwBAAgAafWazQAAAABQSwECLQMtAAAAAADBDTldlCXw9CpiAwAqYgMAVQAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9mc3NwZWMtMjAyNi45LjAtcHkzLW5vbmUtYW55LndobAEACAAl5sDNAAAAAFBLAQItAy0AAAAAAMENOV3KOtd+i5IAAIuSAABQAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL2gxMS0wLjE2LjAtcHkzLW5vbmUtYW55LndobAEACADCSMTNAAAAAFBLAQItAy0AAAAAAMENOV3gucGQwDMBAMAzAQBUAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL2h0dHBjb3JlLTEuMC45LXB5My1ub25lLWFueS53aGwBAAgAu9vEzQAAAABQSwECLQMtAAAAAACkDDldz9udcy0fAQAtHwEAUgAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9odHRweC0wLjI4LjEtcHkzLW5vbmUtYW55LndobAEACADtD8bNAAAAAFBLAQItAy0AAAAAAMENOV0SixJ+zw8BAM8PAQBPAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL2lkbmEtMy4yMC1weTMtbm9uZS1hbnkud2hsAQAIAIovx80AAAAAUEsBAi0DLQAAAAAAwQ05XaM6ov08HQAAPB0AAFUADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvaW5pY29uZmlnLTIuMy4wLXB5My1ub25lLWFueS53aGwBAAgAxj/IzQAAAABQSwECLQMtAAAAAAALDTld8Yw7kfMOAgDzDgIAUgAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9qaW5qYTItMy4xLjYtcHkzLW5vbmUtYW55LndobAEACAB1XcjNAAAAAFBLAQItAy0AAAAAAMENOV0VFcpLXBQBAFwUAQBfAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL2tpd2lzb2x2ZXItMS41LjEtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEACADYbMrNAAAAAFBLAQItAy0AAAAAAKQMOV3/xPLxLIkWACyJFgBZAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL2xhcC0wLjUuMTMtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEACACxgcvNAAAAAFBLAQItAy0AAAAAAAsNOV0GsO1xATsAAAE7AABfAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL21hcmt1cHNhZmUtMy4wLjMtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEACABUC+LNAAAAAFBLAQItAy0AAAAAAMENOV3jfuIoIamOACGpjgBgAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL21hdHBsb3RsaWItMy4xMS4yLWNwMzEyLWNwMzEyLXdpbl9hbWQ2NC53aGwBAAgA0kbizQAAAABQSwECLQMtAAAAAAALDTlduEHT6oYuCACGLggAUgAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9tcG1hdGgtMS4zLjAtcHkzLW5vbmUtYW55LndobAEACABx8HDOAAAAAFBLAQItAy0AAAAAAKQMOV0A8f3NzV8AAM1fAABQAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL21zcy0xMC4xLjAtcHkzLW5vbmUtYW55LndobAEACABnH3nOAAAAAFBLAQItAy0AAAAAAMENOV1yJz6g/a8gAP2vIABSAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL25ldHdvcmt4LTMuNy1weTMtbm9uZS1hbnkud2hsAQAIAKJ/ec4AAAAAUEsBAi0DLQAAAAAApAw5XfkIAlYUxb8AFMW/AFoADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvbnVtcHktMi41LjMtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEACAAPMJrOAAAAAFBLAQItAy0AAAAAAMENOV3VXzniq88AAKvPAABcAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL252aWRpYV9tbF9weS0xMy42MTAuNDMtcHkzLW5vbmUtYW55LndobAEACACb9VnPAAAAAFBLAQItAy0AAAAAAKQMOV2TDisrVSV0AlUldAJkAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL29wZW5jdl9weXRob24tNC4xNC4wLjk0LWNwMzctYWJpMy13aW5fYW1kNjQud2hsAQAIAMDFWs8AAAAAUEsBAi0DLQAAAAAApAw5XTxOarZ+IgEAfiIBAFQADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvcGFja2FnaW5nLTI2LjAtcHkzLW5vbmUtYW55LndobAEACACX687RAAAAAFBLAQItAy0AAAAAAAsNOV2Tp/AfAUduAAFHbgBcAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3BpbGxvdy0xMi4zLjAtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEACACHDtDRAAAAAFBLAQItAy0AAAAAAMENOV2qi5j5OlAAADpQAABSAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3BsdWdneS0xLjYuMC1weTMtbm9uZS1hbnkud2hsAQAIAAJWPtIAAAAAUEsBAi0DLQAAAAAAwQ05XQCTWbboNQ0A6DUNAFMADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvcG9sYXJzLTEuNDQuMi1weTMtbm9uZS1hbnkud2hsAQAIAKymPtIAAAAAUEsBAi0DLQAAAAAAwQ05XZeA+RWvvg4Dr74OA2YADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvcG9sYXJzX3J1bnRpbWVfMzItMS40NC4yLWNwMzEwLWFiaTMtd2luX2FtZDY0LndobAEACAAF3UvSAAAAAFBLAQItAy0AAAAAAKQMOV1Npcr8CRoCAAkaAgBZAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3BzdXRpbC03LjIuMi1jcDM3LWFiaTMtd2luX2FtZDY0LndobAEACAA4nFrVAAAAAFBLAQItAy0AAAAAAMENOV1ivy1/YxMTAGMTEwBVAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3B5Z21lbnRzLTIuMjEuMC1weTMtbm9uZS1hbnkud2hsAQAIALi2XNUAAAAAUEsBAi0DLQAAAAAAwQ05XRKI1KfU7QEA1O0BAFUADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvcHlwYXJzaW5nLTMuMy4zLXB5My1ub25lLWFueS53aGwBAAgAjspv1QAAAABQSwECLQMtAAAAAACkDDldKc6G9U7TCABO0wgAXAAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXNpZGU2LTYuMTEuMi1jcDMxMC1hYmkzLXdpbl9hbWQ2NC53aGwBAAgA1bhx1QAAAABQSwECLQMtAAAAAADBDTldiQ5g/MSpBgrEqQYKYwAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXNpZGU2X2FkZG9ucy02LjExLjItY3AzMTAtYWJpMy13aW5fYW1kNjQud2hsAQAIAJ2MetUAAAAAUEsBAi0DLQAAAAAAwQ05XWAwnLqTmZUEk5mVBGcADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvcHlzaWRlNl9lc3NlbnRpYWxzLTYuMTEuMi1jcDMxMC1hYmkzLXdpbl9hbWQ2NC53aGwBAAgA4jaB3wAAAABQSwECLQMtAAAAAACkDDldfb8wcujlBQDo5QUAUgAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9weXRlc3QtOS4xLjEtcHkzLW5vbmUtYW55LndobAEACAD60BbkAAAAAFBLAQItAy0AAAAAAMENOV32LaHzBIIDAASCAwBlAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3B5dGhvbl9kYXRldXRpbC0yLjkuMC5wb3N0MC1weTIucHkzLW5vbmUtYW55LndobAEACABStxzkAAAAAFBLAQItAy0AAAAAAMENOV36sZUVk1kCAJNZAgBbAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3B5eWFtbC02LjAuMy1jcDMxMi1jcDMxMi13aW5fYW1kNjQud2hsAQAIANk5IOQAAAAAUEsBAi0DLQAAAAAAwQ05XSWjWedzHQEAcx0BAFUADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvcmVxdWVzdHMtMi4zNC4yLXB5My1ub25lLWFueS53aGwBAAgA5ZMi5AAAAABQSwECLQMtAAAAAACkDDldPAf49GZcLwJmXC8CWwAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zY2lweS0xLjE4LjEtY3AzMTItY3AzMTItd2luX2FtZDY0LndobAEACADLsSPkAAAAAFBLAQItAy0AAAAAAAsNOV2s7nkxrCoTAKwqEwBXAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3NldHVwdG9vbHMtNzguMS4wLXB5My1ub25lLWFueS53aGwBAAgAqg5T5gAAAABQSwECLQMtAAAAAADBDTldPz/vkVK3EgBStxIAXgAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zaGlib2tlbjYtNi4xMS4yLWNwMzEwLWFiaTMtd2luX2FtZDY0LndobAEACADLOWbmAAAAAFBLAQItAy0AAAAAAMENOV10+wgKKisAACorAABUAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3NpeC0xLjE3LjAtcHkyLnB5My1ub25lLWFueS53aGwBAAgAmfF45gAAAABQSwECLQMtAAAAAAALDTldGTdmEdkeYADZHmAAUgAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS9zeW1weS0xLjE0LjAtcHkzLW5vbmUtYW55LndobAEACAA1HXnmAAAAAFBLAQItAy0AAAAAAAsNOV1mEJDX//////////9hABwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3RvcmNoLTIuMTEuMCtjdTEyOC1jcDMxMi1jcDMxMi13aW5fYW1kNjQud2hsAQAYAGBVGqQAAAAAYFUapAAAAAB+PNnmAAAAAFBLAQItAy0AAAAAAAsNOV2+kuHIdUGSAHVBkgBnAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3RvcmNodmlzaW9uLTAuMjYuMCtjdTEyOC1jcDMxMi1jcDMxMi13aW5fYW1kNjQud2hsAQAIAHGS84oBAAAAUEsBAi0DLQAAAAAACw05XVcK+8MDsgAAA7IAAF4ADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2UvdHlwaW5nX2V4dGVuc2lvbnMtNC4xNi4wLXB5My1ub25lLWFueS53aGwBAAgAa9SFiwEAAABQSwECLQMtAAAAAACkDDldk8BpvIsWFgCLFhYAWQAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS91bHRyYWx5dGljcy04LjQuMTU1LXB5My1ub25lLWFueS53aGwBAAgA6oaGiwEAAABQSwECLQMtAAAAAADBDTld1Ch4C7BfAQCwXwEAYQAMAAAAAAAAAAAApIH/////RmFjdG9yeU1vbml0b3ItV2luZG93cy0yMDI2MDkyNS9yZXNvdXJjZXMvd2hlZWxob3VzZS91bHRyYWx5dGljc19wbGF0Zm9ybS0wLjEuNjItcHkzLW5vbmUtYW55LndobAEACADsnZyLAQAAAFBLAQItAy0AAAAAAMENOV0z5x7UD3cAAA93AABcAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3VsdHJhbHl0aWNzX3Rob3AtMi4xLjYtcHkzLW5vbmUtYW55LndobAEACAAb/p2LAQAAAFBLAQItAy0AAAAAAMENOV2br3usJRICACUSAgBTAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3VybGxpYjMtMi44LjAtcHkzLW5vbmUtYW55LndobAEACACkdZ6LAQAAAFBLAQItAy0AAAAAAKQMOV2E4ZZnXXcAAF13AABSAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L3Jlc291cmNlcy93aGVlbGhvdXNlL3doZWVsLTAuNDYuMy1weTMtbm9uZS1hbnkud2hsAQAIADqIoIsBAAAAUEsBAi0DLQAAAAAApAw5XZkBrQ+xoQMAsaEDAGIADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvcmVzb3VyY2VzL3doZWVsaG91c2Uvd2luZG93c19jYXB0dXJlLTIuMC4wLWNwMzktYWJpMy13aW5fYW1kNjQud2hsAQAIAAcAoYsBAAAAUEsBAi0DLQAAAAAAmhE5XZrAI8u6EAAAuhAAACoADAAAAAAAAAAAAKSB/////0ZhY3RvcnlNb25pdG9yLVdpbmRvd3MtMjAyNjA5MjUvdXBncmFkZS5weQEACAA4oqSLAQAAAFBLAQItAy0AAAgAAOAQOV2wUvy5yw4AAMsOAAAsAAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L+WFiOivu+aIkS5tZAEACAA6s6SLAQAAAFBLAQItAy0AAAgAAHoPOV3j26S+MwkAADMJAAA2AAwAAAAAAAAAAACkgf////9GYWN0b3J5TW9uaXRvci1XaW5kb3dzLTIwMjYwOTI1L+e7mVdpbmRvd3PmiafooYzogIUubWQBAAgAT8KkiwEAAABQSwYGLAAAAAAAAAAtAC0AAAAAAAAAAABsAAAAAAAAAGwAAAAAAAAA7DYAAAAAAADWy6SLAQAAAFBLBgcAAAAAwgKliwEAAAABAAAAUEsFBgAAAABsAGwA7DYAAP////8AAA==",
+  "total_size": 6637814564,
+  "total_sha256": "4652f9677df0e97f48be8b3da82d7a9db7b07a3b1bdcdeb70e1497a2fa92a4a1"
+}

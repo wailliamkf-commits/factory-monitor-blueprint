@@ -93,3 +93,12 @@ python scripts/bundle_parts.py split --input /path/to/FactoryMonitor-Windows-202
 若资源内容升级，应建立新版本与新清单，再用冻结脚本 `implementation/scripts/offline_bundle.py --create ROOT --platform windows-x64 --python-version 3.12` 生成资源集合清单；不能沿用本次旧哈希。供应方归档、wheel 和模型许可证保持完整，商业交付许可另行核验。
 
 发布后从 GitHub 重新下载全部附件，逐片校验、恢复完整 ZIP，运行 `verify_offline_zip.py`，并从新解压的 Blueprint 运行仓库检查与合成实验。发布记录必须列出对应提交、双平台 CI、下载回读结果和仍待现场验证项。不可用上传成功或哈希通过代替实际运行稳定性。
+
+
+### 固定资源的云端逐字节重建（维护人员）
+
+本仓同时保留 `resources/rebuild-recipe.json` 与 `rebuild-seed.json`。原资源 ZIP 使用存储模式，配方保存原 ZIP 头部/索引和每项内容的哈希；同一 Release 的 `resource-seed.zip` 仅保存 47 个原始小文件。61 个较大文件从固定的官方来源下载，每项都必须同时匹配原文件大小及 SHA-256，随后按原始字节顺序生成分片。云端不执行这些安装器、模型或依赖。
+
+这条路径用于上行速度不足时完整复建，也使维护者可以审计固定模型的来源。它不把模型下载链接当作完整交付：最终仍须将全部 7 个实体分片上传到本 Release，而且整体和每片 SHA-256 必须与原包相同。任一来源失效或哈希变化都停止，不替换成新版本。
+
+维护人员可在 GitHub Actions 手动运行 `Rebuild fixed offline resources`。流程校验小种子、运行恢复工具的测试，读取官方固定资源，只有全部原始字节校验通过后才上传分片。`resource-seed.zip` 是维护重建所用的附加文件；普通 Windows 使用者按前述步骤下载完整分片即可。云端重建不证明 Windows 安装、GPU 推理或现场验收。

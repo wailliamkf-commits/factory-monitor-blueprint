@@ -1,0 +1,8 @@
+{
+  "name": "resource-seed.zip",
+  "size": 539968,
+  "sha256": "9c7969de362adc6ccb85415593a31f2ce13f1a201bbfe6d0c517b2a345ddc19d",
+  "payloads": 47,
+  "official_downloads": 61,
+  "scope": "only already-authorized resource metadata and original small payloads, no production media"
+}

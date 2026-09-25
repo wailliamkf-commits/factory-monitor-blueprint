@@ -12,6 +12,7 @@
 |候选安装与检查|已有独立 Windows 候选及 1–6 步入口|恢复包根目录；源提交 `1f6f242`|
 
 - [模型和包身份](model-registry.json)：体积、完整 ZIP 哈希、每个模型文件的哈希、未通过项。
+- [精确重建配方](rebuild-recipe.json)与[小文件种子身份](rebuild-seed.json)：维护时从固定官方来源恢复同一分片，任何大小或哈希不符即停止。
 - [Release 分片清单](windows-release-parts.json)：7 个实际附件名称、大小和哈希，整体恢复结果的固定身份。
 - [完整资源清单](offline_bundle_manifest.json)：107 个 payload 的体积和哈希；自身是第 108 个文件。
 - [资源来源记录](RESOURCE_PROVENANCE.json)：来源、供应方校验范围和已知限制。

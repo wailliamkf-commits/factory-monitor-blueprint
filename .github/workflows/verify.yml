@@ -41,9 +41,9 @@ jobs:
         if: runner.os == 'Windows'
         shell: pwsh
         run: powershell.exe -NoProfile -Command '$PSVersionTable.PSVersion.ToString()'
-      - name: Test multipart archive restoration
+      - name: Test archive restoration and exact resource reconstruction
         working-directory: .
-        run: python -m unittest discover -s scripts -p "test_bundle_parts.py" -v
+        run: python -m unittest discover -s scripts -p "test_*.py" -v
       - name: Install package and checks on macOS
         if: runner.os == 'macOS'
         run: |
