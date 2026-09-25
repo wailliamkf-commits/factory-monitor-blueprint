@@ -102,3 +102,10 @@ python scripts/bundle_parts.py split --input /path/to/FactoryMonitor-Windows-202
 这条路径用于上行速度不足时完整复建，也使维护者可以审计固定模型的来源。它不把模型下载链接当作完整交付：最终仍须将全部 7 个实体分片上传到本 Release，而且整体和每片 SHA-256 必须与原包相同。任一来源失效或哈希变化都停止，不替换成新版本。
 
 维护人员可在 GitHub Actions 手动运行 `Rebuild fixed offline resources`。流程校验小种子、运行恢复工具的测试，读取官方固定资源，只有全部原始字节校验通过后才上传分片。`resource-seed.zip` 是维护重建所用的附加文件；普通 Windows 使用者按前述步骤下载完整分片即可。云端重建不证明 Windows 安装、GPU 推理或现场验收。
+
+
+### 独立 Windows 下载验收
+
+`Verify full Windows release download` 工作流在新的 Windows runner 上从本仓 Release 重新下载全部分片，使用随包 PowerShell 5.1 还原器恢复 6.6GB ZIP，再检查整体哈希、107 个 payload、模型内容引用及 Blueprint 的每个文件。Blueprint 必须与运行该工作流的提交完全匹配；不可拿旧包验证新提交。工作流不复用云端重建目录，也不安装、执行模型或读取摄像头。
+
+成功报告以 `offline-release-readback` artifact 输出，维护者应保存到本 Release，避免只依赖临时 artifact 的保留期。它证明下载及 Windows 大文件还原完整，不证明离线安装、4060 推理或现场行为识别。经下载回读核验且确认远端资料完整后，可将本机重复打包/下载目录与原交付 ZIP 移入废纸篓，并保留源码工作区、现场修复目录及校验/清理记录。
