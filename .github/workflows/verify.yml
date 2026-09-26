@@ -86,6 +86,12 @@ jobs:
       - name: Test desktop extension
         working-directory: .
         run: python -m pytest desktop/tests
+      - name: Compile macOS real recording diagnostics
+        if: runner.os == 'macOS'
+        working-directory: .
+        run: |
+          xcrun swiftc -O desktop/scripts/RecognizeClock.swift -o "$RUNNER_TEMP/recognize-clock" -framework Vision -framework Foundation
+          xcrun swiftc -O -parse-as-library desktop/scripts/CaptureWindow.swift -o "$RUNNER_TEMP/capture-window" -framework ScreenCaptureKit -framework AppKit -framework CoreMedia -framework CoreVideo
       - name: Lint desktop extension
         working-directory: .
         run: python -m ruff check desktop

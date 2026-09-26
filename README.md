@@ -23,6 +23,7 @@
 |下载交接包、准备大陆离线执行|[发布包与离线资源](docs/09-delivery-and-offline.md)|取得源码、全量模型/依赖分片及校验工具|
 |升级桌面程序、选择模型和设备路线|[升级与设备策略](docs/11-upgrade-and-device-strategy.md)|了解本地应用、模型接口、设备档位和升级边界|
 |运行桌面演示或准备现场试跑|[演示与现场试跑](docs/12-demonstration-and-field-run.md)|启动器、演示步骤、录屏要求与现场验收边界|
+|用真实单路/九宫格录屏进行本机验证|[真实录像与读屏验证](docs/14-real-recording-validation.md)|按源时间抽样、逐路读钟、实际人物检测与本地结果查看|
 |了解 8GB 基线、捕获隔离和设备升级门禁|[8GB 与采集隔离](docs/13-8gb-and-capture-isolation.md)|保守资源默认、采集权限边界和 8GB 以上逐项验收|
 
 ## 架构概览
