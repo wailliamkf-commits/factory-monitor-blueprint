@@ -1,0 +1,31 @@
+# MediaMTX v1.21.1. Local configuration smoke test only.
+# No upstream source, no publish permission, no recording, no cloud.
+# Copy to an ignored private directory before adding real device settings.
+logLevel: warn
+logDestinations: [stdout]
+readTimeout: 5s
+writeTimeout: 5s
+writeQueueSize: 64
+authMethod: internal
+authInternalUsers:
+  - user: any
+    ips: [127.0.0.1]
+    permissions:
+      - action: read
+api: false
+metrics: false
+pprof: false
+playback: false
+rtsp: true
+rtspAddress: 127.0.0.1:18554
+rtspTransports: [tcp]
+rtmp: false
+hls: false
+webrtc: false
+srt: false
+moq: false
+pathDefaults:
+  sourceOnDemand: false
+  rtspTransport: tcp
+  record: false
+paths: {}

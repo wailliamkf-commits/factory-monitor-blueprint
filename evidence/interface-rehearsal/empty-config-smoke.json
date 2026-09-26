@@ -1,0 +1,13 @@
+{
+  "scope": "EMPTY_LOCAL_CONFIG_ONLY",
+  "source_count": 0,
+  "recording": false,
+  "model_invoked": false,
+  "config_sha256": "c19b8a6c73bf29dcec618d8adea680c8f8ef01c19ede972658dfd95e3ccce511",
+  "only_listener": "127.0.0.1:18554/TCP",
+  "options_response": "RTSP/1.0 200 OK",
+  "unconfigured_path_response": "RTSP/1.0 400 Bad Request",
+  "result": "PASS",
+  "own_process_exited": true,
+  "config_unchanged": true
+}

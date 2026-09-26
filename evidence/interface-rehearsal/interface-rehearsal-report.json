@@ -1,0 +1,353 @@
+{
+  "action_accuracy_evidence": false,
+  "all_owned_subprocesses_exited": true,
+  "cleanup_succeeded": true,
+  "completed_at_utc": "2026-09-26T15:00:26.177907+00:00",
+  "counters": {
+    "decoded_frame_count": 90,
+    "decoded_path_count": 18,
+    "path_count": 18,
+    "probe_ok_count": 18
+  },
+  "duration_limit_seconds": 60,
+  "elapsed_seconds": 9.869,
+  "failure_reason": null,
+  "field_acceptance_evidence": false,
+  "fixture": {
+    "channels": 9,
+    "independent_real_devices": 0,
+    "main": "testsrc2 640x360 10fps h264",
+    "named_paths": 18,
+    "note": "Synthetic per-path encoders share one main-role fixture and one sub-role fixture across nine channel labels; no unique scene identity, independent camera devices, or hardware-load equivalence.",
+    "publisher_processes_started": 18,
+    "sub": "smptebars 320x180 5fps h264"
+  },
+  "generated_monitoring_demo_or_ui": false,
+  "hardware_benchmark": false,
+  "interruption_recovery": {
+    "detected": true,
+    "new_consumer_after_source_recovery": true,
+    "other_paths_readable": 17,
+    "outage_consumer_decoded_frames": 0,
+    "persistent_consumer_auto_reconnect_tested": false,
+    "recovered_decoded_frames": 5,
+    "recovered_probe_ok": true,
+    "recovery_method": "restart_fixture_then_new_consumer_session"
+  },
+  "model_invoked": false,
+  "owned_subprocesses": [
+    {
+      "exit_code": -15,
+      "pid": 90928,
+      "role": "mediamtx"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90929,
+      "role": "publisher:ch01_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90930,
+      "role": "publisher:ch01_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90931,
+      "role": "publisher:ch02_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90932,
+      "role": "publisher:ch02_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90933,
+      "role": "publisher:ch03_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90934,
+      "role": "publisher:ch03_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90935,
+      "role": "publisher:ch04_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90936,
+      "role": "publisher:ch04_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90937,
+      "role": "publisher:ch05_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90938,
+      "role": "publisher:ch05_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90939,
+      "role": "publisher:ch06_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90940,
+      "role": "publisher:ch06_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90941,
+      "role": "publisher:ch07_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90942,
+      "role": "publisher:ch07_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90943,
+      "role": "publisher:ch08_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90944,
+      "role": "publisher:ch08_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90945,
+      "role": "publisher:ch09_main"
+    },
+    {
+      "exit_code": 255,
+      "pid": 90946,
+      "role": "publisher:ch09_sub"
+    },
+    {
+      "exit_code": 255,
+      "pid": 91001,
+      "role": "publisher_recovery:ch01_main"
+    }
+  ],
+  "paths": [
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch01_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch01_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch02_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch02_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch03_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch03_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch04_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch04_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch05_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch05_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch06_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch06_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch07_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch07_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch08_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch08_sub",
+      "probe_ok": true,
+      "width": 320
+    },
+    {
+      "avg_frame_rate": "10/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 360,
+      "path": "ch09_main",
+      "probe_ok": true,
+      "width": 640
+    },
+    {
+      "avg_frame_rate": "5/1",
+      "codec": "h264",
+      "decoded_frames": 5,
+      "exit_code": 0,
+      "height": 180,
+      "path": "ch09_sub",
+      "probe_ok": true,
+      "width": 320
+    }
+  ],
+  "platform": {
+    "machine": "arm64",
+    "system": "darwin"
+  },
+  "real_camera_or_user_recording_used": false,
+  "result": "PASS",
+  "scope": "LOCAL_RTSP_TRANSPORT_ONLY",
+  "script_sha256": "7fb9e65b2a5a6078f80691f11fe6e5b8c240ab62788213b6ab054375971bafa9",
+  "server": {
+    "bind": "127.0.0.1",
+    "inherited_mtx_environment_overrides_removed": true,
+    "other_services_disabled": [
+      "rtmp",
+      "hls",
+      "webrtc",
+      "srt",
+      "moq",
+      "api",
+      "metrics",
+      "pprof",
+      "playback"
+    ],
+    "port": 59724,
+    "rtsp_transport": "tcp"
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 9.0.1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "mediamtx": "v1.21.1",
+    "mediamtx_sha256": "335bb3d3d25bf464ed2269d65c2ae5959e8402e31716971e849c59f738f79164"
+  }
+}
