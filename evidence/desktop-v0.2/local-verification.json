@@ -1,13 +1,27 @@
 {
   "date": "2026-09-26",
   "platform": "macOS arm64",
-  "desktop_tests": {"passed": 108, "failed": 0},
-  "frozen_core_tests": {"passed": 274, "skipped": 1, "failed": 0},
-  "release_tool_tests": {"passed": 22, "skipped": 4, "failed": 0},
+  "desktop_tests": {
+    "passed": 110,
+    "failed": 0
+  },
+  "frozen_core_tests": {
+    "passed": 274,
+    "skipped": 1,
+    "failed": 0
+  },
+  "release_tool_tests": {
+    "passed": 22,
+    "skipped": 4,
+    "failed": 0
+  },
   "lint": "PASS",
   "independent_review": "findings fixed and targeted regressions passed",
   "frozen_snapshot_files": 129,
-  "wheel_python_files_read_back": {"core": 21, "desktop": 9},
+  "wheel_python_files_read_back": {
+    "core": 21,
+    "desktop": 9
+  },
   "demo_kind": "actual Qt widget rendering, synthetic inputs and scripted operations",
   "demo_os_screen_capture": false,
   "native_macos_recording_gate": "FAIL",

@@ -77,28 +77,57 @@ class _BoundedServer(ThreadingHTTPServer):
 
     def __init__(self, address: tuple[str, int], handler: type[BaseHTTPRequestHandler], *, max_active: int) -> None:
         self._request_slots = threading.BoundedSemaphore(max_active)
+        self._reject_slots = threading.BoundedSemaphore(4)
         super().__init__(address, handler)
 
     def process_request(self, request: Any, client_address: Any) -> None:
         if not self._request_slots.acquire(blocking=False):
+            # A separate bounded pool drains rejected uploads. Closing a socket
+            # with unread data can reset TCP and discard the 429 on Windows.
+            if not self._reject_slots.acquire(blocking=False):
+                request.close()  # Extreme transport overload, not an inference slot.
+                return
             try:
-                body = b'{"error":"local model gateway busy"}'
-                request.sendall(
-                    b"HTTP/1.1 429 Too Many Requests\r\n"
-                    b"Content-Type: application/json\r\n"
-                    + f"Content-Length: {len(body)}\r\nConnection: close\r\n\r\n".encode("ascii")
-                    + body
-                )
-            except OSError:
-                pass
-            finally:
+                threading.Thread(target=self._reject_request, args=(request,),
+                                 name='gateway-busy-drain', daemon=True).start()
+            except BaseException:
+                self._reject_slots.release()
                 request.close()
+                raise
             return
         try:
             super().process_request(request, client_address)
         except BaseException:
             self._request_slots.release()
             raise
+
+    def _reject_request(self, request: socket.socket) -> None:
+        deadline = time.monotonic() + 2.0
+        limit = getattr(getattr(self, 'owner', None), 'max_body_bytes', 24 * 1024**2) + 65536
+        try:
+            request.settimeout(max(.001, deadline - time.monotonic()))
+            body = b'{"error":"local model gateway busy"}'
+            request.sendall(
+                b'HTTP/1.1 429 Too Many Requests\r\nContent-Type: application/json\r\n'
+                + f'Content-Length: {len(body)}\r\nConnection: close\r\n\r\n'.encode('ascii') + body)
+            request.shutdown(socket.SHUT_WR)
+            received = 0
+            while received < limit:
+                remaining = deadline - time.monotonic()
+                if remaining <= 0:
+                    break
+                request.settimeout(remaining)
+                block = request.recv(min(65536, limit - received))
+                if not block:
+                    break
+                received += len(block)
+        except OSError:
+            pass
+        finally:
+            try:
+                request.close()
+            finally:
+                self._reject_slots.release()
 
     def process_request_thread(self, request: Any, client_address: Any) -> None:
         try:

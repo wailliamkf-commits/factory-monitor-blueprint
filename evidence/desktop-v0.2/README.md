@@ -15,9 +15,10 @@
 - 权重路径：明确绝对路径，提供 CLI 覆盖且不回写已有配置。
 - 桌面入口拒绝 live + display，防止本程序自身窗口污染输入；冻结核心诊断入口保留。回放期间隐藏弹窗，候选继续保存。
 - 设备页面曾在 UI 线程重复探测 GPU，现改为读取后台缓存；回归测试禁止 UI 调用 GPU 子进程。
+- 首轮 Windows CI 的两个繁忙响应测试出现 TCP reset（106 通过、2 失败；同轮 Mac 通过）。拒绝路径原来在未读请求时直接关闭连接，现采用有界拒绝线程、写半关闭和有界 drain，避免丢失 429 响应。保留原失败断言并补连接释放/并发上限回归；最终 Windows 结果见 Release 对应的新 CI 记录。[连接关闭原理](https://learn.microsoft.com/en-us/windows/win32/winsock/graceful-shutdown-linger-options-and-socket-closure-2)。
 
 8GB 是保守基线，硬件升级不自动增加负载。本版新增单卡资源采样、5 GiB 使用/3 GiB 空闲准入、超过 6 GiB 停发复核、固定预热模型核验、输入缩放和禁止绕过网关的入口。缺失 GPU 的本机实际拒绝报告见 [8GB 预热拒绝](8gb-no-gpu-refusal.json)：没有发起加载或下载。该报告是预期的保护拒绝，不是 8GB 实机性能测试。
 
-本机最终桌面套件 **108 passed**；冻结核心 **274 passed, 1 skipped**（公开检测模型素材未安装）；发布工具 **22 passed, 4 skipped**（本机无 Windows PowerShell）；lint、两份 wheel 与源文件逐字节对照通过。资源策略、协议和预热测试使用 fixture，不代表真实 GPU、模型语义或 Windows 摄像头验收。
+本机最终桌面套件 **110 passed**；冻结核心 **274 passed, 1 skipped**（公开检测模型素材未安装）；发布工具 **22 passed, 4 skipped**（本机无 Windows PowerShell）；lint、两份 wheel 与源文件逐字节对照通过。资源策略、协议和预热测试使用 fixture，不代表真实 GPU、模型语义或 Windows 摄像头验收。
 
 源码测试、双平台 CI、构建和发布附件的最终结果以本版本 Release 的验证记录为准。源码与 129 个冻结核心文件的哈希检查分开进行；不把协议 fixture 当作真实模型结果。

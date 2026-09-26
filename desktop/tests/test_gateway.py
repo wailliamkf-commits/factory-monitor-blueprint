@@ -225,3 +225,91 @@ def test_gateway_close_is_safe_before_and_after_start(provider_server):
     endpoint = instance.start()
     assert endpoint.startswith("http://127.0.0.1:")
     instance.close()
+
+
+def test_busy_reply_survives_unread_input_until_graceful_close():
+    class WindowsLikeSocket:
+        def __init__(self):
+            self.input = [b'late request headers', b'late request body', b'']
+            self.reply = b''
+            self.half_closed = False
+            self.eof = False
+            self.discarded = False
+            self.closed = threading.Event()
+
+        def sendall(self, data):
+            self.reply += data
+
+        def settimeout(self, timeout):
+            assert 0 < timeout <= 2
+
+        def shutdown(self, direction):
+            assert direction == socket.SHUT_WR
+            self.half_closed = True
+
+        def recv(self, size):
+            data = self.input.pop(0)
+            if not data:
+                self.eof = True
+            return data
+
+        def close(self):
+            self.discarded = not (self.half_closed and self.eof)
+            self.closed.set()
+
+    server = gateway_module._BoundedServer(('127.0.0.1', 0), object, max_active=1)
+    server._request_slots.acquire()
+    connection = WindowsLikeSocket()
+    try:
+        server.process_request(connection, ('127.0.0.1', 1))
+        assert connection.closed.wait(1)
+        assert not connection.discarded, 'unread request bytes must not erase the 429 reply'
+        assert b'429 Too Many Requests' in connection.reply
+    finally:
+        server._request_slots.release()
+        server.server_close()
+
+
+def test_busy_drain_does_not_block_accept_or_create_unbounded_workers():
+    release = threading.Event()
+
+    class SlowSocket:
+        def __init__(self):
+            self.sent = threading.Event()
+            self.closed = threading.Event()
+
+        def sendall(self, _data):
+            self.sent.set()
+
+        def settimeout(self, _timeout):
+            pass
+
+        def shutdown(self, _direction):
+            pass
+
+        def recv(self, _size):
+            release.wait(1)
+            return b''
+
+        def close(self):
+            self.closed.set()
+
+    server = gateway_module._BoundedServer(('127.0.0.1', 0), object, max_active=1)
+    server._request_slots.acquire()
+    connections = [SlowSocket() for _ in range(5)]
+    try:
+        started = time.monotonic()
+        for connection in connections:
+            server.process_request(connection, ('127.0.0.1', 1))
+        assert time.monotonic() - started < .3
+        for connection in connections[:4]:
+            assert connection.sent.wait(.5)
+            assert not connection.closed.is_set()
+        assert connections[4].closed.is_set()
+        assert not connections[4].sent.is_set()
+    finally:
+        release.set()
+        for connection in connections:
+            connection.closed.wait(1)
+        server._request_slots.release()
+        server.server_close()
