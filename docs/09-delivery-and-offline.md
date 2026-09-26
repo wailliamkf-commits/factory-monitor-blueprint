@@ -2,11 +2,11 @@
 
 ## 1. 同一 Release 的两套内容
 
-打开 [v0.1.0-preview 发布页](https://github.com/wailliamkf-commits/factory-monitor-blueprint/releases/tag/v0.1.0-preview)。仓库为私有，需要有访问权限的 GitHub 账户登录。
+源码、桌面扩展与演示见 [v0.2.0-preview 发布页](https://github.com/wailliamkf-commits/factory-monitor-blueprint/releases/tag/v0.2.0-preview)；完整模型和 Windows 依赖分片仍在 [v0.1.0-preview 资源发布页](https://github.com/wailliamkf-commits/factory-monitor-blueprint/releases/tag/v0.1.0-preview)。两个发布页各自有 SHA256SUMS.txt，应放在分开的下载目录校验。仓库当前公开；现场数据、凭据和本地配置不在发布包内。
 
 |附件|包含什么|用途|
 |---|---|---|
-|`FactoryMonitor-Blueprint-v0.1.0-preview.zip`、`PACKAGE_MANIFEST.json`、`SHA256SUMS.txt`|当前完整手册、固定源码、合成实验、测试、适配模板和证据|架构与开发交接|
+|`FactoryMonitor-Blueprint-v0.2.0-preview.zip`、`PACKAGE_MANIFEST.json`、`SHA256SUMS.txt`|当前完整手册、固定核心、桌面扩展、合成实验、测试、适配模板和证据|架构与开发交接|
 |`part-000001-of-000007.bin` 至 `part-000007-of-000007.bin`|完整原 Windows 离线资源 ZIP 的原始字节，未删减模型|全部下载后还原 6,637,814,564 字节的原 ZIP|
 |`FactoryMonitor-Windows-20260925.zip.parts.json`|分片顺序、大小、每片哈希及整体哈希|只读验证、完整性检查与还原|
 |`Restore-OfflineBundle.ps1`|Windows PowerShell 5.1 还原器|尚未安装 Python 也可先恢复离线包|
@@ -92,7 +92,7 @@ python scripts/bundle_parts.py split --input /path/to/FactoryMonitor-Windows-202
 
 若资源内容升级，应建立新版本与新清单，再用冻结脚本 `implementation/scripts/offline_bundle.py --create ROOT --platform windows-x64 --python-version 3.12` 生成资源集合清单；不能沿用本次旧哈希。供应方归档、wheel 和模型许可证保持完整，商业交付许可另行核验。
 
-发布后从 GitHub 重新下载全部附件，逐片校验、恢复完整 ZIP，运行 `verify_offline_zip.py`，并从新解压的 Blueprint 运行仓库检查与合成实验。发布记录必须列出对应提交、双平台 CI、下载回读结果和仍待现场验证项。不可用上传成功或哈希通过代替实际运行稳定性。
+首次发布完整资源时从 GitHub 重新下载全部附件，逐片校验、恢复完整 ZIP，运行 `verify_offline_zip.py`。后续只更新源码而资源哈希未变时，重新下载新增源码/演示附件逐项校验，引用既有完整资源读回结果，无须重复传输 6.6GB；从新解压的 Blueprint 运行仓库检查。发布记录必须列出对应提交、双平台 CI、下载回读结果和仍待现场验证项。不可用上传成功或哈希通过代替实际运行稳定性。
 
 
 ### 固定资源的云端逐字节重建（维护人员）
@@ -106,6 +106,6 @@ python scripts/bundle_parts.py split --input /path/to/FactoryMonitor-Windows-202
 
 ### 独立 Windows 下载验收
 
-`Verify full Windows release download` 工作流在新的 Windows runner 上从本仓 Release 重新下载全部分片，使用随包 PowerShell 5.1 还原器恢复 6.6GB ZIP，再检查整体哈希、107 个 payload、模型内容引用及 Blueprint 的每个文件。Blueprint 必须与运行该工作流的提交完全匹配；不可拿旧包验证新提交。工作流不复用云端重建目录，也不安装、执行模型或读取摄像头。
+`Verify full Windows release download` 工作流在新的 Windows runner 上从本仓 Release 重新下载全部分片，使用随包 PowerShell 5.1 还原器恢复 6.6GB ZIP，再检查整体哈希、107 个 payload、模型内容引用及 Blueprint 的每个文件。执行时分别指定 `blueprint_tag`（默认 v0.2.0-preview）与 `resources_tag`（默认 v0.1.0-preview）。Blueprint 清单提交必须与选中的源码 tag 完全匹配；不可拿旧包验证新提交。工作流不复用云端重建目录，也不安装、执行模型或读取摄像头。
 
 成功报告以 `offline-release-readback` artifact 输出，维护者应保存到本 Release，避免只依赖临时 artifact 的保留期。它证明下载及 Windows 大文件还原完整，不证明离线安装、4060 推理或现场行为识别。经下载回读核验且确认远端资料完整后，可将本机重复打包/下载目录与原交付 ZIP 移入废纸篓，并保留源码工作区、现场修复目录及校验/清理记录。

@@ -1,0 +1,22 @@
+{
+  "deadline_seconds": 12.0,
+  "max_inflight": 1,
+  "providers": [
+    {
+      "name": "local-qwen-primary",
+      "protocol": "ollama",
+      "endpoint": "http://127.0.0.1:11435",
+      "model": "qwen3-vl:2b-instruct",
+      "max_images": 6,
+      "timeout_seconds": 8.0
+    },
+    {
+      "name": "local-compatible-backup",
+      "protocol": "openai",
+      "endpoint": "http://127.0.0.1:8000/v1",
+      "model": "Qwen/Qwen3-VL-2B-Instruct",
+      "max_images": 6,
+      "timeout_seconds": 4.0
+    }
+  ]
+}

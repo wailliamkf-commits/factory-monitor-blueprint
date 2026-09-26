@@ -1,0 +1,14 @@
+{
+  "deadline_seconds": 12.0,
+  "max_inflight": 1,
+  "providers": [
+    {
+      "name": "pinned-8gb-local-qwen",
+      "protocol": "ollama",
+      "endpoint": "http://127.0.0.1:11435",
+      "model": "qwen3-vl:2b-instruct",
+      "max_images": 6,
+      "timeout_seconds": 11.0
+    }
+  ]
+}

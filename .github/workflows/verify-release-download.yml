@@ -2,6 +2,17 @@ name: Verify full Windows release download
 
 on:
   workflow_dispatch:
+    inputs:
+      blueprint_tag:
+        description: Source blueprint release tag
+        required: true
+        default: v0.2.0-preview
+        type: string
+      resources_tag:
+        description: Offline resources release tag
+        required: true
+        default: v0.1.0-preview
+        type: string
 
 permissions:
   # Draft releases require push-level visibility; this workflow only reads them.
@@ -14,30 +25,91 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
-      - name: Download, restore with PowerShell 5.1, and verify all original files
+      - name: Validate release tags
+        id: tags
         shell: python
+        env:
+          BLUEPRINT_TAG: ${{ inputs.blueprint_tag }}
+          RESOURCES_TAG: ${{ inputs.resources_tag }}
+        run: |
+          import os, re
+          import pathlib
+
+          pattern = re.compile(r'v[0-9]+\.[0-9]+\.[0-9]+(?:-[a-z0-9][a-z0-9.-]*)?\Z')
+          values = {
+              'blueprint_tag': os.environ['BLUEPRINT_TAG'],
+              'resources_tag': os.environ['RESOURCES_TAG'],
+          }
+          for name, value in values.items():
+              if not pattern.fullmatch(value):
+                  raise SystemExit(f'Invalid {name}: expected a version-style release tag')
+          with pathlib.Path(os.environ['GITHUB_OUTPUT']).open('a', encoding='utf-8') as output:
+              for name, value in values.items():
+                  output.write(f'{name}={value}\n')
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ steps.tags.outputs.blueprint_tag }}
+      - name: Download, restore with PowerShell 5.1, and verify selected releases
+        shell: python
+        env:
+          BLUEPRINT_TAG: ${{ steps.tags.outputs.blueprint_tag }}
+          RESOURCES_TAG: ${{ steps.tags.outputs.resources_tag }}
         run: |
           import hashlib, json, os, pathlib, platform, shutil, subprocess, sys, zipfile
           root = pathlib.Path.cwd()
           work = pathlib.Path(os.environ['RUNNER_TEMP']) / 'release-readback'
           work.mkdir()
           assert shutil.disk_usage(work).free > 13 * 1024**3, 'Need 13 GiB free'
-          downloads = work / 'downloads'
-          downloads.mkdir()
-          patterns = ['*.bin', 'FactoryMonitor-Windows-20260925.zip.parts.json',
-                      'Restore-OfflineBundle.ps1', 'FactoryMonitor-Blueprint-v0.1.0-preview.zip',
-                      'PACKAGE_MANIFEST.json', 'SHA256SUMS.txt']
-          cmd = ['gh', 'release', 'download', 'v0.1.0-preview', '--dir', str(downloads)]
-          for pattern in patterns:
-              cmd += ['--pattern', pattern]
-          subprocess.run(cmd, check=True)
-          parts = downloads / 'FactoryMonitor-Windows-20260925.zip.parts.json'
+          blueprint_tag = os.environ['BLUEPRINT_TAG']
+          resources_tag = os.environ['RESOURCES_TAG']
+          blueprint_downloads = work / 'blueprint-downloads'
+          resources_downloads = work / 'resources-downloads'
+          blueprint_downloads.mkdir()
+          resources_downloads.mkdir()
+
+          blueprint_name = f'FactoryMonitor-Blueprint-{blueprint_tag}.zip'
+          resource_patterns = [
+              '*.bin', 'FactoryMonitor-Windows-20260925.zip.parts.json',
+              'Restore-OfflineBundle.ps1', 'SHA256SUMS.txt',
+          ]
+          blueprint_patterns = [blueprint_name, 'PACKAGE_MANIFEST.json', 'SHA256SUMS.txt']
+          for release_tag, directory, patterns in (
+              (resources_tag, resources_downloads, resource_patterns),
+              (blueprint_tag, blueprint_downloads, blueprint_patterns),
+          ):
+              cmd = ['gh', 'release', 'download', release_tag, '--dir', str(directory)]
+              for pattern in patterns:
+                  cmd += ['--pattern', pattern]
+              subprocess.run(cmd, check=True)
+
+          def file_sha256(path):
+              digest = hashlib.sha256()
+              with path.open('rb') as stream:
+                  for block in iter(lambda: stream.read(1024 * 1024), b''):
+                      digest.update(block)
+              return digest.hexdigest()
+
+          def verify_downloaded_checksums(directory):
+              sums = {}
+              for line in (directory / 'SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
+                  digest, name = line.split(None, 1)
+                  name = pathlib.Path(name).name
+                  assert name not in sums, f'duplicate checksum entry: {name}'
+                  sums[name] = digest
+              downloaded = [path for path in directory.iterdir() if path.name != 'SHA256SUMS.txt']
+              assert downloaded, f'No release payloads downloaded from {directory.name}'
+              for path in downloaded:
+                  assert path.name in sums, f'Missing checksum for downloaded asset: {path.name}'
+                  assert file_sha256(path) == sums[path.name], path.name
+
+          verify_downloaded_checksums(resources_downloads)
+          verify_downloaded_checksums(blueprint_downloads)
+          parts = resources_downloads / 'FactoryMonitor-Windows-20260925.zip.parts.json'
           assert parts.read_bytes() == (root / 'resources/windows-release-parts.json').read_bytes()
-          restore = downloads / 'Restore-OfflineBundle.ps1'
+          restore = resources_downloads / 'Restore-OfflineBundle.ps1'
           assert restore.read_bytes() == (root / 'scripts/Restore-OfflineBundle.ps1').read_bytes()
           powershell_version = subprocess.check_output(
               ['powershell.exe', '-NoProfile', '-Command', '$PSVersionTable.PSVersion.ToString()'], text=True).strip()
@@ -51,17 +123,17 @@ jobs:
                                      text=True, capture_output=True)
           assert completed.returncode == 0, completed.stdout + completed.stderr
           payload_check = json.loads(completed.stdout)
-          for line in (downloads / 'SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
-              digest, name = line.split(None, 1)
-              assert pathlib.Path(name).name == name
-              assert hashlib.sha256((downloads / name).read_bytes()).hexdigest() == digest
-          package = json.loads((downloads / 'PACKAGE_MANIFEST.json').read_text(encoding='utf-8'))
-          assert package['repository_commit'] == os.environ['GITHUB_SHA']
+
+          package = json.loads((blueprint_downloads / 'PACKAGE_MANIFEST.json').read_text(encoding='utf-8'))
+          tag_commit = subprocess.check_output(['git', 'rev-parse', f'{blueprint_tag}^{{commit}}'], text=True).strip()
+          checkout_commit = subprocess.check_output(['git', 'rev-parse', 'HEAD^{commit}'], text=True).strip()
+          assert checkout_commit == tag_commit, 'Checkout does not match selected blueprint tag'
+          assert package['repository_commit'] == tag_commit, 'Blueprint manifest commit differs from selected tag'
           tracked = set(subprocess.check_output(['git', 'ls-files', '-z']).decode('utf-8').rstrip('\0').split('\0'))
           assert set(package['files']) == tracked, 'Release manifest must include every tracked file exactly once'
-          blueprint = downloads / 'FactoryMonitor-Blueprint-v0.1.0-preview.zip'
+          blueprint = blueprint_downloads / blueprint_name
           with zipfile.ZipFile(blueprint) as archive:
-              prefix = 'factory-monitor-blueprint-v0.1.0-preview/'
+              prefix = f'factory-monitor-blueprint-{blueprint_tag.lower()}/'
               assert len(archive.namelist()) == len(set(archive.namelist())) == len(package['files']) + 1
               assert json.loads(archive.read(prefix + 'PACKAGE_MANIFEST.json')) == package
               for name, meta in package['files'].items():
@@ -69,10 +141,11 @@ jobs:
                   data = archive.read(prefix + name)
                   assert len(data) == meta['size'] and hashlib.sha256(data).hexdigest() == meta['sha256']
                   assert data == (root / name).read_bytes(), name
-          report = {'gate': 'PASS', 'scope': 'fresh runner download from GitHub Release; no reused build workspace',
-                    'repository_commit': os.environ['GITHUB_SHA'], 'platform': platform.platform(),
+          report = {'gate': 'PASS', 'scope': 'fresh runner downloads selected blueprint and resource GitHub Releases; no reused build workspace',
+                    'blueprint_tag': blueprint_tag, 'resources_tag': resources_tag,
+                    'repository_commit': tag_commit, 'platform': platform.platform(),
                     'powershell_version': powershell_version, 'restoration': restoration,
-                    'offline_zip_check': payload_check, 'blueprint_files_verified_against_checkout': len(package['files']),
+                    'offline_zip_check': payload_check, 'blueprint_files_verified_against_tag_checkout': len(package['files']),
                     'field_gate': 'NOT_TESTED', 'installers_or_models_executed': False}
           (root / 'release-readback.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
           print(json.dumps(report, indent=2))
