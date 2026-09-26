@@ -1,0 +1,30 @@
+{
+  "gate": "FAIL",
+  "scope": "explicit local model preparation; no field validation",
+  "field_gate": "NOT_TESTED",
+  "model": "qwen3-vl:2b-instruct",
+  "digest": "ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+  "endpoint": "http://127.0.0.1:11435",
+  "load_timeout_seconds": 120,
+  "model_load_requested": false,
+  "download_requested": false,
+  "automatic_retry": false,
+  "unload_requested": false,
+  "kill_requested": false,
+  "backend_stop_verified": false,
+  "backend_may_still_be_running": false,
+  "resource_log": "${REPORT}.resources.ndjson",
+  "reason": "sensor_unavailable",
+  "after": {
+    "monotonic": 206725.316007958,
+    "total_mib": null,
+    "used_mib": null,
+    "free_mib": null,
+    "ram_available_mib": null,
+    "gpu_count": 0,
+    "error": "probe_failed",
+    "latched": false
+  },
+  "elapsed_seconds": 0.024,
+  "recovery": "Inspect local service and resource state manually; no retry, unload, or kill was attempted."
+}

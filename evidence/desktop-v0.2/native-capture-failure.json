@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "FAILED_AND_REJECTED",
+  "capture_kind": "macOS ScreenCaptureKit native capture experiment",
+  "verification": {
+    "exit_code": 1,
+    "stderr": "Media validation failed: Rejected incomplete dynamic demo: expected 15.0s with >=2 fps, asset duration 15.455s, actual video samples 4",
+    "required_checks": [
+      "asset duration >= 90% of expected duration",
+      "actual video sample count >= expected seconds * 2"
+    ],
+    "observed_counterexample": {
+      "expected_seconds": 15,
+      "container_duration_seconds": 15.455,
+      "actual_video_samples": 4,
+      "result": "rejected"
+    }
+  },
+  "scope": "duration plus video-sample validation catches incomplete dynamic application demo media; it does not validate static slides and does not repair the native capture stream",
+  "acceptance": "NOT_ACCEPTED; native capture remains failed",
+  "source_path": "${LOCAL_EVIDENCE_ROOT}/native-guard-check.json"
+}

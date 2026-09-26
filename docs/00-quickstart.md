@@ -4,7 +4,7 @@
 
 ## 1. 取得固定版本
 
-从本仓库 Releases 下载 `FactoryMonitor-Blueprint-v0.1.0-preview.zip` 和 `SHA256SUMS.txt`，核对 ZIP 哈希后解压到新的本地目录。私有仓库需登录有权限的 GitHub 账号；下载需要可访问 GitHub，不能把下载成功推定为大陆现场可访问。也可由开发机下载后通过获准介质转移，见[离线交接](09-delivery-and-offline.md)。
+从本仓库 Releases 下载 `FactoryMonitor-Blueprint-v0.2.0-preview.zip` 和 `SHA256SUMS.txt`，核对 ZIP 哈希后解压到新的本地目录。仓库当前公开；下载需要可访问 GitHub，不能把下载成功推定为大陆现场可访问。也可由开发机下载后通过获准介质转移，见[离线交接](09-delivery-and-offline.md)。桌面新入口与旧完整资源包的版本关系见[桌面执行说明](12-demonstration-and-field-run.md)。
 
 以下所有命令默认在解压后的**仓库根目录**执行。先确认这里有 `README.md`、`implementation/` 和 `scripts/`。不要在 ZIP 预览窗口中运行。
 

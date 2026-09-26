@@ -14,6 +14,41 @@ REQUIRED_DOCS = (
     '03-macos-execution.md', '04-client-calibration.md',
     '05-validation-and-acceptance.md', '06-operations-and-recovery.md',
     '07-roadmap-and-capacity.md', '08-sources-and-evidence.md', '09-delivery-and-offline.md', '10-client-learning.md',
+    '11-upgrade-and-device-strategy.md', '12-demonstration-and-field-run.md',
+    '13-8gb-and-capture-isolation.md',
+)
+REQUIRED_DESKTOP_FILES = (
+    'desktop/pyproject.toml',
+    'desktop/src/factory_monitor_desktop/__init__.py',
+    'desktop/src/factory_monitor_desktop/__main__.py',
+    'desktop/src/factory_monitor_desktop/alerts.py',
+    'desktop/src/factory_monitor_desktop/app.py',
+    'desktop/src/factory_monitor_desktop/gateway.py',
+    'desktop/src/factory_monitor_desktop/models.py',
+    'desktop/src/factory_monitor_desktop/profiles.py',
+    'desktop/src/factory_monitor_desktop/qt_bootstrap.py',
+    'desktop/src/factory_monitor_desktop/resource_budget.py',
+    'desktop/scripts/RecordApplication.swift',
+    'desktop/scripts/demo_session.py',
+    'desktop/scripts/prepare_8gb_model.py',
+    'desktop/tests/test_alerts.py',
+    'desktop/tests/test_desktop_gui.py',
+    'desktop/tests/test_gateway.py',
+    'desktop/tests/test_models.py',
+    'desktop/tests/test_profiles.py',
+    'desktop/tests/test_qt_bootstrap.py',
+    'desktop/tests/test_runtime_protection.py',
+    'desktop/tests/test_resource_budget.py',
+    'desktop/tests/test_budget_router.py',
+    'desktop/tests/test_prepare_8gb_model.py',
+    'scripts/start-desktop.command',
+    'scripts/start-desktop.ps1',
+    'scripts/start-ollama-8gb.ps1',
+)
+REQUIRED_DESKTOP_TEMPLATES = (
+    'device-benchmark.template.json',
+    'local-model-routes.example.json',
+    '8gb-model-routes.example.json',
 )
 
 
@@ -39,6 +74,9 @@ def main():
     for name in REQUIRED_DOCS:
         if not (ROOT / 'docs' / name).is_file():
             errors.append(f'missing required guide: docs/{name}')
+    for relative in REQUIRED_DESKTOP_FILES:
+        if not (ROOT / relative).is_file():
+            errors.append(f'missing required desktop file: {relative}')
     docs = [ROOT / 'README.md', ROOT / 'AGENTS.md', *sorted((ROOT / 'docs').glob('*.md')),
             *sorted((ROOT / 'evidence').rglob('README.md')), ROOT / 'resources/README.md']
     links_checked = 0
@@ -57,7 +95,7 @@ def main():
             if not target_path.is_relative_to(ROOT) or not target_path.exists():
                 errors.append(f'broken local link: {doc.relative_to(ROOT)} -> {target}')
 
-    for name in ('field-run.template.json', 'client-capability.template.json', 'software-adaptation.template.json', 'seetong-screen-first.template.json'):
+    for name in ('field-run.template.json', 'client-capability.template.json', 'software-adaptation.template.json', 'seetong-screen-first.template.json', *REQUIRED_DESKTOP_TEMPLATES):
         path = ROOT / 'templates' / name
         if not path.is_file():
             errors.append(f'missing template: {name}')

@@ -80,11 +80,39 @@ jobs:
         run: python -m ruff check . ../scripts
       - name: Run test suite
         run: python -m pytest
+      - name: Install desktop extension
+        working-directory: .
+        run: python -m pip install --no-deps ./desktop
+      - name: Test desktop extension
+        working-directory: .
+        run: python -m pytest desktop/tests
+      - name: Lint desktop extension
+        working-directory: .
+        run: python -m ruff check desktop
+      - name: Read device profile without starting capture
+        working-directory: .
+        run: python -m factory_monitor_desktop --probe
+      - name: Parse root PowerShell scripts and probe desktop launcher
+        if: runner.os == 'Windows'
+        working-directory: .
+        shell: pwsh
+        run: |
+          Get-ChildItem scripts/*.ps1 | ForEach-Object {
+            $tokens = $null
+            $errors = $null
+            [void][System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$errors)
+            if ($errors) { throw ($errors | Out-String) }
+          }
+          powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-desktop.ps1 -Probe
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Run synthetic ten-camera capacity smoke
         run: python scripts/qa_ten_camera_smoke.py --root artifacts/qa-ten-camera
       - name: Run isolated active-observation experiment
         run: python scripts/experiment_active_observation.py --output artifacts/active-observation
       - name: Build wheel and source distribution
+        run: python -m build
+      - name: Build desktop wheel and source distribution
+        working-directory: desktop
         run: python -m build
       - name: Preserve synthetic validation reports
         if: always()

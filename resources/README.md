@@ -1,6 +1,6 @@
 # 模型与完整资源索引
 
-用户要求的模型及依赖以同一私有仓库的 **Release 实体附件** 交付，不只有模型链接。下载 [v0.1.0-preview](https://github.com/wailliamkf-commits/factory-monitor-blueprint/releases/tag/v0.1.0-preview) 的全部 7 个分片，按[还原步骤](../docs/09-delivery-and-offline.md)恢复原始 Windows ZIP。
+用户要求的通用模型及依赖以同一仓库的 **Release 实体附件** 交付，不只有模型链接。仓库当前公开，不包含现场数据或私有微调权重。下载 [v0.1.0-preview](https://github.com/wailliamkf-commits/factory-monitor-blueprint/releases/tag/v0.1.0-preview) 的全部 7 个分片，按[还原步骤](../docs/09-delivery-and-offline.md)恢复原始 Windows ZIP。
 
 |内容|固定版本与用途|恢复后位置|
 |---|---|---|
@@ -18,7 +18,7 @@
 - [资源来源记录](RESOURCE_PROVENANCE.json)：来源、供应方校验范围和已知限制。
 - [资源包源码版本](SOURCE_VERSION.json)：包内候选的旧提交，不能与本仓 `implementation/` 混为一版。
 
-Qwen 保留原许可 blob；Windows 发行归档、wheel 保留各自许可文件。YOLO/Ultralytics 使用 AGPL-3.0 或另行商用授权，本私有仓交付用于内部工程验证，不能解释为已解决闭源产品授权。部署时以固定版本的原许可证为准。
+Qwen 保留原许可 blob；Windows 发行归档、wheel 保留各自许可文件。YOLO/Ultralytics 使用 AGPL-3.0 或另行商用授权，本工程验证交付不能解释为已解决闭源产品授权。部署时以固定版本的原许可证为准。
 
 模型权重可跨平台复用；CUDA wheels、Ollama Windows 二进制和捕获组件不能跨平台复制。Mac 仍需[本机运行环境](../docs/03-macos-execution.md)。GPU 驱动、监控客户端及账户、现场标定和真实影像不属于这些资源。
 

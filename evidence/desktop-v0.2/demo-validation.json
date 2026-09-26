@@ -1,0 +1,114 @@
+{
+  "scope": "actual Qt paints / synthetic runtime / scripted operator / no model / not OS capture",
+  "field_gate": "NOT_TESTED",
+  "media": [
+    {
+      "path": "${SEPARATE_ATTACHMENT}/FactoryMonitor-v02-application-demo-final.mp4",
+      "bytes": 1473468,
+      "sha256": "26f9337c1af3cba2669aec86ada7af23e6f975e88d2ae99d3ea21ebe6cfe6448",
+      "frames_decoded": 1045,
+      "fps": 8.0,
+      "seconds": 130.625,
+      "unique_sampled_frame_hashes": 130
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/00032558-39cd-4d6a-bca6-68c55ce8c1f9/evidence.mp4",
+      "bytes": 253860,
+      "sha256": "3fe0808e082145b9d5ee8020a66cefb7d29aa1e9e94b00288bfccf3fbe90042f",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/1359c1aa-07b3-40fb-848a-0e14c4ead854/evidence.mp4",
+      "bytes": 302311,
+      "sha256": "c03e09af92112b07c1dfae9806a68db60585487526bafb5f7ab5c781eee54b61",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/29599ecd-a07f-49c1-b5b2-ff02165621f9/evidence.mp4",
+      "bytes": 358881,
+      "sha256": "e0bdc194b873a99ea79e17591ec9f12f1220b7f4ceaa106f1d7a0114dd50d1b7",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/3697a5f6-baf4-4fd1-adb2-3a1c79bab778/evidence.mp4",
+      "bytes": 265764,
+      "sha256": "fc9f93ac95e7a1f57ee8ac8303b502ab2f78afd9a6aacd58203577f4e9474e9c",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/5c7b7429-3927-46ff-8479-d0a28323f045/evidence.mp4",
+      "bytes": 260681,
+      "sha256": "fd1708d750839bbc390cc858c71f8df3368fdf900601946e7634d7ab8d0c6173",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/976ac890-da79-4f57-abdb-474e6554ebbe/evidence.mp4",
+      "bytes": 265590,
+      "sha256": "d8fe36ecade03e40e622cef6b0390f52b371942bb2bbcf4f461a518cacf53ffc",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/a96f2b8c-f94d-4133-b560-6c7905e35d5b/evidence.mp4",
+      "bytes": 253136,
+      "sha256": "ca8b9116da76f2578683ea0f08b1d5e8f9b126a8abe2dabe884e028eafd3dc64",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/bcd09c38-126a-435e-96c4-4a994b98fc2d/evidence.mp4",
+      "bytes": 244822,
+      "sha256": "4c3a9bf33843a86cd7516b9088288551a14e784da50eed0b5d1ebc5318e83ffa",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/befff145-cd42-4868-9e17-e2732ac81542/evidence.mp4",
+      "bytes": 235711,
+      "sha256": "fe0147425b991099c3c6f3433c4f1cc448a2809a7f7a91408d56f5a05df3b0ec",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    },
+    {
+      "path": "${RUN_ROOT}/data/evidence/eed70509-7c94-45b3-8808-2373dbde3ead/evidence.mp4",
+      "bytes": 259775,
+      "sha256": "f4ad9e92518de047d9c2d41371883b87ed72f4313670e9894750a098818698f0",
+      "frames_decoded": 181,
+      "fps": 2.0,
+      "seconds": 90.5,
+      "unique_sampled_frame_hashes": 90
+    }
+  ],
+  "restart_preserved": true,
+  "pending_before": 7,
+  "pending_after": 7,
+  "recording_complete": 10,
+  "evidence_player_frames_decoded": 24,
+  "recording_kind": "Qt application widget paints; not OS screen capture",
+  "input_scope": "synthetic runtime; scripted operator actions; no visual model; no Seetong; not a field acceptance run",
+  "application_recording_delivery": "separate attachment; intentionally excluded from the ZIP",
+  "review_note": "10 evidence clips decoded completely; the main application recording is listed as separate delivery metadata only."
+}
