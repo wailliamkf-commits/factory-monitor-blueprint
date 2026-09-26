@@ -158,7 +158,13 @@ def test_gateway_absolute_body_receive_deadline_releases_request_slot(provider_s
         except OSError:
             pass
         stalled.settimeout(1)
-        assert stalled.recv(1) == b""
+        try:
+            assert stalled.recv(1) == b""
+        except (ConnectionResetError, ConnectionAbortedError):
+            # This deliberately incomplete upload has no response to preserve.
+            # Winsock may report abort instead of EOF when it is stopped at the
+            # receive deadline. Timeouts and valid-request HTTP errors still fail.
+            pass
         assert time.monotonic() - started < 0.55
 
         deadline = time.monotonic() + 1
