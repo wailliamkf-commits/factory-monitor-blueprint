@@ -12,6 +12,7 @@
 |---|---|---|
 |先了解整体方案|[架构与决策](docs/01-architecture.md)|理解画面、算力、盲区和模型的边界|
 |实现九路持续观测、向厂家申请接口|[九路实时行为分析与厂家交接](docs/15-nine-stream-behavior-architecture.md)|双流分工、活动调度、动作分析、8GB边界与接入清单；尚待实施|
+|不走Seetong页面，电脑直接接录像机|[网线怎么接、问师傅什么、部署在哪里](docs/16-recorder-interface-deployment.md)|未知型号的接线分支、明确问句、部署配置与本机RTSP协议演练|
 |几分钟跑通不读屏幕的实验|[快速开始](docs/00-quickstart.md)|合成 JSON 与中文结果，现场仍为 NOT_TESTED|
 |在另一台 Windows 准备执行|[Windows 全流程](docs/02-windows-execution.md)|独立环境、候选安装、诊断与现场准备|
 |在 Mac 准备或验证|[macOS 全流程](docs/03-macos-execution.md)|本机环境、ScreenCaptureKit 前置条件与实验|
